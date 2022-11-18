@@ -2,8 +2,8 @@ outfitter "Unfettered Basics"
 	add "Penta Pulser"
 	add "Bomb Launcher"
 	add "Bomb"
-	add "Combined Overtuned Engine (Jump Spider)"
-	add "Combined Overtuned Engine (Predator)"
+	add "Overtuned Engine (Jump Spider)"
+	add "Overtuned Engine (Predator)"
 
 
 
@@ -65,9 +65,7 @@ outfit "Bomb Launcher"
 	cost 100000
 	thumbnail "outfit/unknown"
 	mass 1
-	# space reserved for the bomb
-	"outfit capacity" -5
-	"weapon capacity"
+	heat 5
 	"integrated bombing" -1
 	"type 1 bomb capacity" 1
 	weapon
@@ -75,7 +73,7 @@ outfit "Bomb Launcher"
 			"frame rate" .6
 			"no repeat"
 		sound "minelayer"
-		ammo "Bomb (Sunbeam)"
+		ammo "Bomb"
 		icon "icon/unfettered bomb"
 		"fire effect" "minelayer fire"
 		"hit effect" "huge explosion"
@@ -85,8 +83,8 @@ outfit "Bomb Launcher"
 		"velocity" 3
 		"lifetime" 100
 		"reload" 180
-		"firing energy" 36
-		"firing heat" 36
+		"firing energy" 5
+		"firing heat" 1
 		"acceleration" .16
 		"drag" .04
 		"turn" 2
@@ -130,8 +128,12 @@ outfit "Bomb"
 	category "Ammunition"
 	cost 100000
 	mass 15
+	"active cooling" 5
+	"active cooling energy" 0.5
+	"heat generation" 1
 	"type 1 bomb capacity" -1
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship."
 	
 # TODO: add different variants of the bomb depending on the outfit that got overtuned to explode
 

@@ -2,45 +2,45 @@ shipyard "Unfettered Basics"
 	add "Roach"
 	add "Mantis"
 	add "Violin Spider"
-	#add "Violin Spider (Webber)"
-	#add "Violin Spider (Bomber)"
+	add "Violin Spider (Webber)"
+	add "Violin Spider (Bomber)"
 
 
-ship Roach
+ship "Roach"
 	sprite "ship/hai roach"
 	thumbnail "thumbnail/hai roach"
 	attributes
-		category Heavy Warship
+		category "Heavy Warship"
 		cost 84200000
 		shields 56400
 		hull 20800
-		required crew 101
+		"required crew" 101
 		bunks 252
 		mass 1500
 		drag 22.1
-		heat dissipation .35
-		fuel capacity 800
-		cargo space 206
-		outfit space 1140
-		weapon capacity 516
-		engine capacity 194
+		"heat dissipation" .35
+		"fuel capacity" 800
+		"cargo space" 206
+		"outfit space" 1140
+		"weapon capacity" 516
+		"engine capacity" 194
 		weapon
-			blast radius 600
-			shield damage 6000
-			hull damage 3000
-			hit force 4500
+			"blast radius" 600
+			"shield damage" 6000
+			"hull damage" 3000
+			"hit force" 4500
 	outfits
-		Penta Pulser 6
-		Pulse Cannon 4
-		Chameleon Anti-Missile 2
-		Boulder Reactor 3
-		Hai Diamond Regenerator 2
-		Hai Williwaw Cooling 12
-		Quantum Keystone
+		"Penta Pulser" 6
+		"Pulse Cannon" 4
+		"Chameleon Anti-Missile" 2
+		"Boulder Reactor" 3
+		"Hai Diamond Regenerator" 2
+		"Hai Williwaw Cooling" 12
+		"Quantum Keystone"
 		"Overtuned Engine (Predator)"
 		`"Biroo" Atomic Thruster`
-		Outfits Expansion 3
-		Hyperdrive
+		"Outfits Expansion" 3
+		"Jump Drive"
 	engine -39.5 163.5
 	engine 39.5 163.5
 	turret -67 12
@@ -49,8 +49,8 @@ ship Roach
 	turret 69.5 -29.5
 	turret -39 -115.5
 	turret 39 -115.5
-	turret -39.5 -139.5 Chameleon Anti-Missile
-	turret 39.5 -139.5 Chameleon Anti-Missile
+	turret -39.5 -139.5 "Chameleon Anti-Missile"
+	turret 39.5 -139.5 "Chameleon Anti-Missile"
 	gun -97 -78.5
 	gun 97 -78.5
 	gun -89 -87.5
@@ -156,6 +156,7 @@ ship "Violin Spider" "Violin Spider (Webber)"
 		"Integrated Chameleon Anti-Missile"
 		"Pebble Core"
 		Supercapacitor
+		"Hai Williwaw Cooling"
 		"Pulse Rifle"
 		`"Basrem" Atomic Steering`
 		`"Basrem" Atomic Thruster`		
@@ -164,9 +165,11 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 	add attributes
 		"bunks" 1
 		"integrated bombing" 1
+		"weapon capacity" -19
 	outfits
 		"Bomb Launcher"
 		"Bomb"
+		"Hai Williwaw Cooling"
 		"Overtuned Engine (Skirmisher)"
 		"Pebble Core"
 		Supercapacitor

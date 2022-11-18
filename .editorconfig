@@ -1,0 +1,18 @@
+root = true
+
+[*]
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Data files
+[data/**.txt]
+trim_trailing_whitespace = false
+indent_style = tab
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+indent_style = space

@@ -1,0 +1,173 @@
+shipyard "Unfettered Basics"
+	add "Roach"
+	add "Mantis"
+	add "Violin Spider"
+	#add "Violin Spider (Webber)"
+	#add "Violin Spider (Bomber)"
+
+
+ship Roach
+	sprite "ship/hai roach"
+	thumbnail "thumbnail/hai roach"
+	attributes
+		category Heavy Warship
+		cost 84200000
+		shields 56400
+		hull 20800
+		required crew 101
+		bunks 252
+		mass 1500
+		drag 22.1
+		heat dissipation .35
+		fuel capacity 800
+		cargo space 206
+		outfit space 1140
+		weapon capacity 516
+		engine capacity 194
+		weapon
+			blast radius 600
+			shield damage 6000
+			hull damage 3000
+			hit force 4500
+	outfits
+		Penta Pulser 6
+		Pulse Cannon 4
+		Chameleon Anti-Missile 2
+		Boulder Reactor 3
+		Hai Diamond Regenerator 2
+		Hai Williwaw Cooling 12
+		Quantum Keystone
+		"Overtuned Engine (Predator)"
+		`"Biroo" Atomic Thruster`
+		Outfits Expansion 3
+		Hyperdrive
+	engine -39.5 163.5
+	engine 39.5 163.5
+	turret -67 12
+	turret 67 12
+	turret -69.5 -29.5
+	turret 69.5 -29.5
+	turret -39 -115.5
+	turret 39 -115.5
+	turret -39.5 -139.5 Chameleon Anti-Missile
+	turret 39.5 -139.5 Chameleon Anti-Missile
+	gun -97 -78.5
+	gun 97 -78.5
+	gun -89 -87.5
+	gun 89 -87.5
+	bay Fighter -45 -68.5 over
+	bay Fighter 45 -68.5 over
+	bay Fighter -79 109 over
+	bay Fighter 79 109 over
+	leak leak 40 50
+	leak flame 60 90
+	leak big leak 50 50
+	explode tiny explosion 50
+	explode small explosion 50
+	explode medium explosion 50
+	explode large explosion 50
+	explode huge explosion 20
+	final explode final explosion huge
+	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they build that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
+
+
+
+ship "Mantis"
+	sprite "ship/hai mantis"
+	thumbnail "thumbnail/hai mantis"
+	attributes
+		category "Heavy Warship"
+ 		"cost" 21400000
+		"shields" 26500
+		"hull" 11200
+		"required crew" 34
+		"bunks" 62
+		"mass" 820
+		"drag" 7.2
+		"heat dissipation" .60
+		"fuel capacity" 600
+		"cargo space" 240
+		"outfit space" 748
+		"weapon capacity" 318
+		"engine capacity" 145
+	weapon
+		"blast radius" 400
+		"shield damage" 4000
+		"hull damage" 2000
+		"hit force" 3000
+	outfits
+		"Ion Cannon" 4
+		"Ionic Blaster" 5
+		"Bullfrog Anti-Missile" 2
+		"Boulder Reactor"
+		"Geode Reactor"
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Zephyr Cooling" 3
+		"Quantum Keystone"
+		"Overtuned Engine (Predator)"
+		"Jump Drive"
+	gun -110.5 -104 "Ion Cannon"
+	gun 110.5 -104 "Ion Cannon"
+	gun -118.5 -108 "Ion Cannon"
+	gun 118.5 -108 "Ion Cannon"
+	gun -50 -26 "Ionic Blaster"
+	gun 50 -26 "Ionic Blaster"
+	gun -31 -23 "Ionic Blaster"
+	gun 31 -23 "Ionic Blaster"
+	gun 0 -26 "Ionic Blaster"
+	turret -66 67 "Bullfrog Anti-Missile"
+	turret 66 67 "Bullfrog Anti-Missile"
+	engine -38.5 100.5
+		zoom 1
+		angle 16
+		under
+	engine 38.5 100.5
+ 		zoom 1
+		angle -16
+		under
+	"steering engine" -38.5 100.5
+		zoom .7
+		angle 16
+		under
+		right
+	"steering engine" 38.5 100.5
+		zoom .7
+		angle -16
+		under
+		left
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 60 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
+
+
+# variant that fits an am but only that and it cant be removed
+ship "Violin Spider" "Violin Spider (Webber)"
+	add attributes
+		"integrated chameleon" 1
+	outfits
+		"Integrated Chameleon Anti-Missile"
+		"Pebble Core"
+		Supercapacitor
+		"Pulse Rifle"
+		`"Basrem" Atomic Steering`
+		`"Basrem" Atomic Thruster`		
+
+ship "Violin Spider" "Violin Spider (Bomber)"
+	add attributes
+		"bunks" 1
+		"integrated bombing" 1
+	outfits
+		"Bomb Launcher"
+		"Bomb"
+		"Overtuned Engine (Skirmisher)"
+		"Pebble Core"
+		Supercapacitor
+		"Pulse Rifle" 2

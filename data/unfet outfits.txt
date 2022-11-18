@@ -1,0 +1,218 @@
+outfitter "Unfettered Basics"
+	add "Penta Pulser"
+	add "Bomb Launcher"
+	add "Bomb"
+	add "Combined Overtuned Engine (Jump Spider)"
+	add "Combined Overtuned Engine (Predator)"
+
+
+
+outfit "Integrated Chameleon Anti-Missile"
+	category "Turrets"
+	cost 140000
+	thumbnail "outfit/heavy anti-missile hai"
+	"mass" 22
+	"outfit space" -19
+	"weapon capacity" -19
+	"turret mounts" -1
+	"integrated chameleon" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile hai"
+		"hardpoint offset" 4.
+		"hit effect" "large anti-missile"
+		"anti-missile" 16
+		"velocity" 200
+		"lifetime" 1
+		"reload" 15
+		"firing energy" 23
+		"firing heat" 6
+		"stream"
+	description "The Chameleon Anti-Missile turret has a longer range, higher power, and shorter reload time than the Bullfrog."
+	description "	This version was built to be integrated in a Violin Spider."
+
+
+outfit "Penta Pulser"
+	category "Turrets"
+	cost 2600000
+	thumbnail "outfit/penta pulser"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"turret mounts" -1
+	"required crew" 3
+	weapon
+		sprite "projectile/pulse"
+		"hardpoint sprite" "hardpoint/penta pulser"
+		"hardpoint offset" 12.
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 4
+		"turret turn" 1.6
+		"velocity" 15
+		"lifetime" 24
+		"reload" 4
+		"firing energy" 24
+		"firing heat" 70
+		"shield damage" 45
+		"hull damage" 34
+	description "These turrets exist because there is no such thing as 'overkill' to the Unfettered. The bigger it is, the harder it hits, the better. Unfortunately this means these turrets are highly unstable and thus require more crew to operate. At least they managed to optimize it, making it take less space compared to what it could have taken. However, this lack of extra redundancy and optimization came at the cost of range, flexibility and accuracy."
+
+
+# invisible on all bombardiers violin
+outfit "Bomb Launcher"
+	# show it for testing
+	category "Secondary Weapons"
+	cost 100000
+	thumbnail "outfit/unknown"
+	mass 1
+	# space reserved for the bomb
+	"outfit capacity" -5
+	"weapon capacity"
+	"integrated bombing" -1
+	"type 1 bomb capacity" 1
+	weapon
+		sprite "projectile/korath minelayer"
+			"frame rate" .6
+			"no repeat"
+		sound "minelayer"
+		ammo "Bomb (Sunbeam)"
+		icon "icon/unfettered bomb"
+		"fire effect" "minelayer fire"
+		"hit effect" "huge explosion"
+		"die effect" "big explosion"
+		"submunition" "Unfettered Bomb Placed"
+		"inaccuracy" 5
+		"velocity" 3
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 36
+		"firing heat" 36
+		"acceleration" .16
+		"drag" .04
+		"turn" 2
+		"homing" 4
+		"infrared tracking" .9
+		"missile strength" 120
+		"shield damage" 10000
+		"hull damage" 8000
+		"hit force" 500
+	description "Normally this would be hidden but this is for testing."
+		
+outfit "Unfettered Bomb Placed"
+	weapon
+		sprite "projectile/korath mine"
+			"frame rate" 1
+			"no repeat"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 360
+		"velocity" 2
+		"random velocity" 5
+		"lifetime" 1000
+		"random lifetime" 60
+		"acceleration" .00001
+		"drag" .05
+		"shield damage" 25000
+		"hull damage" 18000
+		"hit force" 2000
+		"missile strength" 100
+
+effect "bomb deployed"
+	sprite "effect/minelayer split"
+		"no repeat"
+		"frame rate" 6
+	sound "mine deploy"
+	"lifetime" 31
+
+outfit "Bomb"
+	"display name" "Unfettered Bomb Type 1"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 100000
+	mass 15
+	"type 1 bomb capacity" -1
+	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	
+# TODO: add different variants of the bomb depending on the outfit that got overtuned to explode
+
+
+
+# engines that combine afterburner thrust and steering, small and big
+# korath asteroid afterburner + small engine and reverser (9+22+18)
+outfit "Overtuned Engine (Skirmisher)"
+	category "Engines"
+	thumbnail "outfit/tiny atomic engines hai"
+	"cost" 450000
+	"mass" 49
+	"outfit space" -30
+	"engine capacity" -30
+	"required crew" 1
+	"thrust" 7.3
+	"thrusting energy" .87
+	"thrusting heat" 1.7
+	"turn" 244
+	"turning energy" .64
+	"turning heat" 1.28
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+	"steering flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"steering flare sound" "atomic tiny"
+	
+	"reverse thrust" 12.5
+	"reverse thrusting energy" 1.4
+	"reverse thrusting heat" 2.8
+	"reverse flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"reverse flare sound" "atomic tiny"
+	
+	"fuel capacity" 100
+	"ramscoop" 0.25
+	"afterburner thrust" 19.2
+	"afterburner energy" 0.6
+	"afterburner heat" 6.25
+	"afterburner fuel" 0.03
+	"afterburner effect" "korath afterburner tiny"
+	description "This is a very specific kind of engine, that combines everything into one package. You can tell it used to be a standard Hai engine, but the Unfettered did many modifications, allowing it to go in some sort of overtuned mode, to make it possible to bring the Bombs as close to the enemy as quickly as possible."
+	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have an engineer present to monitor their status and prevent them from exploding."
+
+# comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
+# 32 + 28 + 76 + 63
+outfit "Overtuned Engine (Predator)"
+	category "Engines"
+	cost 5000000
+	thumbnail "outfit/large atomic hai"
+	mass 180
+	"outfit space" -145
+	"engine capacity" -145
+	"required crew" 5
+
+	"thrust" 62.8
+	"thrusting energy" 6.1
+	"thrusting heat" 12.7
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 12
+	"flare sound" "atomic medium"
+
+	"turn" 2967
+	"turning energy" 5.2
+	"turning heat" 13.8
+	"steering flare sprite" "effect/atomic flare/large"
+		"frame rate" 11
+	"steering flare sound" "atomic large"
+	
+	"reverse thrust" 22.4
+	"reverse thrusting energy" 2.5
+	"reverse thrusting heat" 4.8
+	"reverse flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"reverse flare sound" "atomic tiny"
+
+	"afterburner thrust" 148.8
+	"afterburner energy" 3.9
+	"afterburner heat" 41.65
+	"afterburner fuel" 0.18
+	"afterburner effect" "korath afterburner medium"
+	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
+	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."

@@ -57,9 +57,9 @@ outfit "Bomb Launcher"
 	cost 100000
 	thumbnail "outfit/unknown"
 	mass 1
-	heat 5
 	"integrated bombing" -1
 	"type 1 bomb capacity" 1
+	"gun ports" -1
 	weapon
 		sprite "projectile/korath minelayer"
 			"frame rate" .6
@@ -69,7 +69,6 @@ outfit "Bomb Launcher"
 		icon "icon/unfettered bomb"
 		"fire effect" "minelayer fire"
 		"hit effect" "huge explosion"
-		"die effect" "big explosion"
 		"submunition" "Unfettered Bomb Placed"
 		"inaccuracy" 5
 		"velocity" 3
@@ -120,9 +119,7 @@ outfit "Bomb"
 	category "Ammunition"
 	cost 100000
 	mass 15
-	"active cooling" 5
-	"active cooling energy" 0.5
-	"heat generation" 1
+	"energy consumption" 1
 	"type 1 bomb capacity" -1
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship."
@@ -225,7 +222,7 @@ outfit "Hai Zephyr Cooling"
 
 
 
-outfit "Talus Generator"
+outfit "Talus Reactor"
 	category "Power"
 	cost 12500000
 	thumbnail "outfit/unknown"
@@ -233,8 +230,8 @@ outfit "Talus Generator"
 	"outfit space" -140
 	"energy generation" 30
 	"heat generation" 50
-	"active cooling" 50
-	"cooling energy" 5
+	"active cooling" 30
+	"cooling energy" 3
 	"energy capacity" 6800
 	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology. However, this reactor has to consume a consequent amount of energy in order to cool itself, resulting in a quite lower energy generation overall, even though this generator does not include much battery capacity either."
 

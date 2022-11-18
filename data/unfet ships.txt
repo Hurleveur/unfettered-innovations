@@ -10,12 +10,12 @@ ship "Roach"
 		bunks 252
 		mass 1500
 		drag 22.1
-		"heat dissipation" .35
+		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 206
-		"outfit space" 1140
-		"weapon capacity" 516
-		"engine capacity" 194
+		"outfit space" 1120
+		"weapon capacity" 540
+		"engine capacity" 189
 		weapon
 			"blast radius" 600
 			"shield damage" 6000
@@ -23,15 +23,16 @@ ship "Roach"
 			"hit force" 4500
 	outfits
 		"Penta Pulser" 6
-		"Pulse Cannon" 4
+		"Ionic Blaster Prototype" 4
 		"Chameleon Anti-Missile" 2
-		"Boulder Reactor" 3
+		"Boulder Reactor"
 		"Hai Diamond Regenerator" 2
-		"Hai Williwaw Cooling" 12
+		"Talus Reactor"
+		"Hai Zephyr Cooling" 3
 		"Quantum Keystone"
 		"Overtuned Engine (Predator)"
 		`"Biroo" Atomic Thruster`
-		"Outfits Expansion" 3
+		"Pulse Rifle" 250
 		"Jump Drive"
 	engine -39.5 163.5
 	engine 39.5 163.5
@@ -53,13 +54,13 @@ ship "Roach"
 	bay Fighter 79 109 over
 	leak leak 40 50
 	leak flame 60 90
-	leak big leak 50 50
-	explode tiny explosion 50
-	explode small explosion 50
-	explode medium explosion 50
-	explode large explosion 50
-	explode huge explosion 20
-	final explode final explosion huge
+	leak "big leak" 50 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion huge"
 	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they build that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
 
 
@@ -88,28 +89,26 @@ ship "Mantis"
 		"hull damage" 2000
 		"hit force" 3000
 	outfits
-		"Ion Cannon" 4
-		"Ionic Blaster" 5
-		"Bullfrog Anti-Missile" 2
-		"Boulder Reactor"
-		"Geode Reactor"
-		"Hai Gorge Batteries"
-		"Hai Diamond Regenerator"
+		"Ionic Blaster Prototype" 9
+		"Ionic Turret Prototype" 2
+		"Talus Reactor"
+		"Hai Fissure Batteries"
+		"Hai Diamond Regenerator" 2
 		"Hai Zephyr Cooling" 3
 		"Quantum Keystone"
 		"Overtuned Engine (Predator)"
 		"Jump Drive"
-	gun -110.5 -104 "Ion Cannon"
-	gun 110.5 -104 "Ion Cannon"
-	gun -118.5 -108 "Ion Cannon"
-	gun 118.5 -108 "Ion Cannon"
-	gun -50 -26 "Ionic Blaster"
-	gun 50 -26 "Ionic Blaster"
-	gun -31 -23 "Ionic Blaster"
-	gun 31 -23 "Ionic Blaster"
-	gun 0 -26 "Ionic Blaster"
-	turret -66 67 "Bullfrog Anti-Missile"
-	turret 66 67 "Bullfrog Anti-Missile"
+	gun -110.5 -104
+	gun 110.5 -104
+	gun -118.5 -108
+	gun 118.5 -108
+	gun -50 -26
+	gun 50 -26
+	gun -31 -23
+	gun 31 -23
+	gun 0 -26
+	turret -66 67
+	turret 66 67
 	engine -38.5 100.5
 		zoom 1
 		angle 16
@@ -138,6 +137,7 @@ ship "Mantis"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
+	description "Due to its lack of turrets, this ship is very vulnerable to missiles, and relies on Violin Spiders protecting it, against small and agile enemies or simply missiles."
 
 
 # variant that fits an am but only that and it cant be removed

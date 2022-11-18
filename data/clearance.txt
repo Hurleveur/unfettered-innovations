@@ -4,12 +4,16 @@ outfitter "Unfettered Basics"
 	add "Bomb"
 	add "Overtuned Engine (Jump Spider)"
 	add "Overtuned Engine (Predator)"
+	add "Talus Reactor"
 
 outfitter "Unfettered Basics"
 	add "Ionic Blaster Prototype"
 	add "Ionic Turret Prototype"
 	add "Tripulse Shredder"
 	add "Hai Zephyr Cooling"
+
+planet "Darkcloak"
+	add outfitter "Hai Advanced"
 
 
 shipyard "Unfettered Basics"

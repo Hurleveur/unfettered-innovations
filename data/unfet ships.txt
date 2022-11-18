@@ -1,11 +1,3 @@
-shipyard "Unfettered Basics"
-	add "Roach"
-	add "Mantis"
-	add "Violin Spider"
-	add "Violin Spider (Webber)"
-	add "Violin Spider (Bomber)"
-
-
 ship "Roach"
 	sprite "ship/hai roach"
 	thumbnail "thumbnail/hai roach"

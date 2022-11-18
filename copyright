@@ -7,13 +7,6 @@ Files: *
 Copyright: Hurleveur <belliorum@gmail.com>
 
 Files:
- icon*.png
-Copyright: Redpilot57
-License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license).
-
-
-Files:
  images/ship/hai?mantis*
  images/thumbnail/hai?mantis*
  images/outfit/penta?pulser*
@@ -23,10 +16,12 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
+ icon*.png
  images/ship/hai?roach*
  images/thumbnail/hai?roach*
- images/outfit/unfettered bomb*
- images/icon/unfettered bomb*
+ images/outfit/unfettered?bomb*
+ images/projectile/unfettered?bomb*
+ images/icon/unfettered?bomb*
 Copyright: Redpilot57
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).

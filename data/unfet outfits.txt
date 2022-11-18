@@ -51,80 +51,94 @@ outfit "Penta Pulser"
 
 
 # invisible on all bombardiers violin
-outfit "Bomb Launcher"
-	# show it for testing
-	category "Secondary Weapons"
-	cost 100000
+outfit "Nest Bomb Launcher"
 	thumbnail "outfit/unknown"
-	mass 1
-	"integrated bombing" -1
-	"type 1 bomb capacity" 1
+	"integrated bombing" 1
 	"gun ports" -1
 	weapon
-		sprite "projectile/korath minelayer"
-			"frame rate" .6
-			"no repeat"
-		sound "minelayer"
-		ammo "Bomb"
+		sprite "projectile/unfettered bomb"
+		ammo "Nest Bomb"
 		icon "icon/unfettered bomb"
-		"fire effect" "minelayer fire"
-		"hit effect" "huge explosion"
-		"submunition" "Unfettered Bomb Placed"
-		"inaccuracy" 5
-		"velocity" 3
-		"lifetime" 100
-		"reload" 180
-		"firing energy" 5
-		"firing heat" 1
-		"acceleration" .16
-		"drag" .04
-		"turn" 2
-		"homing" 4
-		"infrared tracking" .9
-		"missile strength" 120
-		"shield damage" 10000
-		"hull damage" 8000
-		"hit force" 500
-	description "Normally this would be hidden but this is for testing."
-		
-outfit "Unfettered Bomb Placed"
-	weapon
-		sprite "projectile/korath mine"
-			"frame rate" 1
-			"no repeat"
-		"hit effect" "large explosion"
-		"die effect" "tiny explosion"
-		"inaccuracy" 360
-		"velocity" 2
-		"random velocity" 5
+		"die effect" "huge explosion"
 		"lifetime" 1000
-		"random lifetime" 60
-		"acceleration" .00001
-		"drag" .05
+		"reload" 500
+		"missile strength" 300
+		"shield damage" 15000
+		"hull damage" 12000
+		"hit force" 5000
+		"trigger radius" 50
+		"blast radius" 120
+		"damage dropoff" 10 120
+		"turn" 1
+
+outfit "Hammer Bomb Launcher"
+	thumbnail "outfit/unknown"
+	"integrated bombing" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/unfettered bomb"
+		ammo "Hammer Bomb"
+		icon "icon/unfettered bomb"
+		"die effect" "huge explosion"
+		"lifetime" 500
+		"reload" 180
+		"missile strength" 300
 		"shield damage" 25000
-		"hull damage" 18000
-		"hit force" 2000
-		"missile strength" 100
+		"hull damage" 17500
+		"hit force" 3500
+		"trigger radius" 35
+		"blast radius" 50
+		"damage dropoff" 25 50
+		"turn" 1
 
-effect "bomb deployed"
-	sprite "effect/minelayer split"
-		"no repeat"
-		"frame rate" 6
-	sound "mine deploy"
-	"lifetime" 31
+outfit "Dagger Bomb Launcher"
+	thumbnail "outfit/unknown"
+	"integrated bombing" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/unfettered bomb"
+		ammo "Dagger Bomb"
+		icon "icon/unfettered bomb"
+		"die effect" "big explosion"
+		"lifetime" 1500
+		"reload" 180
+		"missile strength" 300
+		"shield damage" 0
+		"hull damage" 30000
+		"hit force" 500
+		"piercing" 0.5
+		"turn" 1
 
-outfit "Bomb"
-	"display name" "Unfettered Bomb Type 1"
+
+outfit "Nest Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
-	cost 100000
+	cost 1250000
 	mass 15
 	"energy consumption" 1
-	"type 1 bomb capacity" -1
+	"bomb capacity" -1
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship."
-	
-# TODO: add different variants of the bomb depending on the outfit that got overtuned to explode
+	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
+
+outfit "Hammer Bomb"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 1250000
+	mass 20
+	"energy consumption" 1
+	"bomb capacity" -1
+	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
+
+outfit "Dagger Bomb"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 1250000
+	mass 10
+	"energy consumption" 1
+	"bomb capacity" -1
+	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to strike tactical blows on the enemy heaviest warships, ignoring their shields and regeneration."
 
 
 
@@ -137,7 +151,7 @@ outfit "Overtuned Engine (Skirmisher)"
 	"mass" 49
 	"outfit space" -30
 	"engine capacity" -30
-	"required crew" 1
+	"operating cost" 100
 	"thrust" 7.3
 	"thrusting energy" .87
 	"thrusting heat" 1.7
@@ -166,7 +180,7 @@ outfit "Overtuned Engine (Skirmisher)"
 	"afterburner fuel" 0.03
 	"afterburner effect" "korath afterburner tiny"
 	description "This is a very specific kind of engine, that combines everything into one package. You can tell it used to be a standard Hai engine, but the Unfettered did many modifications, allowing it to go in some sort of overtuned mode, to make it possible to bring the Bombs as close to the enemy as quickly as possible."
-	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have an engineer present to monitor their status and prevent them from exploding."
+	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, it is often needed to execute repairs, hence why the outfit comes with a warranty that is to be payed per day."
 
 # comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
 # 32 + 28 + 76 + 63

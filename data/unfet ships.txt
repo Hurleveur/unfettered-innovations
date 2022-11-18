@@ -155,14 +155,21 @@ ship "Violin Spider" "Violin Spider (Webber)"
 
 ship "Violin Spider" "Violin Spider (Bomber)"
 	add attributes
-		"bunks" 1
-		"integrated bombing" 1
+		"integrated bombing" 3
+		"bomb capacity" 1
 		"weapon capacity" -19
+		"outfit space" -19
 	outfits
-		"Bomb Launcher"
-		"Bomb"
+		"Nest Bomb Launcher"
+		"Hammer Bomb Launcher"
+		"Dagger Bomb Launcher"
+		"Nest Bomb"
+		"Quantum Keystone"
 		"Hai Williwaw Cooling"
 		"Overtuned Engine (Skirmisher)"
 		"Pebble Core"
 		Supercapacitor
-		"Pulse Rifle" 2
+		"Pulse Rifle"
+	gun 0 -31
+	gun 0 -31
+	gun 0 -31

@@ -59,7 +59,8 @@ outfit "Nest Bomb Launcher"
 		sprite "projectile/unfettered bomb"
 		ammo "Nest Bomb"
 		icon "icon/unfettered bomb"
-		"die effect" "huge explosion"
+		"die effect" "big explosion"
+		"hit effect" "huge explosion"
 		"lifetime" 1000
 		"reload" 500
 		"missile strength" 300
@@ -80,6 +81,7 @@ outfit "Hammer Bomb Launcher"
 		ammo "Hammer Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "huge explosion"
+		"hit effect" "huge explosion"
 		"lifetime" 500
 		"reload" 180
 		"missile strength" 300
@@ -100,11 +102,12 @@ outfit "Dagger Bomb Launcher"
 		ammo "Dagger Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "big explosion"
+		"hit effect" "medium explosion"
 		"lifetime" 1500
 		"reload" 180
 		"missile strength" 300
 		"shield damage" 0
-		"hull damage" 30000
+		"relative hull damage" 0.5
 		"hit force" 500
 		"piercing" 0.5
 		"turn" 1
@@ -113,7 +116,7 @@ outfit "Dagger Bomb Launcher"
 outfit "Nest Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
-	cost 1250000
+	cost 1500000
 	mass 15
 	"energy consumption" 1
 	"bomb capacity" -1
@@ -123,7 +126,7 @@ outfit "Nest Bomb"
 outfit "Hammer Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
-	cost 1250000
+	cost 2000000
 	mass 20
 	"energy consumption" 1
 	"bomb capacity" -1
@@ -133,7 +136,7 @@ outfit "Hammer Bomb"
 outfit "Dagger Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
-	cost 1250000
+	cost 2500000
 	mass 10
 	"energy consumption" 1
 	"bomb capacity" -1
@@ -143,7 +146,7 @@ outfit "Dagger Bomb"
 
 
 # engines that combine afterburner thrust and steering, small and big
-# korath asteroid afterburner + small engine and reverser (9+22+18)
+# korath asteroid afterburner + small engine and reverser (9+22+18) and some more steering
 outfit "Overtuned Engine (Skirmisher)"
 	category "Engines"
 	thumbnail "outfit/tiny atomic engines hai"
@@ -155,7 +158,7 @@ outfit "Overtuned Engine (Skirmisher)"
 	"thrust" 7.3
 	"thrusting energy" .87
 	"thrusting heat" 1.7
-	"turn" 244
+	"turn" 300
 	"turning energy" .64
 	"turning heat" 1.28
 	"flare sprite" "effect/atomic flare/tiny"

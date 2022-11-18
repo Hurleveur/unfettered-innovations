@@ -8,9 +8,10 @@ Copyright: Hurleveur <belliorum@gmail.com>
 
 Files:
  icon*.png
-Copyright: Michael Zahniser <mzahniser@gmail.com>
+Copyright: Redpilot57
 License: CC-BY-SA-4.0
-Comment: Update this when you create your plugin's icon!
+Comment: Derived from works by Michael Zahniser (under the same license).
+
 
 Files:
  images/ship/hai?mantis*
@@ -23,8 +24,9 @@ Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
  images/ship/hai?roach*
- images/thumbnail/hai?roach
+ images/thumbnail/hai?roach*
  images/outfit/unfettered bomb*
+ images/icon/unfettered bomb*
 Copyright: Redpilot57
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).

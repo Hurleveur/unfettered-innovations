@@ -22,6 +22,7 @@ outfit "Integrated Chameleon Anti-Missile"
 	description "	This version was built to be integrated in a Violin Spider."
 
 
+
 outfit "Penta Pulser"
 	category "Turrets"
 	cost 2600000
@@ -175,7 +176,7 @@ outfit "Overtuned Engine (Skirmisher)"
 outfit "Overtuned Engine (Predator)"
 	category "Engines"
 	cost 5000000
-	thumbnail "outfit/large atomic hai"
+	thumbnail "outfit/huge atomic thruster hai"
 	mass 180
 	"outfit space" -145
 	"engine capacity" -145
@@ -221,3 +222,19 @@ outfit "Hai Zephyr Cooling"
 	"cooling" 21
 	description `This more advanced cooling system has been developed by the Unfettered with significant help from Korath scientists, who were highly amused with the Williwaw's simultaneous "primitive" design and similarities to a Korath heat shunt.`
 	description `	Although advanced for the Hai, the Korath meant this "simple" hydrogen-circulating cooler to be an easy-to-understand stopgap for immediate production, while they brought the Hai up to speed with "proper" heat shunt theory and design.`
+
+
+
+outfit "Talus Generator"
+	category "Power"
+	cost 12500000
+	thumbnail "outfit/unknown"
+	"mass" 140
+	"outfit space" -140
+	"energy generation" 30
+	"heat generation" 50
+	"active cooling" 50
+	"cooling energy" 5
+	"energy capacity" 6800
+	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology. However, this reactor has to consume a consequent amount of energy in order to cool itself, resulting in a quite lower energy generation overall, even though this generator does not include much battery capacity either."
+

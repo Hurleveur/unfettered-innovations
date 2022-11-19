@@ -184,8 +184,8 @@ outfit "Overtuned Engine (Skirmisher)"
 # 32 + 28 + 76 + 63
 outfit "Overtuned Engine (Predator)"
 	category "Engines"
-	cost 5000000
-	thumbnail "outfit/huge atomic thruster hai"
+	cost 10000000
+	thumbnail "outfit/predator engine"
 	mass 180
 	"outfit space" -145
 	"engine capacity" -145
@@ -248,14 +248,18 @@ outfit "Talus Reactor"
 	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology. However, this reactor has to consume a consequent amount of energy in order to cool itself, resulting in a quite lower energy generation overall, even though this generator does not include much battery capacity either."
 
 
+
 outfit "Sphalerite Regenerator"
 	category "Systems"
-	cost 12000000
-	thumbnail "outfit/unknown"
+	cost 7000000
+	thumbnail "outfit/sphalerite regenerator"
 	mass 100
 	"outfit space" -100
 	"shield generation" 8
-	"shield energy" 4
-	"shield heat" -12
+	"shield energy" 2
+	"energy consumption" 2
+	"heat generation" 2
+	"shield heat" -14
 	"heat dissipation" -.1
 	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the "SHIELD GENERATOR NAME" channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."
+	description "This shield generator constantly needs to consume power in order to keep itself in functioning temperatures."

@@ -6,7 +6,7 @@ outfitter "Unfettered Basics"
 	add "Overtuned Engine (Jump Spider)"
 	add "Overtuned Engine (Predator)"
 	add "Talus Reactor"
-	add "Extremophilia Generator"
+	add "Sphalerite Regenerator"
 
 outfitter "Unfettered Basics"
 	add "Ionic Blaster Prototype"

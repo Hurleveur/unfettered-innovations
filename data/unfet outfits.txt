@@ -248,7 +248,7 @@ outfit "Talus Reactor"
 	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology. However, this reactor has to consume a consequent amount of energy in order to cool itself, resulting in a quite lower energy generation overall, even though this generator does not include much battery capacity either."
 
 
-outfit "Extremophilia Generator"
+outfit "Sphalerite Regenerator"
 	category "Systems"
 	cost 12000000
 	thumbnail "outfit/unknown"
@@ -258,5 +258,4 @@ outfit "Extremophilia Generator"
 	"shield energy" 4
 	"shield heat" -12
 	"heat dissipation" -.1
-	description "The Unfettered inspired themselves of the biochemical cells the wanderers use for storing power and small energy generation and modify them to be extremophile. When linked to an increadibly strong shield generator that would normally consume more energy they could ever hope to produce, this means that they can prosper in heat."
-	description "However this generator also makes the ship more vulnerable to being overheated, so it is a hard balance to maintain, as without heat the shields are rendered totally useless."
+	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the "SHIELD GENERATOR NAME" channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."

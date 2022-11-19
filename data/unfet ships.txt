@@ -13,7 +13,7 @@ ship "Roach"
 		"heat dissipation" .4
 		"fuel capacity" 800
 		"cargo space" 206
-		"outfit space" 1120
+		"outfit space" 1111
 		"weapon capacity" 540
 		"engine capacity" 189
 		weapon
@@ -25,10 +25,12 @@ ship "Roach"
 		"Penta Pulser" 6
 		"Ionic Blaster Prototype" 4
 		"Chameleon Anti-Missile" 2
-		"Boulder Reactor"
-		"Hai Diamond Regenerator" 2
+		"Boulder Reactor"	
+		"Hai Diamond Regenerator"
+		"Sphalerite Regenerator"
 		"Talus Reactor"
 		"Hai Zephyr Cooling" 3
+		"Outfits Expansion" 4
 		"Quantum Keystone"
 		"Overtuned Engine (Predator)"
 		`"Biroo" Atomic Thruster`
@@ -80,7 +82,7 @@ ship "Mantis"
 		"heat dissipation" .60
 		"fuel capacity" 600
 		"cargo space" 240
-		"outfit space" 748
+		"outfit space" 750
 		"weapon capacity" 318
 		"engine capacity" 145
 	weapon
@@ -93,7 +95,7 @@ ship "Mantis"
 		"Ionic Turret Prototype" 2
 		"Talus Reactor"
 		"Hai Fissure Batteries"
-		"Hai Diamond Regenerator" 2
+		"Sphalerite Regenerator"
 		"Hai Zephyr Cooling" 3
 		"Quantum Keystone"
 		"Overtuned Engine (Predator)"

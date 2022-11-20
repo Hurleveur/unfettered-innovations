@@ -26,7 +26,7 @@ ship "Roach"
 		"Chameleon Anti-Missile" 2
 		"Boulder Reactor"
 		"Hai Diamond Regenerator"
-		"Sphalerite Regenerator"
+		"Ruby Regenerator"
 		"Hai Ravine Batteries"
 		"Monolith Core"
 		"Hai Zephyr Cooling" 4
@@ -112,7 +112,7 @@ ship "Mantis"
 		"Ionic Turret Prototype" 2
 		"Monolith Core"
 		"Hai Fissure Batteries"
-		"Sphalerite Regenerator"
+		"Ruby Regenerator"
 		"Hai Zephyr Cooling" 2
 		"Quantum Keystone"
 		"Predator Engine"

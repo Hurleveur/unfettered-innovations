@@ -264,10 +264,10 @@ outfit "Monolith Core"
 
 
 
-outfit "Sphalerite Regenerator"
+outfit "Ruby Regenerator"
 	category "Systems"
 	cost 7000000
-	thumbnail "outfit/sphalerite regenerator"
+	thumbnail "outfit/ruby regenerator"
 	mass 100
 	"outfit space" -100
 	"shield generation" 8
@@ -276,7 +276,7 @@ outfit "Sphalerite Regenerator"
 	"heat generation" 2
 	"shield heat" -14
 	"heat dissipation" -.1
-	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the "SHIELD GENERATOR NAME" channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."
+	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the Ruby Generator channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."
 	description "This shield generator constantly needs to consume power in order to keep itself in functioning temperatures."
 
 

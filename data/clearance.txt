@@ -6,7 +6,7 @@ outfitter "Unfettered Basics"
 	add "Skirmisher Engine"
 	add "Predator Engine"
 	add "Talus Reactor"
-	add "Sphalerite Regenerator"
+	add "Ruby Regenerator"
 	add "Repair Team"
 
 outfitter "Unfettered Basics"

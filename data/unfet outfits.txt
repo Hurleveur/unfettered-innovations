@@ -260,7 +260,7 @@ outfit "Monolith Core"
 	"outfit space" -121
 	"energy generation" 23.1
 	"heat generation" 60.4
-	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology, and based on previous Hai designs."
+	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered reused this old Hai generator, dating back to when Hai weapons were less optimized, and would require more energy to operate."
 
 
 

@@ -39,15 +39,16 @@ outfit "Penta Pulser"
 		sound "pulse"
 		"hit effect" "pulse impact"
 		"inaccuracy" 4
-		"turret turn" 1.6
-		"velocity" 15
-		"lifetime" 24
-		"reload" 4
+		"turret turn" 1.5
+		"velocity" 10
+		"lifetime" 35
+		"reload" 3.6
 		"firing energy" 24
 		"firing heat" 70
 		"shield damage" 45
 		"hull damage" 34
 	description "These turrets exist because there is no such thing as 'overkill' to the Unfettered. The bigger it is, the harder it hits, the better. Unfortunately this means these turrets are highly unstable and thus require more crew to operate. At least they managed to optimize it, making it take less space compared to what it could have taken. However, this lack of extra redundancy and optimization came at the cost of range, flexibility and accuracy."
+	description "	The shots go off slower than one would expect, and they are in higher quantity, although the turn rate is atrociously slow. How the Unfettered achieved this is not clear, but it must have been related to inspirations from wanderer technologies. Whatever the case, this gun showers enemies with pulse."
 
 
 # invisible on all bombardiers violin
@@ -149,7 +150,7 @@ outfit "Dagger Bomb"
 
 # engines that combine afterburner thrust and steering, small and big
 # korath asteroid afterburner + small engine (9+22)
-outfit "Overtuned Engine (Skirmisher)"
+outfit "Skirmisher Engine"
 	category "Engines"
 	thumbnail "outfit/tiny atomic engines hai"
 	"cost" 450000
@@ -182,7 +183,7 @@ outfit "Overtuned Engine (Skirmisher)"
 
 # comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
 # 32 + 28 + 76 + 63
-outfit "Overtuned Engine (Predator)"
+outfit "Predator Engine"
 	category "Engines"
 	cost 10000000
 	thumbnail "outfit/predator engine"
@@ -234,18 +235,15 @@ outfit "Hai Zephyr Cooling"
 
 
 
-outfit "Talus Reactor"
+outfit "Monolith Core"
 	category "Power"
-	cost 12500000
+	cost 9350000
 	thumbnail "outfit/unknown"
-	mass 140
-	"outfit space" -140
-	"energy generation" 30
-	"heat generation" 50
-	"active cooling" 30
-	"cooling energy" 3
-	"energy capacity" 6800
-	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology. However, this reactor has to consume a consequent amount of energy in order to cool itself, resulting in a quite lower energy generation overall, even though this generator does not include much battery capacity either."
+	"mass" 121
+	"outfit space" -121
+	"energy generation" 23.1
+	"heat generation" 60.4
+	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered built this reactor, inspired from Wanderer technology, and based on previous Hai designs."
 
 
 
@@ -263,3 +261,17 @@ outfit "Sphalerite Regenerator"
 	"heat dissipation" -.1
 	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the "SHIELD GENERATOR NAME" channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."
 	description "This shield generator constantly needs to consume power in order to keep itself in functioning temperatures."
+
+
+
+outfit "Repair Team"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/unknown"
+	mass 35
+	"outfit space" -18
+	"cargo space" -20
+	"required crew" 65
+	"maintenance cost" 1000
+	"hull repair rate" 2
+	"repair delay" 600

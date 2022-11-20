@@ -50,7 +50,8 @@ ship "Roach"
 	turret 77 -33.5 
 	turret -74.5 12.5 
 	turret 74.5 12.5 
-	"reverse engine" 0.5 -145 
+	"reverse engine" 0 -145
+		zoom 1.5
 	"steering engine" -88 -137.5 
 		angle 90
 		right

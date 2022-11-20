@@ -161,6 +161,7 @@ outfit "Skirmisher Engine"
 	"thrust" 7.3
 	"thrusting energy" .87
 	"thrusting heat" 1.7
+
 	"turn" 244
 	"turning energy" .64
 	"turning heat" 1.28
@@ -171,15 +172,19 @@ outfit "Skirmisher Engine"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
 
-	"fuel capacity" 100
-	"ramscoop" 0.25
-	"afterburner thrust" 19.2
-	"afterburner energy" 0.6
-	"afterburner heat" 6.25
-	"afterburner fuel" 0.03
-	"afterburner effect" "korath afterburner tiny"
+	"afterburner thrust" 12.5
+	"afterburner energy" 3.2
+	"afterburner heat" 2.8
+	"afterburner effect" "small unfettered afterburner"
 	description "This is a very specific kind of engine, that combines everything into one package. You can tell it used to be a standard Hai engine, but the Unfettered did many modifications, allowing it to go in some sort of overtuned mode, to make it possible to bring the Bombs as close to the enemy as quickly as possible."
 	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, it is often needed to execute repairs, hence why the outfit comes with a warranty that is to be payed per day."
+
+effect "small unfettered afterburner"
+	sprite "effect/atomic flare/small"
+		"frame rate" 13
+	sound "ionic afterburner"
+
+
 
 # comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
 # 32 + 28 + 76 + 63
@@ -213,14 +218,19 @@ outfit "Predator Engine"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
 
-	"afterburner thrust" 148.8
-	"afterburner energy" 3.9
-	"afterburner heat" 41.65
-	"afterburner fuel" 0.18
-	"afterburner effect" "korath afterburner medium"
+	# this is the largest engine but using more power
+	"afterburner thrust" 114.1
+	"afterburner energy" 21.2
+	"afterburner heat" 22.6
+	"afterburner effect" "huge unfettered afterburner"
 	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
 	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."
 
+
+effect "huge unfettered afterburner"
+	sprite "effect/atomic flare/huge"
+		"frame rate" 11
+	sound "ionic afterburner"
 
 
 outfit "Hai Zephyr Cooling"

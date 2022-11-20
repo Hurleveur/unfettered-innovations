@@ -183,6 +183,7 @@ effect "small unfettered afterburner"
 	sprite "effect/atomic flare/small"
 		"frame rate" 13
 	sound "ionic afterburner"
+	"random lifetime" 4
 
 
 
@@ -231,6 +232,8 @@ effect "huge unfettered afterburner"
 	sprite "effect/atomic flare/huge"
 		"frame rate" 11
 	sound "ionic afterburner"
+	"random angle" 2
+	"random lifetime" 15
 
 
 outfit "Hai Zephyr Cooling"

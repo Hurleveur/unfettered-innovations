@@ -144,6 +144,10 @@ ship "Mantis"
 		angle -16
 		under
 		left
+	"reverse engine" -82 -24 
+	"reverse engine" 82 -24 
+	"reverse engine" -14 -13.5 
+	"reverse engine" 14 -13.5
 	leak "leak" 40 50
 	leak "flame" 50 80
 	leak "big leak" 60 50

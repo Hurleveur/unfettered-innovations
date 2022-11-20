@@ -183,7 +183,9 @@ effect "small unfettered afterburner"
 	sprite "effect/atomic flare/small"
 		"frame rate" 13
 	sound "ionic afterburner"
-	"random lifetime" 4
+	lifetime 1.5
+	"random lifetime" 0.5
+	"random frame rate" 2
 
 
 
@@ -223,17 +225,19 @@ outfit "Predator Engine"
 	"afterburner thrust" 114.1
 	"afterburner energy" 21.2
 	"afterburner heat" 22.6
-	"afterburner effect" "huge unfettered afterburner"
+	"afterburner effect" "large unfettered afterburner"
 	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
 	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."
 
 
-effect "huge unfettered afterburner"
-	sprite "effect/atomic flare/huge"
-		"frame rate" 11
+effect "large unfettered afterburner"
+	sprite "effect/atomic flare/large"
+		"frame rate" 120
+		"no repeat"
 	sound "ionic afterburner"
 	"random angle" 2
-	"random lifetime" 15
+	lifetime 1.5
+	"random lifetime" 1
 
 
 outfit "Hai Zephyr Cooling"

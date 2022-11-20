@@ -13,9 +13,9 @@ ship "Roach"
 		"heat dissipation" .4
 		"fuel capacity" 600
 		"cargo space" 206
-		"outfit space" 1116
+		"outfit space" 1117
 		"weapon capacity" 518
-		"engine capacity" 189
+		"engine capacity" 180
 		weapon
 			"blast radius" 600
 			"shield damage" 6000
@@ -30,11 +30,9 @@ ship "Roach"
 		"Hai Ravine Batteries"
 		"Monolith Core"
 		"Hai Zephyr Cooling" 4
-		"Outfits Expansion" 3
 		"Quantum Keystone"
 		"Predator Engine"
-		`"Biroo" Atomic Thruster`
-		"Pulse Rifle" 250
+		"Pulse Rifle" 200
 		"Jump Drive"
 		"Repair Team"
 		"Value Detector"
@@ -52,8 +50,6 @@ ship "Roach"
 	turret 74.5 12.5 
 	"reverse engine" 0 -145
 		zoom 1.5
-	"reverse engine" -43.5 -185 
-	"reverse engine" 43.5 -185
 	"steering engine" -88 -137.5 
 		angle 90
 		right
@@ -102,8 +98,8 @@ ship "Mantis"
 		"heat dissipation" .60
 		"fuel capacity" 600
 		"cargo space" 240
-		"outfit space" 750
-		"weapon capacity" 318
+		"outfit space" 754
+		"weapon capacity" 324
 		"engine capacity" 145
 	weapon
 		"blast radius" 400
@@ -111,14 +107,15 @@ ship "Mantis"
 		"hull damage" 2000
 		"hit force" 3000
 	outfits
-		"Ionic Blaster Prototype" 9
+		"Ionic Blaster Prototype" 6
+		"Ion Cannon" 2
 		"Ionic Turret Prototype" 2
 		"Monolith Core"
 		"Hai Fissure Batteries"
 		"Sphalerite Regenerator"
-		"Hai Zephyr Cooling" 3
+		"Hai Zephyr Cooling" 2
 		"Quantum Keystone"
-		"Overtuned Engine (Predator)"
+		"Predator Engine"
 		"Jump Drive"
 	gun -110.5 -104
 	gun 110.5 -104
@@ -126,17 +123,15 @@ ship "Mantis"
 	gun 118.5 -108
 	gun -50 -26
 	gun 50 -26
-	gun -31 -23
-	gun 31 -23
+	gun -31 -23 "Ion Cannon"
+	gun 31 -23 "Ion Cannon"
 	gun 0 -26
 	turret -66 67
 	turret 66 67
 	engine -38.5 100.5
-		zoom 1
 		angle 16
 		under
 	engine 38.5 100.5
- 		zoom 1
 		angle -16
 		under
 	"steering engine" -38.5 100.5

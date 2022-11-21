@@ -167,7 +167,7 @@ outfit "Dagger Bomb"
 
 # engines that combine afterburner thrust and steering, small and big
 # korath asteroid afterburner + small engine (9+22)
-outfit "Skirmisher Engine"
+outfit "Stinger Engine"
 	category "Engines"
 	thumbnail "outfit/tiny atomic engines hai"
 	"cost" 450000

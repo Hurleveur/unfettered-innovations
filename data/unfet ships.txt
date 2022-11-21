@@ -112,12 +112,15 @@ ship "Mantis"
 		"Ion Cannon" 2
 		"Ionic Turret Prototype" 2
 		"Monolith Core"
-		"Hai Fissure Batteries"
+		"Hai Ravine Batteries"
 		"Ruby Regenerator"
 		"Hai Zephyr Cooling" 2
 		"Quantum Keystone"
 		"Predator Engine"
 		"Jump Drive"
+		"Outfits Expansion" 3
+		"Value Detector" 2
+		"Outfit Scanner" 2
 	gun -110.5 -104
 	gun 110.5 -104
 	gun -118.5 -108

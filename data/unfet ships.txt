@@ -84,6 +84,7 @@ ship "Roach"
 
 
 ship "Mantis"
+	"plural name" Mantises
 	sprite "ship/hai mantis"
 	thumbnail "thumbnail/hai mantis"
 	attributes
@@ -101,11 +102,11 @@ ship "Mantis"
 		"outfit space" 754
 		"weapon capacity" 324
 		"engine capacity" 145
-	weapon
-		"blast radius" 400
-		"shield damage" 4000
-		"hull damage" 2000
-		"hit force" 3000
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
 	outfits
 		"Ionic Blaster Prototype" 6
 		"Ion Cannon" 2

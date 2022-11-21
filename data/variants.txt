@@ -19,14 +19,14 @@ ship "Phrynus" "Phrynus (Long Range Ion)"
 		"Ion Cannon" 4
 		"Ionic Turret Prototype" 2
 		"Monolith Core"
-		"Hai Valley Batteries"
-		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator" 2
 		"Hai Zephyr Cooling" 2
 		"Quantum Keystone"
 		"Predator Engine"
 		"Jump Drive"
-		"Value Detector" 3
-		"Outfit Scanner" 2
+		"Value Detector" 2
+		"Outfit Scanner" 5
 
 ship "Phrynus" "Phrynus (Ion Tracker)"
 	outfits

@@ -57,8 +57,9 @@ outfit "Penta Pulser"
 		"reload" 20
 		"firing energy" 120
 		"firing heat" 350
-	description "These turrets exist because there is no such thing as 'overkill' to the Unfettered. The bigger it is, the harder it hits, the better. Unfortunately this means these turrets are highly unstable and thus require more crew to operate. At least they managed to optimize it, making it take less space compared to what it could have taken. However, this lack of extra redundancy and optimization came at the cost of range, flexibility and accuracy."
-	description "	The shots go off slower than one would expect, although they are more stable. The turn rate of the turret is atrociously slow, and the consequent inaccuracy makes these less useful at the edge of their range, or against smaller ships. How the Unfettered achieved this is not clear, but it must have been related to inspirations from wanderer technologies. Whatever the case, this gun showers enemies with pulse."
+	description "	Unlike a standard Pulse Turret, the Penta Pulser platform does not fire each of the five mounted Pulse Cannons in sequence, but rather in synchronized volleys."
+	description "	These turrets exist because there is no such thing as 'overkill' to the Unfettered. The bigger it is, the harder it hits, the better. Unfortunately this means these turrets are highly unstable and thus require more crew to operate."
+	description "	The shots go off slower than one would expect, and they are in higher quantity, although the turn rate is atrociously slow. How the Unfettered achieved this is not clear, but it must have been related to inspirations from wanderer technologies. Whatever the case, this gun showers enemies with pulse."
 
 outfit "Pulse Submunition"
 	weapon
@@ -234,7 +235,7 @@ outfit "Predator Engine"
 	"reverse thrust" 22.4
 	"reverse thrusting energy" 2.5
 	"reverse thrusting heat" 4.8
-	"reverse flare sprite" "effect/atomic flare/tiny"
+	"reverse flare sprite" "effect/atomic flare/small"
 		"frame rate" 14
 	"reverse flare sound" "atomic tiny"
 

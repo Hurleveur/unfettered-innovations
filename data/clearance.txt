@@ -21,7 +21,7 @@ planet "Darkcloak"
 
 shipyard "Unfettered Basics"
 	add "Roach"
-	add "Mantis"
+	add "Phrynus"
 	add "Violin Spider (Webber)"
 	add "Violin Spider (Bomber)"
 

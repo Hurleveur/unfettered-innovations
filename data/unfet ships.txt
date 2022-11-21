@@ -40,16 +40,22 @@ ship "Roach"
 	gun 99.5 -98 
 	gun -108 -88 
 	gun 108 -88 
-	turret -43.5 -156 
-	turret 43.5 -156 
-	turret -43.5 -128 
-	turret 43.5 -128 
-	turret -77 -33.5 
-	turret 77 -33.5 
-	turret -74.5 12.5 
-	turret 74.5 12.5 
+	turret -43.5 -156 "Penta Pulser"
+	turret 43.5 -156 "Penta Pulser"
+	turret -43.5 -128 "Penta Pulser"
+	turret 43.5 -128 "Penta Pulser"
+	turret -77 -33.5 "Penta Pulser"
+	turret 77 -33.5 "Penta Pulser"
+	turret -74.5 12.5 "Chameleon Anti-Missile" 
+	turret 74.5 12.5 "Chameleon Anti-Missile" 
 	"reverse engine" 0 -145
 		zoom 1.5
+	"reverse engine" 142 16.5 
+		angle 40
+		zoom 1
+	"reverse engine" -142 16.5 
+		angle 320
+		zoom 1
 	"steering engine" -88 -137.5 
 		angle 90
 		right
@@ -59,7 +65,7 @@ ship "Roach"
 	"steering engine" 142 16.5 
 		angle 220
 		right
-	"steering engine" -138 16.5 
+	"steering engine" -142 16.5 
 		angle 140
 		left
 	engine -92 158 
@@ -83,10 +89,10 @@ ship "Roach"
 
 
 
-ship "Mantis"
-	plural Mantises
-	sprite "ship/hai mantis"
-	thumbnail "thumbnail/hai mantis"
+ship "Phrynus"
+	plural Phrynuses
+	sprite "ship/hai phrynus"
+	thumbnail "thumbnail/hai phrynus"
 	attributes
 		category "Heavy Warship"
 		"cost" 21400000
@@ -98,9 +104,9 @@ ship "Mantis"
 		"drag" 7.2
 		"heat dissipation" .6
 		"fuel capacity" 600
-		"cargo space" 240
-		"outfit space" 754
-		"weapon capacity" 324
+		"cargo space" 200
+		"outfit space" 763
+		"weapon capacity" 330
 		"engine capacity" 145
 		weapon
 			"blast radius" 400
@@ -108,30 +114,30 @@ ship "Mantis"
 			"hull damage" 2000
 			"hit force" 3000
 	outfits
-		"Ionic Blaster Prototype" 6
-		"Ion Cannon" 2
-		"Ionic Turret Prototype" 2
-		"Monolith Core"
+		"Bullfrog Anti-Missile" 2
+		"Hai Corundum Regenerator"
+		"Hai Diamond Regenerator"
 		"Hai Ravine Batteries"
-		"Ruby Regenerator"
 		"Hai Zephyr Cooling" 2
-		"Quantum Keystone"
-		"Predator Engine"
+		"Ion Cannon" 4
+		"Ionic Blaster Prototype" 4
 		"Jump Drive"
-		"Outfits Expansion" 3
-		"Value Detector" 2
-		"Outfit Scanner" 2
-	gun -110.5 -104
-	gun 110.5 -104
-	gun -118.5 -108
-	gun 118.5 -108
-	gun -50 -26
-	gun 50 -26
-	gun -31 -23 "Ion Cannon"
-	gun 31 -23 "Ion Cannon"
-	gun 0 -26
-	turret -66 67
-	turret 66 67
+		"Monolith Core"
+		"Predator Engine"
+		"Quantum Keystone"
+		"Tripulse Shredder"
+		"Value Detector"
+	gun -110.5 -104 "Ion Cannon"
+	gun 110.5 -104 "Ion Cannon"
+	gun -118.5 -108 "Ion Cannon"
+	gun 118.5 -108 "Ion Cannon"
+	gun -50 -26 "Ionic Blaster Prototype"
+	gun 50 -26 "Ionic Blaster Prototype"
+	gun -31 -23 "Ionic Blaster Prototype"
+	gun 31 -23 "Ionic Blaster Prototype"
+	gun 0 -26 "Tripulse Shredder"
+	turret -66 67 "Bullfrog Anti-Missile"
+	turret 66 67 "Bullfrog Anti-Missile"
 	engine -38.5 100.5
 		angle 16
 		under
@@ -162,7 +168,7 @@ ship "Mantis"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
-	description "Due to its lack of turrets, this ship is very vulnerable to missiles, and relies on Violin Spiders protecting it, against small and agile enemies or simply missiles."
+	description "Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
 
 
 # variant that fits an am but only that and it cant be removed

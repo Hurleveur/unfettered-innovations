@@ -78,18 +78,18 @@ ship "Roach"
 	explode "medium explosion" 50
 	explode "large explosion" 50
 	explode "huge explosion" 20
-	"final explode" "final explosion huge"
+	"final explode" "final explosion large"
 	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they build that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
 
 
 
 ship "Mantis"
-	"plural name" Mantises
+	plural Mantises
 	sprite "ship/hai mantis"
 	thumbnail "thumbnail/hai mantis"
 	attributes
 		category "Heavy Warship"
- 		"cost" 21400000
+		"cost" 21400000
 		"shields" 26500
 		"hull" 11200
 		"required crew" 34

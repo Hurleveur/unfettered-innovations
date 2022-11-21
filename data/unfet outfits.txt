@@ -83,7 +83,7 @@ outfit "Nest Bomb Launcher"
 		"hit effect" "huge explosion"
 		"lifetime" 1000
 		"reload" 500
-		"missile strength" 300
+		"missile strength" 500
 		"shield damage" 15000
 		"hull damage" 12000
 		"hit force" 2500
@@ -91,8 +91,6 @@ outfit "Nest Bomb Launcher"
 		"blast radius" 120
 		"damage dropoff" 10 120
 		"turn" 1
-		"range override" 300
-		velocity 1 
 
 outfit "Hammer Bomb Launcher"
 	thumbnail "outfit/unknown"
@@ -106,7 +104,7 @@ outfit "Hammer Bomb Launcher"
 		"hit effect" "huge explosion"
 		"lifetime" 500
 		"reload" 180
-		"missile strength" 300
+		"missile strength" 500
 		"shield damage" 25000
 		"hull damage" 17500
 		"hit force" 2000
@@ -127,7 +125,7 @@ outfit "Dagger Bomb Launcher"
 		"hit effect" "medium explosion"
 		"lifetime" 1500
 		"reload" 180
-		"missile strength" 300
+		"missile strength" 500
 		"shield damage" 0
 		"relative hull damage" 0.5
 		"hit force" 500
@@ -262,7 +260,7 @@ effect "large unfettered afterburner"
 outfit "Hai Zephyr Cooling"
 	category "Systems"
 	cost 38000
-	thumbnail "outfit/hai zephyr cooling"
+	thumbnail "outfit/unknown"
 	"mass" 14
 	"outfit space" -14
 	"cooling" 21
@@ -274,7 +272,7 @@ outfit "Hai Zephyr Cooling"
 outfit "Monolith Core"
 	category "Power"
 	cost 9350000
-	thumbnail "outfit/monolith core"
+	thumbnail "outfit/unknown"
 	"mass" 121
 	"outfit space" -121
 	"energy generation" 23.1
@@ -303,7 +301,7 @@ outfit "Ruby Regenerator"
 outfit "Repair Team"
 	category "Systems"
 	cost 100000
-	thumbnail "outfit/"
+	thumbnail "outfit/unknown"
 	mass 35
 	"outfit space" -18
 	"cargo space" -20

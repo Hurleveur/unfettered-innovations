@@ -302,7 +302,7 @@ outfit "Ruby Regenerator"
 outfit "Repair Team"
 	category "Systems"
 	cost 100000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/repair team"
 	mass 35
 	"outfit space" -18
 	"cargo space" -20

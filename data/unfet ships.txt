@@ -96,7 +96,7 @@ ship "Mantis"
 		"bunks" 62
 		"mass" 820
 		"drag" 7.2
-		"heat dissipation" .60
+		"heat dissipation" .6
 		"fuel capacity" 600
 		"cargo space" 240
 		"outfit space" 754

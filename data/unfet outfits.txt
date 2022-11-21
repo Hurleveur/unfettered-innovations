@@ -301,7 +301,7 @@ outfit "Ruby Regenerator"
 
 outfit "Repair Team"
 	category "Systems"
-	cost 100000
+	cost 6500000
 	thumbnail "outfit/repair team"
 	mass 35
 	"outfit space" -18
@@ -310,3 +310,5 @@ outfit "Repair Team"
 	"maintenance cost" 1000
 	"hull repair rate" 2
 	"repair delay" 600
+	unplunderable 1
+	description "The Unfettered sometimes bring a whole repair team, for their most important ships. These are the most intrepid engineers, ready to make emergency repairs whenever the conditions allow it. The team costs a lot to hire at first, along with their equipement. This also includes operating costs to acquire the materials, and cargo space to store them."

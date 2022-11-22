@@ -1,0 +1,74 @@
+fleet "Phrynuses"
+	government "Hai (Unfettered)"
+	names "hai"
+	cargo 3
+	personality disables plunder coward
+	variant
+		"Phrynus (Ion Focus)"
+	variant
+		"Phrynus (Long Range Ion)"
+	variant
+		"Phrynus (Ion Tracker)"
+	variant
+		"Phrynus (Tracker Focus)"
+	variant
+		"Phrynus (Ruby Shredder)"
+	variant
+		"Phrynus (Penta Blaster)"
+	variant
+		"Phrynus (Miner)"
+
+fleet "Roaches"
+	government "Hai (Unfettered)"
+	names "hai"
+	cargo 2
+	#fighters "uhai fighters"?
+	personality disables plunder vindictive
+	variant
+		"Roach"
+		"Violin Spider (Bomber)" 4
+
+
+
+fleet "Large Unfettered"
+	add variant 5
+		"Roach"
+		"Violin Spider (Bomber)" 4
+	add variant 2
+		"Solifuge"
+		"Violin Spider (Bomber)" 6
+	add variant 3
+		"Solifuge"
+		"Violin Spider (Webber)" 3
+		"Violin Spider (Tracker)" 3
+	add variant 4
+		"Solifuge"
+		"Violin Spider (Webber)" 4
+		"Violin Spider (Bomber)" 2
+	add variant 2
+		"Phrynus (Long Range Ion)"
+		"Shield Beetle (Tracker)"
+	add variant 3
+		"Phrynus (Ion Focus)"
+		"Shield Beetle (Ion)"
+	add variant 4
+		"Phrynus (Ruby Shredder)"
+		"Phrynus (Penta Blaster)"
+		"Phrynus (Miner)"
+
+
+fleet "Small Unfettered"
+	add variant
+		"Phrynus (Ion Focus)"
+	add variant
+		"Phrynus (Long Range Ion)"
+	add variant
+		"Phrynus (Ion Tracker)"
+	add variant
+		"Phrynus (Tracker Focus)"
+	add variant
+		"Phrynus (Ruby Shredder)"
+	add variant
+		"Phrynus (Penta Blaster)"
+	add variant
+		"Phrynus (Miner)"

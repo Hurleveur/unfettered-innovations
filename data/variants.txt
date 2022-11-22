@@ -59,7 +59,6 @@ ship "Phrynus" "Phrynus (Tracker Focus)"
 		"Tracker Storage Pod" 14
 		"Value Detector" 2
 
-
 ship "Phrynus" "Phrynus (Ruby Shredder)"
 	outfits
 		"Chameleon Anti-Missile" 2
@@ -92,17 +91,18 @@ ship "Phrynus" "Phrynus (Penta Blaster)"
 		"Value Detector"
 
 ship "Phrynus" "Phrynus (Miner)"
-        outfits
-                "Asteroid Scanner" 3
-                "Bullfrog Anti-Missile" 2
-                "Cargo Expansion"
-                "Hai Corundum Regenerator"
-                "Hai Gorge Batteries"
-                "Hai Zephyr Cooling" 3
-                "Jump Drive"
-                "Monolith Core"
-                "Pebble Core"
-                "Predator Engine"
-                "Quantum Keystone"
-                "Tripulse Shredder" 7
-                "Value Detector"
+	outfits
+		"Asteroid Scanner" 3
+		"Bullfrog Anti-Missile" 2
+		"Cargo Expansion"
+		"Hai Corundum Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Zephyr Cooling" 3
+		"Jump Drive"
+		"Monolith Core"
+		"Pebble Core"
+		"Predator Engine"
+		"Quantum Keystone"
+		# this can even mine the enemy!
+		"Tripulse Shredder" 7
+		"Value Detector"

@@ -35,3 +35,18 @@ shipyard "Unfettered Basics"
 	add "Shield Beetle"
 	add "Solifuge"
 	add "Violin Spider"
+
+
+
+mission "Access Granted"
+	landing
+	source
+		attributes "unfettered"
+	to offer
+		"reputation: Hai (Unfettered)" < 0
+	on offer
+		conversation
+			action
+				"reputation: Hai (Unfettered)" >?= 1000
+			`Upon landing you are greeted by a group of Unfettered, thinking you brought them jump drives for some reason. They almost consider you as a god, in fact, and give you access to their mightiest of ships, before they would even normally have them. You saw some of those ships in orbit, and wonder how they could have done them. It must have been a secret project...`
+				defer

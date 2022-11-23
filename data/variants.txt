@@ -1,3 +1,59 @@
+ship "Phrynus" "OmegaPhrynus"
+	add attributes
+		"integrated bombing" 27
+		"bomb capacity" 27
+		"cargo space" -200
+		"outfit space" -150
+		"weapon capacity" -250
+	outfits
+		"Nest Bomb Launcher" 9
+		"Hammer Bomb Launcher" 9
+		"Dagger Bomb Launcher" 9
+		"Dagger Bomb" 9
+		"Hammer Bomb" 9
+		"Nest Bomb" 9
+		"Chameleon Anti-Missile" 2
+
+		"Jump Drive"
+		"Hai Diamond Regenerator" 2
+		"Ruby Regenerator"
+		"Hai Zephyr Cooling"
+		
+		"Hai Ravine Batteries"
+		"Monolith Core"
+		"Predator Engine"
+	gun -110.5 -104 "Nest Bomb Launcher"
+	gun 110.5 -104 "Nest Bomb Launcher"
+	gun -118.5 -108 "Nest Bomb Launcher"
+	gun 118.5 -108 "Nest Bomb Launcher"
+	gun -50 -26 "Nest Bomb Launcher"
+	gun 50 -26 "Nest Bomb Launcher"
+	gun -31 -23 "Nest Bomb Launcher"
+	gun 31 -23 "Nest Bomb Launcher"
+	gun 0 -26 "Nest Bomb Launcher"
+
+	gun -110.5 -104 "Hammer Bomb Launcher"
+	gun 110.5 -104 "Hammer Bomb Launcher"
+	gun -118.5 -108 "Hammer Bomb Launcher"
+	gun 118.5 -108 "Hammer Bomb Launcher"
+	gun -50 -26 "Hammer Bomb Launcher"
+	gun 50 -26 "Hammer Bomb Launcher"
+	gun -31 -23 "Hammer Bomb Launcher"
+	gun 31 -23 "Hammer Bomb Launcher"
+	gun 0 -26 "Hammer Bomb Launcher"
+	
+	gun -110.5 -104 "Dagger Bomb Launcher"
+	gun 110.5 -104 "Dagger Bomb Launcher"
+	gun -118.5 -108 "Dagger Bomb Launcher"
+	gun 118.5 -108 "Dagger Bomb Launcher"
+	gun -50 -26 "Dagger Bomb Launcher"
+	gun 50 -26 "Dagger Bomb Launcher"
+	gun -31 -23 "Dagger Bomb Launcher"
+	gun 31 -23 "Dagger Bomb Launcher"
+	gun 0 -26 "Dagger Bomb Launcher"
+	turret -66 67
+	turret 66 67
+
 ship "Phrynus" "Phrynus (Ion Focus)"
 	outfits
 		"Geode Reactor"
@@ -106,3 +162,38 @@ ship "Phrynus" "Phrynus (Miner)"
 		# this can even mine the enemy!
 		"Tripulse Shredder" 7
 		"Value Detector"
+
+
+# variant that fits an am but only that and it cant be removed
+ship "Violin Spider" "Violin Spider (Webber)"
+	add attributes
+		"integrated chameleon" 1
+	outfits
+		"Integrated Chameleon Anti-Missile"
+		"Pebble Core"
+		Supercapacitor
+		"Hai Williwaw Cooling"
+		"Pulse Rifle"
+		`"Basrem" Atomic Steering`
+		`"Basrem" Atomic Thruster`		
+
+ship "Violin Spider" "Violin Spider (Bomber)"
+	add attributes
+		"integrated bombing" 3
+		"bomb capacity" 1
+		"weapon capacity" -19
+		"outfit space" -19
+	outfits
+		"Nest Bomb Launcher"
+		"Hammer Bomb Launcher"
+		"Dagger Bomb Launcher"
+		"Nest Bomb"
+		"Quantum Keystone"
+		"Hai Williwaw Cooling"
+		"Stinger Engine"
+		"Pebble Core"
+		Supercapacitor
+		"Pulse Rifle"
+	gun 0 -31
+	gun 0 -31
+	gun 0 -31

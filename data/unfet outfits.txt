@@ -122,15 +122,15 @@ outfit "Dagger Bomb Launcher"
 		sprite "projectile/unfettered bomb"
 		ammo "Dagger Bomb"
 		icon "icon/unfettered bomb"
-		"die effect" "big explosion"
-		"hit effect" "medium explosion"
+		"die effect" "medium explosion"
+		"hit effect" "small explosion"
 		"lifetime" 1500
 		"reload" 180
 		"missile strength" 500
 		"shield damage" 0
-		"relative hull damage" 0.5
+		"hull damage" 40000
 		"hit force" 500
-		"piercing" 0.5
+		"piercing" 0.25
 		"turn" 1
 
 
@@ -139,7 +139,7 @@ outfit "Nest Bomb"
 	category "Ammunition"
 	cost 1500000
 	mass 15
-	"energy consumption" 1
+	"energy consumption" 0.25
 	"bomb capacity" -1
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
@@ -149,7 +149,7 @@ outfit "Hammer Bomb"
 	category "Ammunition"
 	cost 2000000
 	mass 20
-	"energy consumption" 1.5
+	"energy consumption" 0.375
 	"bomb capacity" -1
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
@@ -159,7 +159,7 @@ outfit "Dagger Bomb"
 	category "Ammunition"
 	cost 2500000
 	mass 10
-	"energy consumption" 0.5
+	"energy consumption" 0.125
 	"bomb capacity" -1
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to strike tactical blows on the enemy heaviest warships, ignoring their shields and regeneration."

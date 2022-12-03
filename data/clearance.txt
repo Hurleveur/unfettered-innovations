@@ -19,12 +19,29 @@ planet "Darkcloak"
 	add outfitter "Hai Advanced"
 
 
+shipyard "Mon Ki o'Uden Advanced"
+	add "Roach"
+	add "Phrynus"
+	add "Violin Spider (Webber)"
+	add "Violin Spider (Bomber)"
+	add "OmegaPhrynus"
+
 shipyard "Unfettered Basics"
 	add "Roach"
 	add "Phrynus"
 	add "Violin Spider (Webber)"
 	add "Violin Spider (Bomber)"
 	add "OmegaPhrynus"
+
+shipyard "Mon Ki o'Uden Advanced"
+	#add "Stag Beetle"
+	#add "Modified Shield Beetle"
+	#add "Emperor Beetle"
+	#add "Tick"
+	#add "Antlion"
+	#add "Sea Dragon"
+	add "Solifuge"
+	add "Violin Spider"
 
 shipyard "Unfettered Basics"
 	#add "Stag Beetle"
@@ -33,11 +50,8 @@ shipyard "Unfettered Basics"
 	#add "Tick"
 	#add "Antlion"
 	#add "Sea Dragon"
-	add "Shield Beetle"
 	add "Solifuge"
 	add "Violin Spider"
-
-
 
 mission "Access Granted"
 	landing

@@ -141,6 +141,8 @@ outfit "Nest Bomb"
 	mass 15
 	"energy consumption" 0.25
 	"bomb capacity" -1
+	"overheat damage rate" 1000000
+	"overheat damage treshold" .25
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
 
@@ -151,6 +153,8 @@ outfit "Hammer Bomb"
 	mass 20
 	"energy consumption" 0.375
 	"bomb capacity" -1
+	"overheat damage rate" 1000000
+	"overheat damage treshold" .15
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
 
@@ -161,6 +165,8 @@ outfit "Dagger Bomb"
 	mass 10
 	"energy consumption" 0.125
 	"bomb capacity" -1
+	"overheat damage rate" 1000000
+	"overheat damage treshold" .35
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to strike tactical blows on the enemy heaviest warships, ignoring their shields and regeneration."
 
@@ -194,6 +200,8 @@ outfit "Stinger Engine"
 	"afterburner energy" 3.2
 	"afterburner heat" 2.8
 	"afterburner effect" "small unfettered afterburner"
+	
+	"overheat damage rate" 1
 	description "This is a very specific kind of engine, that combines everything into one package. You can tell it used to be a standard Hai engine, but the Unfettered did many modifications, allowing it to go in some sort of overtuned mode, to make it possible to bring the Bombs as close to the enemy as quickly as possible."
 	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, it is often needed to execute repairs, hence why the outfit comes with a warranty that is to be payed per day."
 
@@ -244,6 +252,9 @@ outfit "Predator Engine"
 	"afterburner energy" 21.2
 	"afterburner heat" 22.6
 	"afterburner effect" "large unfettered afterburner"
+
+	"overheat damage rate" 5
+	"overheat damage treshold" .25
 	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
 	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."
 

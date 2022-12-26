@@ -18,21 +18,21 @@ fleet "Phrynuses"
 	variant
 		"Phrynus (Miner)"
 
-fleet "Roaches"
+fleet "Tarentulas"
 	government "Hai (Unfettered)"
 	names "hai"
 	cargo 2
 	#fighters "uhai fighters"?
 	personality disables plunder vindictive
 	variant
-		"Roach"
+		"Tarentula"
 		"Violin Spider (Bomber)" 4
 
 
 
 fleet "Large Unfettered"
 	add variant 5
-		"Roach"
+		"Tarentula"
 		"Violin Spider (Bomber)" 4
 	add variant 2
 		"Solifuge"

@@ -20,14 +20,14 @@ planet "Darkcloak"
 
 
 shipyard "Mon Ki o'Uden Advanced"
-	add "Roach"
+	add "Tarentula"
 	add "Phrynus"
 	add "Violin Spider (Webber)"
 	add "Violin Spider (Bomber)"
 	add "OmegaPhrynus"
 
 shipyard "Unfettered Basics"
-	add "Roach"
+	add "Tarentula"
 	add "Phrynus"
 	add "Violin Spider (Webber)"
 	add "Violin Spider (Bomber)"

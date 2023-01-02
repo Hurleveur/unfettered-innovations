@@ -310,6 +310,19 @@ outfit "Ruby Regenerator"
 
 
 
+outfit "Kraken Jammer"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/hai jammer overclocked"
+	mass 35
+	"outfit space" 35
+	"energy consumption" 5
+	"cooling" 25
+	"radar jamming" 50
+	description "To counter the Thunderhead, the Unfettered devised this ingenious combination between a jammer and a cooling system."
+
+
+
 outfit "Repair Team"
 	category "Systems"
 	cost 6500000

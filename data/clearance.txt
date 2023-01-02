@@ -7,6 +7,7 @@ outfitter "Unfettered Basics"
 	add "Predator Engine"
 	add "Monolith Core"
 	add "Ruby Regenerator"
+	add "Kraken Jammer"
 	add "Repair Team"
 
 outfitter "Unfettered Basics"

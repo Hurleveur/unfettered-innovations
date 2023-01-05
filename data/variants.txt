@@ -1,0 +1,199 @@
+ship "Phrynus" "OmegaPhrynus"
+	add attributes
+		"integrated bombing" 27
+		"bomb capacity" 27
+		"cargo space" -200
+		"outfit space" -150
+		"weapon capacity" -250
+	outfits
+		"Nest Bomb Launcher" 9
+		"Hammer Bomb Launcher" 9
+		"Dagger Bomb Launcher" 9
+		"Dagger Bomb" 9
+		"Hammer Bomb" 9
+		"Nest Bomb" 9
+		"Chameleon Anti-Missile" 2
+
+		"Jump Drive"
+		"Hai Diamond Regenerator" 2
+		"Ruby Regenerator"
+		"Hai Zephyr Cooling"
+		
+		"Hai Ravine Batteries"
+		"Monolith Core"
+		"Predator Engine"
+	gun -110.5 -104 "Nest Bomb Launcher"
+	gun 110.5 -104 "Nest Bomb Launcher"
+	gun -118.5 -108 "Nest Bomb Launcher"
+	gun 118.5 -108 "Nest Bomb Launcher"
+	gun -50 -26 "Nest Bomb Launcher"
+	gun 50 -26 "Nest Bomb Launcher"
+	gun -31 -23 "Nest Bomb Launcher"
+	gun 31 -23 "Nest Bomb Launcher"
+	gun 0 -26 "Nest Bomb Launcher"
+
+	gun -110.5 -104 "Hammer Bomb Launcher"
+	gun 110.5 -104 "Hammer Bomb Launcher"
+	gun -118.5 -108 "Hammer Bomb Launcher"
+	gun 118.5 -108 "Hammer Bomb Launcher"
+	gun -50 -26 "Hammer Bomb Launcher"
+	gun 50 -26 "Hammer Bomb Launcher"
+	gun -31 -23 "Hammer Bomb Launcher"
+	gun 31 -23 "Hammer Bomb Launcher"
+	gun 0 -26 "Hammer Bomb Launcher"
+	
+	gun -110.5 -104 "Dagger Bomb Launcher"
+	gun 110.5 -104 "Dagger Bomb Launcher"
+	gun -118.5 -108 "Dagger Bomb Launcher"
+	gun 118.5 -108 "Dagger Bomb Launcher"
+	gun -50 -26 "Dagger Bomb Launcher"
+	gun 50 -26 "Dagger Bomb Launcher"
+	gun -31 -23 "Dagger Bomb Launcher"
+	gun 31 -23 "Dagger Bomb Launcher"
+	gun 0 -26 "Dagger Bomb Launcher"
+	turret -66 67
+	turret 66 67
+
+ship "Phrynus" "Phrynus (Ion Focus)"
+	outfits
+		"Geode Reactor"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Fissure Batteries"
+		"Hai Zephyr Cooling" 2
+		"Ion Cannon"
+		"Ionic Blaster Prototype" 8
+		"Ionic Turret Prototype" 2
+		"Jump Drive"
+		"Monolith Core"
+		"Predator Engine"
+		"Quantum Keystone"
+		"Value Detector" 2
+
+ship "Phrynus" "Phrynus (Long Range Ion)"
+	outfits
+		"Ion Cannon" 4
+		"Ionic Turret Prototype" 2
+		"Monolith Core"
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator" 2
+		"Hai Zephyr Cooling" 2
+		"Quantum Keystone"
+		"Predator Engine"
+		"Jump Drive"
+		"Value Detector" 2
+		"Outfit Scanner" 5
+
+ship "Phrynus" "Phrynus (Ion Tracker)"
+	outfits
+		"Hai Gorge Batteries"
+		"Hai Tracker" 224
+		"Hai Tracker Pod" 4
+		"Hai Zephyr Cooling" 2
+		"Ion Cannon"
+		"Ionic Blaster Prototype" 4
+		"Ionic Turret Prototype" 2
+		"Jump Drive"
+		"Monolith Core"
+		"Predator Engine"
+		"Quantum Keystone"
+		"Ruby Regenerator"
+		"Value Detector"
+
+ship "Phrynus" "Phrynus (Tracker Focus)"
+	outfits
+		"Boulder Reactor"
+		"Hai Chasm Batteries" 2
+		"Hai Diamond Regenerator"
+		"Hai Tracker" 896
+		"Hai Tracker Pod" 9
+		"Hai Zephyr Cooling"
+		"Ionic Turret Prototype" 2
+		"Jump Drive"
+		"Predator Engine"
+		"Quantum Keystone"
+		"Tracker Storage Pod" 14
+		"Value Detector" 2
+
+ship "Phrynus" "Phrynus (Ruby Shredder)"
+	outfits
+		"Chameleon Anti-Missile" 2
+		"Hai Chasm Batteries"
+		"Hai Zephyr Cooling" 5
+		"Ionic Blaster Prototype" 4
+		"Jump Drive"
+		"Monolith Core"
+		"Outfits Expansion" 6
+		"Predator Engine"
+		"Quantum Keystone"
+		"Ruby Regenerator"
+		"Tripulse Shredder" 5
+		"Value Detector"
+
+ship "Phrynus" "Phrynus (Penta Blaster)"
+	outfits
+		"Geode Reactor"
+		"Hai Chasm Batteries" 2
+		"Hai Fissure Batteries"
+		"Hai Zephyr Cooling" 6
+		"Ionic Blaster Prototype" 9
+		"Jump Drive"
+		"Monolith Core"
+		"Outfits Expansion" 7
+		"Penta Pulser" 2
+		"Predator Engine"
+		"Quantum Keystone"
+		"Ruby Regenerator"
+		"Value Detector"
+
+ship "Phrynus" "Phrynus (Miner)"
+	outfits
+		"Asteroid Scanner" 3
+		"Bullfrog Anti-Missile" 2
+		"Cargo Expansion"
+		"Hai Corundum Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Zephyr Cooling" 3
+		"Jump Drive"
+		"Monolith Core"
+		"Pebble Core"
+		"Predator Engine"
+		"Quantum Keystone"
+		# this can even mine the enemy!
+		"Tripulse Shredder" 7
+		"Value Detector"
+
+
+# variant that fits an am but only that and it cant be removed
+ship "Violin Spider" "Violin Spider (Webber)"
+	add attributes
+		"integrated chameleon" 1
+	outfits
+		"Integrated Chameleon Anti-Missile"
+		"Pebble Core"
+		Supercapacitor
+		"Hai Williwaw Cooling"
+		"Pulse Rifle"
+		`"Basrem" Atomic Steering`
+		`"Basrem" Atomic Thruster`		
+
+ship "Violin Spider" "Violin Spider (Bomber)"
+	add attributes
+		"integrated bombing" 3
+		"bomb capacity" 1
+		"weapon capacity" -19
+		"outfit space" -19
+	outfits
+		"Nest Bomb Launcher"
+		"Hammer Bomb Launcher"
+		"Dagger Bomb Launcher"
+		"Nest Bomb"
+		"Quantum Keystone"
+		"Hai Williwaw Cooling"
+		"Stinger Engine"
+		"Pebble Core"
+		Supercapacitor
+		"Pulse Rifle"
+	gun 0 -31
+	gun 0 -31
+	gun 0 -31

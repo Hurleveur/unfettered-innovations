@@ -57,7 +57,7 @@ outfit "Penta Pulser"
 		"reload" 20
 		"firing energy" 120
 		"firing heat" 350
-	description "	Unlike a standard Pulse Turret, the Penta Pulser platform does not fire each of the five mounted Pulse Cannons in sequence, but rather in synchronized volleys."
+	description "Unlike a standard Pulse Turret, the Penta Pulser platform does not fire each of the five mounted Pulse Cannons in sequence, but rather in synchronized volleys."
 	description "	These turrets exist because there is no such thing as 'overkill' to the Unfettered. The bigger it is, the harder it hits, the better. Unfortunately this means these turrets are highly unstable and thus require more crew to operate."
 	description "	The shots go off slower than one would expect, and they are in higher quantity, although the turn rate is atrociously slow. How the Unfettered achieved this is not clear, but it must have been related to inspirations from wanderer technologies. Whatever the case, this gun showers enemies with pulse."
 
@@ -70,6 +70,41 @@ outfit "Pulse Submunition"
 		"inaccuracy" 1
 		"shield damage" 45
 		"hull damage" 34
+
+
+outfit "Octa Annihilator"
+	category "Turrets"
+	cost 4000000
+	thumbnail "outfit/penta pulser"
+	mass 150
+	"outfit space" -100
+	"weapon capacity" -150
+	"turret mounts" -1
+	"required crew" 8
+	weapon
+		"hardpoint sprite" "hardpoint/penta pulser"
+		"hardpoint offset" 40
+		sprite "projectile/pulse"
+			scale 3
+		sound "pulse"
+		"inaccuracy" 2
+		"lifetime" 1000
+		"turret turn" .5
+		"reload" 100
+		"hit effect" "pulse impact"
+		"inaccuracy" 1
+		"velocity" 12
+		"lifetime" 300
+		"reload" 100
+		"firing energy" 1200
+		"firing heat" 3500
+		"shield damage" 2250
+		"hull damage" 1700
+		"blast radius" 50
+		"hit force" 500
+	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
+	description "The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
+
 
 # invisible on all bombardiers violin
 outfit "Nest Bomb Launcher"
@@ -144,7 +179,7 @@ outfit "Nest Bomb"
 	"overheat damage rate" 1000000
 	"overheat damage treshold" .25
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
+	description "	In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
 
 outfit "Hammer Bomb"
 	thumbnail "outfit/unfettered bomb"

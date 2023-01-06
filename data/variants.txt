@@ -1,3 +1,25 @@
+ship "Tarentula" "Tarentula (Octa Annihilators)"
+	outfits
+		"Octa Annihilator" 3
+		"Chameleon Anti-Missile" 3
+		"Boulder Reactor"
+		"Hai Diamond Regenerator"
+		"Ruby Regenerator"
+		"Hai Ravine Batteries"
+		"Monolith Core"
+		"Hai Zephyr Cooling" 4
+		"Quantum Keystone"
+		"Predator Engine"
+		`"Biroo" Atomic Steering`
+		"Cargo Expansion"
+		"Pulse Rifle" 200
+		"Jump Drive"
+		"Repair Team"
+		"Value Detector"
+	cargo
+		outfits
+			"Nest Bomb" 20
+
 ship "Phrynus" "OmegaPhrynus"
 	add attributes
 		"integrated bombing" 27

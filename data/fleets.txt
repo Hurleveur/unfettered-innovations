@@ -27,6 +27,9 @@ fleet "Tarentulas"
 	variant
 		"Tarentula"
 		"Violin Spider (Bomber)" 4
+	variant
+		"Tarentula (Octa Annihilators)"
+		"Violin Spider (Bomber)" 4
 
 
 

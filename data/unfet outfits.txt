@@ -92,8 +92,7 @@ outfit "Octa Annihilator"
 		"turret turn" .5
 		"reload" 100
 		"hit effect" "pulse impact"
-		"inaccuracy" 1
-		"velocity" 12
+		"velocity" 15
 		"lifetime" 300
 		"reload" 100
 		"firing energy" 1200

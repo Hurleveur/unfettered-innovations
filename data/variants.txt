@@ -92,6 +92,20 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Quantum Keystone"
 		"Value Detector" 2
 
+ship "Phrynus" "Phrynus (Octa)"
+	outfits
+		"Hai Diamond Regenerator"
+		"Hai Valley Batteries"
+		"Hai Williwaw Cooling"
+		"Hai Zephyr Cooling" 3
+		"Jump Drive"
+		"Monolith Core"
+		"Octa Annihilator" 2
+		"Predator Engine"
+		"Quantum Keystone"
+		"Ruby Regenerator"
+		"Value Detector" 2
+
 ship "Phrynus" "Phrynus (Long Range Ion)"
 	outfits
 		"Ion Cannon" 4

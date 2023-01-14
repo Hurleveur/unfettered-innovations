@@ -17,6 +17,8 @@ fleet "Phrynuses"
 		"Phrynus (Penta Blaster)"
 	variant
 		"Phrynus (Miner)"
+	variant
+		"Phrynus (Octa)"
 
 fleet "Tarentulas"
 	government "Hai (Unfettered)"

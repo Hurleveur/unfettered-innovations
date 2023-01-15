@@ -169,3 +169,94 @@ ship "Phrynus"
 	"final explode" "final explosion large"
 	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
 	description "Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
+
+
+
+ship "Lycosidae"
+	sprite "ship/hai lycosidae"
+	thumbnail "thumbnail/hai lycosidae"
+	attributes
+		category "Superheavy"
+		"cost" 152500000
+		"shields" 59000
+		"hull" 16000
+		"required crew" 125
+		"bunks" 201
+		"mass" 740
+		"drag" 12
+		"heat dissipation" .35
+		"fuel capacity" 600
+		"cargo space" 333
+		"outfit space" 1081
+		"weapon capacity" 446
+		"engine capacity" 145
+		weapon
+			"blast radius" 2000
+			"shield damage" 15000
+			"hull damage" 7500
+			"hit force" 17500
+	outfits
+		"Systems Core (Large)" 3
+		"Repair Team"
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 112
+		"Bullfrog Anti-Missile" 6
+		"Ionic Turret Prototype" 6
+		"White Sun Reactor"
+		"Large Heat Shunt"
+		"Jump Drive"
+		"Fuel Processor" 2
+		"Predator Engine"
+		"Pulse Rifle" 180
+	gun -28.5 -142.5
+	gun 28.5 -142.5
+	turret -24.5 -123
+	turret 24.5 -123
+	turret 20 -74
+	turret -20 -74
+	turret -42.5 19.5
+	turret 42.5 19.5
+	turret -27 108.5
+	turret 27 108.5
+	turret -27 144
+	turret 27 144
+	# these two are not at the right place
+	turret 10 160
+	turret -10 160
+	bay "Drone" -87 -134.5 over
+	bay "Drone" 87 -134.5 over
+	bay "Drone" -29.5 -101.5 over
+	bay "Drone" 29.5 -101.5 over
+	bay "Drone" 79.5 -60 over
+	bay "Drone" -79.5 -60 over
+	bay "Drone" -29.5 -17.5 over
+	bay "Drone" 29.5 -17.5 over
+	bay "Drone" -128 -2 over
+	bay "Drone" 128 -2 over
+	bay "Drone" -76.5 37.5 over
+	bay "Drone" 76.5 37.5 over
+	bay "Drone" -30 88.5 over
+	bay "Drone" 30 88.5 over
+	bay "Drone" -127.5 88.5 over
+	bay "Drone" 127.5 88.5 over
+	bay "Drone" -78 128 over
+	bay "Drone" 78 128 over
+	bay "Drone" -29.5 172.5 over
+	bay "Drone" 29.5 172.5 over
+
+	bay "Drone" -88 -133 left under
+	bay "Drone" 88 -133 right under
+	bay "Drone" -78.5 -59 left under
+	bay "Drone" 78.5 -59 right under
+	bay "Drone" -127.5 -2 left under
+	bay "Drone" 127.5 -2 right under
+	bay "Drone" -78.5 38 left under
+	bay "Drone" 78.5 38 right under
+	bay "Drone" -127.5 88 left under
+	bay "Drone" 127.5 88 right under
+	bay "Drone" -78.5 127.5 left under
+	bay "Drone" 78.5 127.5 right under
+
+	engine -22.5 218
+	engine 22.5 218
+	description "This is an old super carrier design that was deemed too expensive and unpractical by the Hai. That did not prevent the Unfettered from using it."

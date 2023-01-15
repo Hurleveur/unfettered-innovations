@@ -32,6 +32,19 @@ fleet "Tarentulas"
 	variant
 		"Tarentula (Octa Annihilators)"
 		"Violin Spider (Bomber)" 4
+	variant
+		"Tarentula (Ionic)"
+		"Violin Spider (Bomber)" 4
+
+
+
+fleet "Lycosidae"
+	government "Hai (Unfettered)
+	names "hai"
+	personality disable plunders vindictive
+	variant
+		"Lycosidae"
+		"Flycatcher" 32
 
 
 

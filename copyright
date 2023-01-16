@@ -4,7 +4,7 @@ Upstream-Contact: Hurleveur <belliorum@gmail.com>
 Source: https://github.com/Hurleveur/unfettered-innovations
 
 Files: *
-Copyright: Hurleveur <belliorum@gmail.com>
+Copyright: Hurleveur (https://github.com/Hurleveur)
 
 Files:
  images/ship/hai?mantis*
@@ -14,6 +14,13 @@ Files:
 Copyright: Ejo Thims
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
+
+Files:
+ images/ship/hai?lycosidae*
+ images/thumbnail/hai?lycosidae*
+Copyright: Ejo Thims
+License: CC-BY-SA-4.0
+Comment: Derived from works by LocalGod, Becca Tommaso and Michael Zahniser (under the same license).
 
 Files:
  icon*.png
@@ -39,8 +46,10 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
 
-Files: images/outfit/repair?team*
+Files:
+ images/outfit/repair?team*
 Copyright: Various
 License: public-domain
  Taken from unsplash.com, a collection of photographs that have been donated and
  placed in the public domain.
+

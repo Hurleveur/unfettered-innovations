@@ -1,3 +1,44 @@
+ship "Tarentula" "Tarentula (Octa Annihilators)"
+	outfits
+		"Octa Annihilator" 3
+		"Chameleon Anti-Missile" 3
+		"Boulder Reactor"
+		"Hai Diamond Regenerator"
+		"Ruby Regenerator"
+		"Hai Ravine Batteries"
+		"Monolith Core"
+		"Hai Zephyr Cooling" 4
+		"Quantum Keystone"
+		"Predator Engine"
+		`"Biroo" Atomic Steering`
+		"Cargo Expansion"
+		"Pulse Rifle" 200
+		"Jump Drive"
+		"Repair Team"
+		"Value Detector"
+	cargo
+		outfits
+			"Nest Bomb" 20
+
+ship "Tarentula" "Tarentula (Ionic)"
+	outfits
+		"Ionic Turret Prototype" 6
+		"Chameleon Anti-Missile" 2
+		"Ionic Blaster Prototype" 3
+		"Pulse Cannon"
+		"Boulder Reactor"
+		"Hai Diamond Regenerator"
+		"Ruby Regenerator"
+		"Hai Ravine Batteries"
+		"Monolith Core"
+		"Hai Zephyr Cooling" 4
+		"Quantum Keystone"
+		"Predator Engine"
+		"Pulse Rifle" 200
+		"Jump Drive"
+		"Repair Team"
+		"Value Detector"
+
 ship "Phrynus" "OmegaPhrynus"
 	add attributes
 		"integrated bombing" 27
@@ -70,6 +111,20 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Quantum Keystone"
 		"Value Detector" 2
 
+ship "Phrynus" "Phrynus (Octa)"
+	outfits
+		"Hai Diamond Regenerator"
+		"Hai Valley Batteries"
+		"Hai Williwaw Cooling"
+		"Hai Zephyr Cooling" 3
+		"Jump Drive"
+		"Monolith Core"
+		"Octa Annihilator" 2
+		"Predator Engine"
+		"Quantum Keystone"
+		"Ruby Regenerator"
+		"Value Detector" 2
+
 ship "Phrynus" "Phrynus (Long Range Ion)"
 	outfits
 		"Ion Cannon" 4
@@ -100,7 +155,7 @@ ship "Phrynus" "Phrynus (Ion Tracker)"
 		"Ruby Regenerator"
 		"Value Detector"
 
-ship "Phrynus" "Phrynus (Tracker Focus)"
+ship "Phrynus" "Phrynus (Tracker)"
 	outfits
 		"Boulder Reactor"
 		"Hai Chasm Batteries" 2
@@ -197,3 +252,25 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 	gun 0 -31
 	gun 0 -31
 	gun 0 -31
+
+ship "Flycatcher" "Flycatcher (Chameleon)"
+	outfits
+		"Chameleon Anti-Missile"
+		
+		"Small Biochemical Cell"
+		
+		`"Baellie" Atomic Engines`
+
+		"Cargo Expansion"
+		"Value Detector"
+		"Quantum Keystone"
+
+ship "Flycatcher" "FlyEater"
+	outfits
+		"Quad Railgun Turret"
+		"Railgun Slug Storage"
+		"Railgun Slug" 7000
+
+		"Small Biochemical Cell"
+		
+		`"Baellie" Atomic Engines`

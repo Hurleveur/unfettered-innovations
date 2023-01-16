@@ -267,7 +267,7 @@ ship "Flycatcher" "Flycatcher (Chameleon)"
 
 ship "Flycatcher" "FlyEater"
 	outfits
-		"Quad Railgun"
+		"Quad Railgun Turret"
 		"Railgun Slug Storage"
 		"Railgun Slug" 7000
 

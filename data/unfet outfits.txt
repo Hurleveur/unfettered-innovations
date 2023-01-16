@@ -373,7 +373,7 @@ outfit "Repair Team"
 
 
 
-outfit "Quad Railgun"
+outfit "Quad Railgun Turret"
 	category "Secondary Weapons"
 	cost 150000
 	thumbnail "outfit/railgun"

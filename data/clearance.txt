@@ -10,7 +10,7 @@ outfitter "Unfettered Basics"
 	add "Ruby Regenerator"
 	add "Kraken Jammer"
 	add "Repair Team"
-	add "Quad Railgun"
+	add "Quad Railgun Turret"
 	add "Railgun Slug Storage"
 
 outfitter "Unfettered Basics"
@@ -78,4 +78,5 @@ mission "Access Granted"
 				"No. War shall continue, forever!"
 					decline
 	on defer
+		set "license: Unfettered Militia"
 		"reputation: Hai (Unfettered)" >?= 1000

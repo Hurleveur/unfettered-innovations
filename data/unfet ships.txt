@@ -208,55 +208,56 @@ ship "Lycosidae"
 		"Fuel Processor" 2
 		"Predator Engine"
 		"Pulse Rifle" 180
-	gun -28.5 -142.5
-	gun 28.5 -142.5
-	turret -24.5 -123
-	turret 24.5 -123
-	turret 20 -74
-	turret -20 -74
-	turret -42.5 19.5
-	turret 42.5 19.5
-	turret -27 108.5
-	turret 27 108.5
-	turret -27 144
-	turret 27 144
-	# these two are not at the right place
-	turret 10 160
-	turret -10 160
-	bay "Drone" -87 -134.5 over
-	bay "Drone" 87 -134.5 over
-	bay "Drone" -29.5 -101.5 over
-	bay "Drone" 29.5 -101.5 over
-	bay "Drone" 79.5 -60 over
-	bay "Drone" -79.5 -60 over
-	bay "Drone" -29.5 -17.5 over
-	bay "Drone" 29.5 -17.5 over
-	bay "Drone" -128 -2 over
-	bay "Drone" 128 -2 over
-	bay "Drone" -76.5 37.5 over
-	bay "Drone" 76.5 37.5 over
-	bay "Drone" -30 88.5 over
-	bay "Drone" 30 88.5 over
-	bay "Drone" -127.5 88.5 over
-	bay "Drone" 127.5 88.5 over
-	bay "Drone" -78 128 over
-	bay "Drone" 78 128 over
-	bay "Drone" -29.5 172.5 over
-	bay "Drone" 29.5 172.5 over
+	gun -28.5 -170.5 
+	gun 28.5 -170.5 
+	turret 0.5 -180 
+	turret -10.5 -166.5 
+	turret 10.5 -166.5 
+	turret -23 -143 
+	turret 23 -143 
+	turret 0.5 -95 
+	turret -43 0 
+	turret 43 0 
+	turret -0.5 91.5 
+	turret -39 129.5 
+	turret 39 129.5 
+	turret 0.5 140 
+	bay "Drone" -88.5 -154.5 over
+	bay "Drone" 88.5 -154.5 over
+	bay "Drone" -29.5 -121.5 over
+	bay "Drone" 29.5 -121.5 over
+	bay "Drone" -78.5 -79.5 over
+	bay "Drone" 78.5 -79.5 over
+	bay "Drone" -29.5 -37.5 over
+	bay "Drone" 29.5 -37.5 over
+	bay "Drone" -129.5 -21.5 over
+	bay "Drone" 129.5 -21.5 over
+	bay "Drone" -78.5 17.5 over
+	bay "Drone" 78.5 17.5 over
+	bay "Drone" -129 68.5 over
+	bay "Drone" 129 68.5 over
+	bay "Drone" -30 68.5 over
+	bay "Drone" 30 68.5 over
+	bay "Drone" -78 108 over
+	bay "Drone" 78 108 over
+	bay "Drone" -30 151.5 over
+	bay "Drone" 30 151.5 over
 
-	bay "Drone" -88 -133 left under
-	bay "Drone" 88 -133 right under
-	bay "Drone" -78.5 -59 left under
-	bay "Drone" 78.5 -59 right under
-	bay "Drone" -127.5 -2 left under
-	bay "Drone" 127.5 -2 right under
-	bay "Drone" -78.5 38 left under
-	bay "Drone" 78.5 38 right under
-	bay "Drone" -127.5 88 left under
-	bay "Drone" 127.5 88 right under
-	bay "Drone" -78.5 127.5 left under
-	bay "Drone" 78.5 127.5 right under
 
-	engine -22.5 218
-	engine 22.5 218
+	bay "Drone" -87.5 -153.5 left under
+	bay "Drone" 87.5 -153.5 right under
+	bay "Drone" -78.5 -79.5 left under
+	bay "Drone" 78.5 -79.5 right under
+	bay "Drone" -128.5 -21.5 left under
+	bay "Drone" 128.5 -21.5 right under
+	bay "Drone" -77.5 17.5 left under
+	bay "Drone" 77.5 17.5 right under
+	bay "Drone" -129 69 left under
+	bay "Drone" 129 69 right under
+	bay "Drone" -78 108 left under
+	bay "Drone" 78 108 right under
+
+	"reverse engine" 0 -193.5 
+	engine -23.5 197
+	engine 23.5 197
 	description "This is an old super carrier design that was deemed too expensive and unpractical by the Hai. That did not prevent the Unfettered from using it."

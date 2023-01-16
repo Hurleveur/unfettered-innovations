@@ -252,3 +252,25 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 	gun 0 -31
 	gun 0 -31
 	gun 0 -31
+
+ship "Flycatcher" "Flycatcher (Chameleon)"
+	outfits
+		"Chameleon Anti-Missile"
+		
+		"Small Biochemical Cell"
+		
+		`"Baellie" Atomic Engines`
+
+		"Cargo Expansion"
+		"Value Detector"
+		"Quantum Keystone"
+
+ship "Flycatcher" "FlyEater"
+	outfits
+		"Quad Railgun"
+		"Railgun Slug Storage"
+		"Railgun Slug" 7000
+
+		"Small Biochemical Cell"
+		
+		`"Baellie" Atomic Engines`

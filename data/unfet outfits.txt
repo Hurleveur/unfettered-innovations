@@ -370,3 +370,60 @@ outfit "Repair Team"
 	"repair delay" 600
 	unplunderable 1
 	description "The Unfettered sometimes bring a whole repair team, for their most important ships. These are the most intrepid engineers, ready to make emergency repairs whenever the conditions allow it. The team costs a lot to hire at first, along with their equipement. This also includes operating costs to acquire the materials, and cargo space to store them."
+
+
+
+outfit "Quad Railgun"
+	category "Secondary Weapons"
+	cost 150000
+	thumbnail "outfit/railgun"
+	"mass" 10
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	"required crew" 2
+	"railgun slug capacity" 2000
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"turret turn" 3
+		ammo "Railgun Slug" 4
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2100
+		"reload" 12
+		"firing energy" 3.5
+		"firing heat" 7.2
+		"firing force" 70
+		"stream"
+		"submunition" "rslug" 1
+			"offset" 0.75 0
+			"facing" 0.05
+		"submunition" "rslug" 1
+			"offset" -0.75 0
+			"facing" -0.05
+		"submunition" "rslug" 1
+			"offset" 1.5 0
+			"facing" .1
+		"submunition" "rslug" 1
+			"offset" -1.5 0
+			"facing" -0.1
+	description "This is an overturned turreted version of the Hai Railgun, after the Unfettered were able to steal the plans for it. It may not have as much ammo, meaning one often has to get an ammo pack on top of it, but it makes up for it by having much more firepower."
+
+
+outfit "Railgun Slug Storage"
+	category "Ammunition"
+	cost 15000
+	thumbnail "outfit/railslug rack"
+	"mass" 5
+	"outfit space" -19
+	"railgun slug capacity" 5000
+	ammo "Railgun Slug"
+	description "The railgun slug storage is used to store and load a lot of extra railgun ammunition."
+
+	

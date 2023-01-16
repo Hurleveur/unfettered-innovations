@@ -44,7 +44,8 @@ fleet "Lycosidae"
 	personality disable plunders vindictive
 	variant
 		"Lycosidae"
-		"Flycatcher" 32
+		"Flycatcher (Cameleon)" 10
+		"FlyEater" 22
 
 
 

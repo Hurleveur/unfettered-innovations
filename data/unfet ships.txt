@@ -187,7 +187,7 @@ ship "Lycosidae"
 		"heat dissipation" .35
 		"fuel capacity" 600
 		"cargo space" 333
-		"outfit space" 1081
+		"outfit space" 1106
 		"weapon capacity" 446
 		"engine capacity" 145
 		weapon
@@ -202,7 +202,7 @@ ship "Lycosidae"
 		"Hai Tracker" 112
 		"Bullfrog Anti-Missile" 6
 		"Ionic Turret Prototype" 6
-		"White Sun Reactor"
+		"Blue Sun Reactor"
 		"Large Heat Shunt"
 		"Jump Drive"
 		"Fuel Processor" 2

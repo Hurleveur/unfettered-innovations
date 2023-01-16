@@ -65,6 +65,7 @@ shipyard "Unfettered Basics"
 
 mission "Access Granted"
 	landing
+	invisible
 	source
 		attributes "unfettered"
 	to offer
@@ -76,7 +77,19 @@ mission "Access Granted"
 				"I accept."
 					defer
 				"No. War shall continue, forever!"
-					decline
+					accept
 	on defer
 		set "license: Unfettered Militia"
 		"reputation: Hai (Unfettered)" >?= 1000
+	on enter
+		dialog "You say you want to fight, human? Time to test your might."
+	npc save
+		government "Hai (Unfettered)"
+		fleet "Lycosidae"
+		to spawn
+			"ships: Light Warship" * 4 + "ships: Medium Warship" * 6 + "ships: Heavy Warship" * 12 <= 50
+	on fail
+		dialog "How.. HOW? HOW COULD YOU? Anyway, well done! Truly you deserve to be welcomed among us for being able to take on such a foe. If you really want the show to go on, I'm sure our captains would be delighted to try and put you down... They just will not fire the first shot."
+		"reputation: Hai (Unfettered)" >?= 0
+	to complete
+		never

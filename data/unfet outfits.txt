@@ -75,7 +75,7 @@ outfit "Pulse Submunition"
 outfit "Octa Annihilator"
 	category "Turrets"
 	cost 4000000
-	thumbnail "outfit/penta pulser"
+	thumbnail "outfit/unknown"
 	mass 150
 	"outfit space" -100
 	"weapon capacity" -150
@@ -376,7 +376,7 @@ outfit "Repair Team"
 outfit "Quad Railgun Turret"
 	category "Secondary Weapons"
 	cost 150000
-	thumbnail "outfit/railgun"
+	thumbnail "outfit/unknown"
 	"mass" 10
 	"outfit space" -28
 	"weapon capacity" -28
@@ -419,7 +419,7 @@ outfit "Quad Railgun Turret"
 outfit "Railgun Slug Storage"
 	category "Ammunition"
 	cost 15000
-	thumbnail "outfit/railslug rack"
+	thumbnail "outfit/unknown"
 	"mass" 5
 	"outfit space" -19
 	"railgun slug capacity" 5000

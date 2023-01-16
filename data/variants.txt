@@ -155,7 +155,7 @@ ship "Phrynus" "Phrynus (Ion Tracker)"
 		"Ruby Regenerator"
 		"Value Detector"
 
-ship "Phrynus" "Phrynus (Tracker Focus)"
+ship "Phrynus" "Phrynus (Tracker)"
 	outfits
 		"Boulder Reactor"
 		"Hai Chasm Batteries" 2

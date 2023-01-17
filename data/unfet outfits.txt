@@ -88,12 +88,11 @@ outfit "Octa Annihilator"
 			scale 3
 		sound "pulse"
 		"inaccuracy" 2
-		"lifetime" 1000
 		"turret turn" .5
 		"reload" 100
 		"hit effect" "pulse impact"
 		"velocity" 15
-		"lifetime" 300
+		"lifetime" 150
 		"reload" 100
 		"firing energy" 1200
 		"firing heat" 3500

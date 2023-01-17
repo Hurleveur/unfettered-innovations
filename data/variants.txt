@@ -39,6 +39,9 @@ ship "Tarentula" "Tarentula (Ionic)"
 		"Repair Team"
 		"Value Detector"
 
+
+
+# unique Phrynus to beat the arfectas with
 ship "Phrynus" "OmegaPhrynus"
 	add attributes
 		"integrated bombing" 27
@@ -94,6 +97,7 @@ ship "Phrynus" "OmegaPhrynus"
 	gun 0 -26 "Dagger Bomb Launcher"
 	turret -66 67
 	turret 66 67
+
 
 ship "Phrynus" "Phrynus (Ion Focus)"
 	outfits
@@ -219,7 +223,8 @@ ship "Phrynus" "Phrynus (Miner)"
 		"Value Detector"
 
 
-# variant that fits an am but only that and it cant be removed
+
+# variant that fits an unremovable AM
 ship "Violin Spider" "Violin Spider (Webber)"
 	add attributes
 		"integrated chameleon" 1
@@ -231,6 +236,7 @@ ship "Violin Spider" "Violin Spider (Webber)"
 		"Pulse Rifle"
 		`"Basrem" Atomic Steering`
 		`"Basrem" Atomic Thruster`		
+
 
 ship "Violin Spider" "Violin Spider (Bomber)"
 	add attributes
@@ -253,6 +259,9 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 	gun 0 -31
 	gun 0 -31
 
+
+
+# hacked wanderer drones, using the AI from the Hai drones
 ship "Flycatcher" "Flycatcher (Chameleon)"
 	outfits
 		"Chameleon Anti-Missile"
@@ -264,6 +273,7 @@ ship "Flycatcher" "Flycatcher (Chameleon)"
 		"Cargo Expansion"
 		"Value Detector"
 		"Quantum Keystone"
+
 
 ship "Flycatcher" "FlyEater"
 	outfits

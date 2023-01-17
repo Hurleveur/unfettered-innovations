@@ -75,7 +75,7 @@ outfit "Pulse Submunition"
 outfit "Octa Annihilator"
 	category "Turrets"
 	cost 4000000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/octa annihilator"
 	mass 150
 	"outfit space" -100
 	"weapon capacity" -150
@@ -103,6 +103,60 @@ outfit "Octa Annihilator"
 		"hit force" 500
 	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
 	description "The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
+
+
+outfit "Quad Railgun Turret"
+	category "Secondary Weapons"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	"required crew" 2
+	"railgun slug capacity" 2000
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"turret turn" 3
+		ammo "Railgun Slug" 4
+		icon "icon/rail gun"
+		sound "ion impact"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 3
+		"velocity" 44
+		"lifetime" 1
+		"range override" 2100
+		"reload" 12
+		"firing energy" 3.5
+		"firing heat" 7.2
+		"firing force" 70
+		"stream"
+		"submunition" "rslug" 1
+			"offset" 0.75 0
+			"facing" 0.05
+		"submunition" "rslug" 1
+			"offset" -0.75 0
+			"facing" -0.05
+		"submunition" "rslug" 1
+			"offset" 1.5 0
+			"facing" .1
+		"submunition" "rslug" 1
+			"offset" -1.5 0
+			"facing" -0.1
+	description "This is an overturned turreted version of the Hai Railgun, after the Unfettered were able to steal the plans for it. It may not have as much ammo, meaning one often has to get an ammo pack on top of it, but it makes up for it by having much more firepower."
+
+
+outfit "Railgun Slug Storage"
+	category "Ammunition"
+	cost 15000
+	thumbnail "outfit/unknown"
+	"mass" 5
+	"outfit space" -19
+	"railgun slug capacity" 5000
+	ammo "Railgun Slug"
+	description "The railgun slug storage is used to store and load a lot of extra railgun ammunition."
 
 
 # invisible on all bombardiers violin
@@ -168,6 +222,7 @@ outfit "Dagger Bomb Launcher"
 		"turn" 1
 
 
+# overheat = dead
 outfit "Nest Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
@@ -248,7 +303,6 @@ effect "small unfettered afterburner"
 	"random frame rate" 2
 
 
-
 # comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
 # 32 + 28 + 76 + 63
 outfit "Predator Engine"
@@ -292,7 +346,6 @@ outfit "Predator Engine"
 	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
 	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."
 
-
 effect "large unfettered afterburner"
 	sprite "effect/atomic flare/large"
 		"frame rate" 120
@@ -314,17 +367,16 @@ outfit "Hai Zephyr Cooling"
 	description `	Although advanced for the Hai, the Korath meant this "simple" hydrogen-circulating cooler to be an easy-to-understand stopgap for immediate production, while they brought the Hai up to speed with "proper" heat shunt theory and design.`
 
 
-
-outfit "Monolith Core"
-	category "Power"
-	cost 9350000
-	thumbnail "outfit/unknown"
-	"mass" 121
-	"outfit space" -121
-	"energy generation" 23.1
-	"heat generation" 60.4
-	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered reused this old Hai generator, dating back to when Hai weapons were less optimized, and would require more energy to operate."
-
+outfit "Kraken Jammer"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/hai jammer overclocked"
+	mass 35
+	"outfit space" 35
+	"energy consumption" 5
+	"cooling" 25
+	"radar jamming" 50
+	description "To counter the Thunderhead, the Unfettered devised this ingenious combination between a jammer and a cooling system."
 
 
 outfit "Ruby Regenerator"
@@ -343,20 +395,6 @@ outfit "Ruby Regenerator"
 	description "This shield generator constantly needs to consume power in order to keep itself in functioning temperatures."
 
 
-
-outfit "Kraken Jammer"
-	category "Systems"
-	cost 1000000
-	thumbnail "outfit/hai jammer overclocked"
-	mass 35
-	"outfit space" 35
-	"energy consumption" 5
-	"cooling" 25
-	"radar jamming" 50
-	description "To counter the Thunderhead, the Unfettered devised this ingenious combination between a jammer and a cooling system."
-
-
-
 outfit "Repair Team"
 	category "Systems"
 	cost 6500000
@@ -373,57 +411,12 @@ outfit "Repair Team"
 
 
 
-outfit "Quad Railgun Turret"
-	category "Secondary Weapons"
-	cost 150000
+outfit "Monolith Core"
+	category "Power"
+	cost 9350000
 	thumbnail "outfit/unknown"
-	"mass" 10
-	"outfit space" -28
-	"weapon capacity" -28
-	"turret mounts" -1
-	"required crew" 2
-	"railgun slug capacity" 2000
-	weapon
-		sprite "projectile/rail slug"
-			"frame rate" 30
-		"turret turn" 3
-		ammo "Railgun Slug" 4
-		icon "icon/rail gun"
-		sound "ion impact"
-		"fire effect" "rail sparks"
-		"hit effect" "bullet impact"
-		"inaccuracy" 3
-		"velocity" 44
-		"lifetime" 1
-		"range override" 2100
-		"reload" 12
-		"firing energy" 3.5
-		"firing heat" 7.2
-		"firing force" 70
-		"stream"
-		"submunition" "rslug" 1
-			"offset" 0.75 0
-			"facing" 0.05
-		"submunition" "rslug" 1
-			"offset" -0.75 0
-			"facing" -0.05
-		"submunition" "rslug" 1
-			"offset" 1.5 0
-			"facing" .1
-		"submunition" "rslug" 1
-			"offset" -1.5 0
-			"facing" -0.1
-	description "This is an overturned turreted version of the Hai Railgun, after the Unfettered were able to steal the plans for it. It may not have as much ammo, meaning one often has to get an ammo pack on top of it, but it makes up for it by having much more firepower."
-
-
-outfit "Railgun Slug Storage"
-	category "Ammunition"
-	cost 15000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -19
-	"railgun slug capacity" 5000
-	ammo "Railgun Slug"
-	description "The railgun slug storage is used to store and load a lot of extra railgun ammunition."
-
-	
+	"mass" 121
+	"outfit space" -121
+	"energy generation" 23.1
+	"heat generation" 60.4
+	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered reused this old Hai generator, dating back to when Hai weapons were less optimized, and would require more energy to operate."

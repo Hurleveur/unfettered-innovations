@@ -20,6 +20,7 @@ fleet "Phrynuses"
 	variant
 		"Phrynus (Octa)"
 
+
 fleet "Tarentulas"
 	government "Hai (Unfettered)"
 	names "hai"
@@ -37,7 +38,6 @@ fleet "Tarentulas"
 		"Violin Spider (Bomber)" 4
 
 
-
 fleet "Lycosidae"
 	government "Hai (Unfettered)"
 	names "hai"
@@ -47,6 +47,25 @@ fleet "Lycosidae"
 		"Flycatcher (Chameleon)" 10
 		"FlyEater" 22
 
+
+
+fleet "Small Unfettered"
+	add variant
+		"Phrynus (Ion Focus)"
+	add variant
+		"Phrynus (Long Range Ion)"
+	add variant
+		"Phrynus (Ion Tracker)"
+	add variant
+		"Phrynus (Tracker)"
+	add variant
+		"Phrynus (Ruby Shredder)"
+	add variant
+		"Phrynus (Penta Blaster)"
+	add variant
+		"Phrynus (Miner)"
+	add variant
+		"Phrynus (Octa)"
 
 
 fleet "Large Unfettered"
@@ -86,22 +105,3 @@ fleet "Large Unfettered"
 		"Phrynus (Miner)"
 	add variant 4
 		"Phrynus (Octa)" 3
-
-
-fleet "Small Unfettered"
-	add variant
-		"Phrynus (Ion Focus)"
-	add variant
-		"Phrynus (Long Range Ion)"
-	add variant
-		"Phrynus (Ion Tracker)"
-	add variant
-		"Phrynus (Tracker)"
-	add variant
-		"Phrynus (Ruby Shredder)"
-	add variant
-		"Phrynus (Penta Blaster)"
-	add variant
-		"Phrynus (Miner)"
-	add variant
-		"Phrynus (Octa)"

@@ -1,3 +1,86 @@
+ship "Phrynus"
+	plural Phrynuses
+	sprite "ship/hai phrynus"
+	thumbnail "thumbnail/hai phrynus"
+	attributes
+		category "Heavy Warship"
+		"cost" 21400000
+		"shields" 26500
+		"hull" 11200
+		"required crew" 34
+		"bunks" 62
+		"mass" 820
+		"drag" 7.2
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 200
+		"outfit space" 763
+		"weapon capacity" 330
+		"engine capacity" 145
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
+	outfits
+		"Bullfrog Anti-Missile" 2
+		"Hai Corundum Regenerator"
+		"Hai Diamond Regenerator"
+		"Hai Ravine Batteries"
+		"Hai Zephyr Cooling" 2
+		"Ion Cannon" 4
+		"Ionic Blaster Prototype" 4
+		"Jump Drive"
+		"Monolith Core"
+		"Predator Engine"
+		"Quantum Keystone"
+		"Tripulse Shredder"
+		"Value Detector"
+	gun -110.5 -104 "Ion Cannon"
+	gun 110.5 -104 "Ion Cannon"
+	gun -118.5 -108 "Ion Cannon"
+	gun 118.5 -108 "Ion Cannon"
+	gun -50 -26 "Ionic Blaster Prototype"
+	gun 50 -26 "Ionic Blaster Prototype"
+	gun -31 -23 "Ionic Blaster Prototype"
+	gun 31 -23 "Ionic Blaster Prototype"
+	gun 0 -26 "Tripulse Shredder"
+	turret -66 67 "Bullfrog Anti-Missile"
+	turret 66 67 "Bullfrog Anti-Missile"
+	engine -38.5 100.5
+		angle 16
+		under
+	engine 38.5 100.5
+		angle -16
+		under
+	"steering engine" -38.5 100.5
+		zoom .7
+		angle 16
+		under
+		right
+	"steering engine" 38.5 100.5
+		zoom .7
+		angle -16
+		under
+		left
+	"reverse engine" -82 -24 
+	"reverse engine" 82 -24 
+	"reverse engine" -14 -13.5 
+	"reverse engine" 14 -13.5
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 60 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
+	description "Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
+
+
+
 ship "Tarentula"
 	sprite "ship/hai tarentula"
 	thumbnail "thumbnail/hai tarentula"
@@ -86,89 +169,6 @@ ship "Tarentula"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they build that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
-
-
-
-ship "Phrynus"
-	plural Phrynuses
-	sprite "ship/hai phrynus"
-	thumbnail "thumbnail/hai phrynus"
-	attributes
-		category "Heavy Warship"
-		"cost" 21400000
-		"shields" 26500
-		"hull" 11200
-		"required crew" 34
-		"bunks" 62
-		"mass" 820
-		"drag" 7.2
-		"heat dissipation" .6
-		"fuel capacity" 600
-		"cargo space" 200
-		"outfit space" 763
-		"weapon capacity" 330
-		"engine capacity" 145
-		weapon
-			"blast radius" 400
-			"shield damage" 4000
-			"hull damage" 2000
-			"hit force" 3000
-	outfits
-		"Bullfrog Anti-Missile" 2
-		"Hai Corundum Regenerator"
-		"Hai Diamond Regenerator"
-		"Hai Ravine Batteries"
-		"Hai Zephyr Cooling" 2
-		"Ion Cannon" 4
-		"Ionic Blaster Prototype" 4
-		"Jump Drive"
-		"Monolith Core"
-		"Predator Engine"
-		"Quantum Keystone"
-		"Tripulse Shredder"
-		"Value Detector"
-	gun -110.5 -104 "Ion Cannon"
-	gun 110.5 -104 "Ion Cannon"
-	gun -118.5 -108 "Ion Cannon"
-	gun 118.5 -108 "Ion Cannon"
-	gun -50 -26 "Ionic Blaster Prototype"
-	gun 50 -26 "Ionic Blaster Prototype"
-	gun -31 -23 "Ionic Blaster Prototype"
-	gun 31 -23 "Ionic Blaster Prototype"
-	gun 0 -26 "Tripulse Shredder"
-	turret -66 67 "Bullfrog Anti-Missile"
-	turret 66 67 "Bullfrog Anti-Missile"
-	engine -38.5 100.5
-		angle 16
-		under
-	engine 38.5 100.5
-		angle -16
-		under
-	"steering engine" -38.5 100.5
-		zoom .7
-		angle 16
-		under
-		right
-	"steering engine" 38.5 100.5
-		zoom .7
-		angle -16
-		under
-		left
-	"reverse engine" -82 -24 
-	"reverse engine" 82 -24 
-	"reverse engine" -14 -13.5 
-	"reverse engine" 14 -13.5
-	leak "leak" 40 50
-	leak "flame" 50 80
-	leak "big leak" 60 50
-	explode "tiny explosion" 50
-	explode "small explosion" 50
-	explode "medium explosion" 50
-	explode "large explosion" 50
-	explode "huge explosion" 20
-	"final explode" "final explosion large"
-	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
-	description "Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
 
 
 

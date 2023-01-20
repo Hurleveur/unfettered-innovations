@@ -16,6 +16,7 @@ outfitter "Unfettered Basics"
 	add "Repair Team"
 	add "Quad Railgun Turret"
 	add "Railgun Slug Storage"
+	add "Railgun Slug"
 
 outfitter "Unfettered Basics"
 	add "Ionic Blaster Prototype"

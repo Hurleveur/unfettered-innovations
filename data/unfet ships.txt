@@ -181,7 +181,7 @@ ship "Lycosidae"
 		"shields" 59000
 		"hull" 16000
 		"required crew" 125
-		"bunks" 201
+		"bunks" 210
 		"mass" 740
 		"drag" 12
 		"heat dissipation" .35

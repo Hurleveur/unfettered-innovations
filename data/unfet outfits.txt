@@ -76,14 +76,14 @@ outfit "Octa Annihilator"
 	category "Turrets"
 	cost 4000000
 	thumbnail "outfit/octa annihilator"
-	mass 150
+	mass 130
 	"outfit space" -100
-	"weapon capacity" -150
+	"weapon capacity" -111
 	"turret mounts" -1
-	"required crew" 8
+	"required crew" 5
 	weapon
 		"hardpoint sprite" "hardpoint/penta pulser"
-		"hardpoint offset" 40
+		"hardpoint offset" 50
 		sprite "projectile/pulse"
 			scale 3
 		sound "pulse"
@@ -92,6 +92,8 @@ outfit "Octa Annihilator"
 		"reload" 100
 		"hit effect" "pulse impact"
 		"velocity" 15
+		"acceleration" .3
+		"drag" 0.01
 		"lifetime" 150
 		"reload" 100
 		"firing energy" 1200
@@ -101,7 +103,7 @@ outfit "Octa Annihilator"
 		"blast radius" 50
 		"hit force" 500
 	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
-	description "The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
+	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
 
 
 outfit "Quad Railgun Turret"

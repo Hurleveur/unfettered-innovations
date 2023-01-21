@@ -181,14 +181,14 @@ ship "Lycosidae"
 		"shields" 59000
 		"hull" 16000
 		"required crew" 125
-		"bunks" 210
+		"bunks" 211
 		"mass" 740
 		"drag" 12
 		"heat dissipation" .35
 		"fuel capacity" 600
 		"cargo space" 333
-		"outfit space" 1106
-		"weapon capacity" 446
+		"outfit space" 1101
+		"weapon capacity" 350
 		"engine capacity" 145
 		weapon
 			"blast radius" 2000
@@ -196,32 +196,35 @@ ship "Lycosidae"
 			"hull damage" 7500
 			"hit force" 17500
 	outfits
-		"Systems Core (Large)" 3
+		"Systems Core (Large)" 4
 		"Repair Team"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
-		"Bullfrog Anti-Missile" 6
-		"Ionic Turret Prototype" 6
+		"Chameleon Anti-Missile" 4
+		"Quad Railgun Turret" 8
+		"Railgun Slug" 16000
 		"Blue Sun Reactor"
 		"Large Heat Shunt"
 		"Jump Drive"
 		"Fuel Processor" 2
 		"Predator Engine"
-		"Pulse Rifle" 180
+		"Pulse Rifle" 201
+	cargo
+		"Railgun Slug" 80000
 	gun -28.5 -170.5 
 	gun 28.5 -170.5 
-	turret 0.5 -180 "Ionic Turret Prototype"
-	turret -10.5 -166.5 "Ionic Turret Prototype"
-	turret 10.5 -166.5 "Ionic Turret Prototype"
-	turret -23 -143 "Bullfrog Anti-Missile"
-	turret 23 -143 "Bullfrog Anti-Missile"
-	turret 0.5 -95 "Ionic Turret Prototype"
-	turret -43 0 "Bullfrog Anti-Missile"
-	turret 43 0 "Bullfrog Anti-Missile"
-	turret -0.5 91.5 "Ionic Turret Prototype"
-	turret -39 129.5 "Bullfrog Anti-Missile"
-	turret 39 129.5 "Bullfrog Anti-Missile"
-	turret 0.5 140 "Ionic Turret Prototype"
+	turret 0.5 -180
+	turret -10.5 -166.5
+	turret 10.5 -166.5
+	turret -23 -143 "Chameleon Anti-Missile"
+	turret 23 -143 "Chameleon Anti-Missile"
+	turret 0.5 -95
+	turret -43 0
+	turret 43 0
+	turret -0.5 91.5
+	turret -39 129.5 "Chameleon Anti-Missile"
+	turret 39 129.5 "Chameleon Anti-Missile"
+	turret 0.5 140
 	bay "Drone" -88.5 -154.5 over
 	bay "Drone" 88.5 -154.5 over
 	bay "Drone" -29.5 -121.5 over

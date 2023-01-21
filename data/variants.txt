@@ -1,18 +1,20 @@
-ship "Lycosidae" "Lycosidae (Railgun)"
+ship "Lycosidae" "Lycosidae (Brawler)"
+	add attributes
+		"weapon capacity" 96
+		"outfit space" 5
 	outfits
+		"Systems Core (Large)" 3
+		"Repair Team"
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 112
+		"Bullfrog Anti-Missile" 6
+		"Ionic Turret Prototype" 6
 		"Blue Sun Reactor"
-		"Crux Stone "
-		"Fuel Processor" 2
+		"Large Heat Shunt"
 		"Jump Drive"
-		"Liquid Sodium Cooler"
-		"Outfits Expansion" 5
+		"Fuel Processor" 2
 		"Predator Engine"
-		"Pulse Rifle" 180
-		"Quad Railgun Turret" 12
-		Railgun 2
-		"Railgun Slug" 26000
-		"Systems Core (Large)" 5
-		"Value Detector"
+		"Pulse Rifle" 201
 
 
 ship "Tarentula" "Tarentula (Octa Annihilators)"

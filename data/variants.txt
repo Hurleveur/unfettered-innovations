@@ -34,7 +34,7 @@ ship "Tarentula" "Tarentula (Octa Annihilators)"
 		"Value Detector"
 	cargo
 		outfits
-			"Nest Bomb" 20
+			"Earthquake Bomb" 20
 
 ship "Tarentula" "Tarentula (Ionic)"
 	outfits
@@ -66,12 +66,12 @@ ship "Phrynus" "OmegaPhrynus"
 		"outfit space" -150
 		"weapon capacity" -250
 	outfits
-		"Nest Bomb Launcher" 9
-		"Hammer Bomb Launcher" 9
-		"Dagger Bomb Launcher" 9
-		"Dagger Bomb" 9
-		"Hammer Bomb" 9
-		"Nest Bomb" 9
+		"Earthquake Bomb Launcher" 9
+		"Magma Bomb Launcher" 9
+		"Thunder Bomb Launcher" 9
+		"Thunder Bomb" 9
+		"Magma Bomb" 9
+		"Earthquake Bomb" 9
 		"Chameleon Anti-Missile" 2
 
 		"Jump Drive"
@@ -82,35 +82,35 @@ ship "Phrynus" "OmegaPhrynus"
 		"Hai Ravine Batteries"
 		"Monolith Core"
 		"Predator Engine"
-	gun -110.5 -104 "Nest Bomb Launcher"
-	gun 110.5 -104 "Nest Bomb Launcher"
-	gun -118.5 -108 "Nest Bomb Launcher"
-	gun 118.5 -108 "Nest Bomb Launcher"
-	gun -50 -26 "Nest Bomb Launcher"
-	gun 50 -26 "Nest Bomb Launcher"
-	gun -31 -23 "Nest Bomb Launcher"
-	gun 31 -23 "Nest Bomb Launcher"
-	gun 0 -26 "Nest Bomb Launcher"
+	gun -110.5 -104 "Earthquake Bomb Launcher"
+	gun 110.5 -104 "Earthquake Bomb Launcher"
+	gun -118.5 -108 "Earthquake Bomb Launcher"
+	gun 118.5 -108 "Earthquake Bomb Launcher"
+	gun -50 -26 "Earthquake Bomb Launcher"
+	gun 50 -26 "Earthquake Bomb Launcher"
+	gun -31 -23 "Earthquake Bomb Launcher"
+	gun 31 -23 "Earthquake Bomb Launcher"
+	gun 0 -26 "Earthquake Bomb Launcher"
 
-	gun -110.5 -104 "Hammer Bomb Launcher"
-	gun 110.5 -104 "Hammer Bomb Launcher"
-	gun -118.5 -108 "Hammer Bomb Launcher"
-	gun 118.5 -108 "Hammer Bomb Launcher"
-	gun -50 -26 "Hammer Bomb Launcher"
-	gun 50 -26 "Hammer Bomb Launcher"
-	gun -31 -23 "Hammer Bomb Launcher"
-	gun 31 -23 "Hammer Bomb Launcher"
-	gun 0 -26 "Hammer Bomb Launcher"
+	gun -110.5 -104 "Magma Bomb Launcher"
+	gun 110.5 -104 "Magma Bomb Launcher"
+	gun -118.5 -108 "Magma Bomb Launcher"
+	gun 118.5 -108 "Magma Bomb Launcher"
+	gun -50 -26 "Magma Bomb Launcher"
+	gun 50 -26 "Magma Bomb Launcher"
+	gun -31 -23 "Magma Bomb Launcher"
+	gun 31 -23 "Magma Bomb Launcher"
+	gun 0 -26 "Magma Bomb Launcher"
 	
-	gun -110.5 -104 "Dagger Bomb Launcher"
-	gun 110.5 -104 "Dagger Bomb Launcher"
-	gun -118.5 -108 "Dagger Bomb Launcher"
-	gun 118.5 -108 "Dagger Bomb Launcher"
-	gun -50 -26 "Dagger Bomb Launcher"
-	gun 50 -26 "Dagger Bomb Launcher"
-	gun -31 -23 "Dagger Bomb Launcher"
-	gun 31 -23 "Dagger Bomb Launcher"
-	gun 0 -26 "Dagger Bomb Launcher"
+	gun -110.5 -104 "Thunder Bomb Launcher"
+	gun 110.5 -104 "Thunder Bomb Launcher"
+	gun -118.5 -108 "Thunder Bomb Launcher"
+	gun 118.5 -108 "Thunder Bomb Launcher"
+	gun -50 -26 "Thunder Bomb Launcher"
+	gun 50 -26 "Thunder Bomb Launcher"
+	gun -31 -23 "Thunder Bomb Launcher"
+	gun 31 -23 "Thunder Bomb Launcher"
+	gun 0 -26 "Thunder Bomb Launcher"
 	turret -66 67
 	turret 66 67
 
@@ -261,13 +261,13 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 		"weapon capacity" -19
 		"outfit space" -19
 	outfits
-		"Nest Bomb Launcher"
-		"Hammer Bomb Launcher"
-		"Dagger Bomb Launcher"
-		"Nest Bomb"
+		"Earthquake Bomb Launcher"
+		"Magma Bomb Launcher"
+		"Thunder Bomb Launcher"
+		"Earthquake Bomb"
 		"Quantum Keystone"
 		"Hai Williwaw Cooling"
-		"Stinger Engine"
+		"Hunter Engine"
 		"Pebble Core"
 		Supercapacitor
 		"Pulse Rifle"

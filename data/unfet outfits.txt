@@ -161,13 +161,13 @@ outfit "Railgun Slug Storage"
 
 
 # invisible on all bombardiers violin
-outfit "Nest Bomb Launcher"
+outfit "Hammer Bomb Launcher"
 	thumbnail "outfit/unknown"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/unfettered bomb"
-		ammo "Nest Bomb"
+		ammo "Hammer Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "big explosion"
 		"hit effect" "huge explosion"
@@ -182,13 +182,13 @@ outfit "Nest Bomb Launcher"
 		"damage dropoff" 10 120
 		"turn" 1
 
-outfit "Hammer Bomb Launcher"
+outfit "Sword Bomb Launcher"
 	thumbnail "outfit/unknown"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/unfettered bomb"
-		ammo "Hammer Bomb"
+		ammo "Sword Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "huge explosion"
 		"hit effect" "huge explosion"
@@ -223,8 +223,8 @@ outfit "Dagger Bomb Launcher"
 		"turn" 1
 
 
-# overheat = dead
-outfit "Nest Bomb"
+# when you overheat too much, the bombs will explode
+outfit "Hammer Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
 	cost 1500000
@@ -236,7 +236,7 @@ outfit "Nest Bomb"
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "	In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
 
-outfit "Hammer Bomb"
+outfit "Sword Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
 	cost 2000000
@@ -264,7 +264,7 @@ outfit "Dagger Bomb"
 
 # engines that combine afterburner thrust and steering, small and big
 # korath asteroid afterburner + small engine (9+22)
-outfit "Stinger Engine"
+outfit "Hunter Engine"
 	category "Engines"
 	thumbnail "outfit/tiny atomic engines hai"
 	"cost" 450000

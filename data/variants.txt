@@ -1,20 +1,17 @@
 ship "Lycosidae" "Lycosidae (Brawler)"
-	add attributes
-		"weapon capacity" 96
-		"outfit space" 5
 	outfits
-		"Systems Core (Large)" 3
+		"Systems Core (Large)"
+		"Systems Core (Medium)" 3
+		"Ruby Regenerator"
+		"Liquid Sodium Cooler"
 		"Repair Team"
-		"Hai Tracker Pod" 2
-		"Hai Tracker" 112
-		"Bullfrog Anti-Missile" 6
-		"Ionic Turret Prototype" 6
-		"Blue Sun Reactor"
+		"Penta Pulser" 5
+		"White Sun Reactor"
 		"Large Heat Shunt"
 		"Jump Drive"
 		"Fuel Processor" 2
 		"Predator Engine"
-		"Pulse Rifle" 201
+		"Pulse Rifle" 211
 
 
 ship "Tarentula" "Tarentula (Octa Annihilators)"

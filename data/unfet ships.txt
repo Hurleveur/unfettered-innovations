@@ -187,7 +187,7 @@ ship "Lycosidae"
 		"heat dissipation" .35
 		"fuel capacity" 600
 		"cargo space" 333
-		"outfit space" 1101
+		"outfit space" 1024
 		"weapon capacity" 350
 		"engine capacity" 145
 		weapon
@@ -196,19 +196,21 @@ ship "Lycosidae"
 			"hull damage" 7500
 			"hit force" 17500
 	outfits
-		"Systems Core (Large)" 4
+		"Systems Core (Large)"
+		"Systems Core (Medium)" 3
+		"Systems Core (Small)" 2
 		"Repair Team"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
 		"Chameleon Anti-Missile" 4
 		"Quad Railgun Turret" 8
 		"Railgun Slug" 16000
-		"Blue Sun Reactor"
+		"White Sun Reactor"
 		"Large Heat Shunt"
 		"Jump Drive"
 		"Fuel Processor" 2
 		"Predator Engine"
-		"Pulse Rifle" 201
+		"Pulse Rifle" 211
 	cargo
 		"Railgun Slug" 80000
 	gun -28.5 -170.5 

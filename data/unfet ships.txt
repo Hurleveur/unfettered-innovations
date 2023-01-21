@@ -210,18 +210,18 @@ ship "Lycosidae"
 		"Pulse Rifle" 180
 	gun -28.5 -170.5 
 	gun 28.5 -170.5 
-	turret 0.5 -180 
-	turret -10.5 -166.5 
-	turret 10.5 -166.5 
-	turret -23 -143 
-	turret 23 -143 
-	turret 0.5 -95 
-	turret -43 0 
-	turret 43 0 
-	turret -0.5 91.5 
-	turret -39 129.5 
-	turret 39 129.5 
-	turret 0.5 140 
+	turret 0.5 -180 "Ionic Turret Prototype"
+	turret -10.5 -166.5 "Ionic Turret Prototype"
+	turret 10.5 -166.5 "Ionic Turret Prototype"
+	turret -23 -143 "Bullfrog Anti-Missile"
+	turret 23 -143 "Bullfrog Anti-Missile"
+	turret 0.5 -95 "Ionic Turret Prototype"
+	turret -43 0 "Bullfrog Anti-Missile"
+	turret 43 0 "Bullfrog Anti-Missile"
+	turret -0.5 91.5 "Ionic Turret Prototype"
+	turret -39 129.5 "Bullfrog Anti-Missile"
+	turret 39 129.5 "Bullfrog Anti-Missile"
+	turret 0.5 140 "Ionic Turret Prototype"
 	bay "Drone" -88.5 -154.5 over
 	bay "Drone" 88.5 -154.5 over
 	bay "Drone" -29.5 -121.5 over

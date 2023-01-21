@@ -1,3 +1,20 @@
+ship "Lycosidae" "Lycosidae (Railgun)"
+	outfits
+		"Blue Sun Reactor"
+		"Crux Stone "
+		"Fuel Processor" 2
+		"Jump Drive"
+		"Liquid Sodium Cooler"
+		"Outfits Expansion" 5
+		"Predator Engine"
+		"Pulse Rifle" 180
+		"Quad Railgun Turret" 12
+		Railgun 2
+		"Railgun Slug" 26000
+		"Systems Core (Large)" 5
+		"Value Detector"
+
+
 ship "Tarentula" "Tarentula (Octa Annihilators)"
 	outfits
 		"Octa Annihilator" 3

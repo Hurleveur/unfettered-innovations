@@ -17,6 +17,7 @@ outfitter "Unfettered Basics"
 	add "Quad Railgun Turret"
 	add "Railgun Slug Storage"
 	add "Railgun Slug"
+	add "Exo-Suit"
 
 outfitter "Unfettered Basics"
 	add "Ionic Blaster Prototype"

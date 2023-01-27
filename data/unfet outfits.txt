@@ -421,3 +421,15 @@ outfit "Monolith Core"
 	"energy generation" 23.1
 	"heat generation" 60.4
 	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered reused this old Hai generator, dating back to when Hai weapons were less optimized, and would require more energy to operate."
+
+
+
+outfit "Exo-Suit"
+	category "Hand to Hand"
+	cost 250000
+	thumbnail "outfit/unknown"
+	mass 1
+	"capture attack" 4
+	"capture defense" 5
+	"unplunderable" 1
+	description "This is an advanced protective suit that adapts to the size of anyone wearing it, and moves as one with them. It is a relic of a time when the Hai were masters of the galaxy, and only a few remain, closely guarded and kept for times of needs."

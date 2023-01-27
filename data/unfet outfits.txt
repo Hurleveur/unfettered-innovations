@@ -106,7 +106,7 @@ outfit "Octa Annihilator"
 	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
 
 
-outfit "Quad Railgun Turret"
+outfit "Harasser Quadrail"
 	category "Secondary Weapons"
 	cost 150000
 	thumbnail "outfit/unknown"
@@ -148,16 +148,6 @@ outfit "Quad Railgun Turret"
 			"facing" -0.1
 	description "This is an overturned turreted version of the Hai Railgun, after the Unfettered were able to steal the plans for it. It may not have as much ammo, meaning one often has to get an ammo pack on top of it, but it makes up for it by having much more firepower."
 
-
-outfit "Railgun Slug Storage"
-	category "Ammunition"
-	cost 15000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -19
-	"railgun slug capacity" 5000
-	ammo "Railgun Slug"
-	description "The railgun slug storage is used to store and load a lot of extra railgun ammunition."
 
 
 # invisible on all bombardiers violin

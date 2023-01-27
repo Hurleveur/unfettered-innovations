@@ -203,7 +203,7 @@ ship "Lycosidae"
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
 		"Chameleon Anti-Missile" 4
-		"Quad Railgun Turret" 8
+		"Harasser Quadrail" 8
 		"Railgun Slug" 16000
 		"White Sun Reactor"
 		"Large Heat Shunt"

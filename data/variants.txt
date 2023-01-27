@@ -293,9 +293,9 @@ ship "Flycatcher" "Flycatcher (Chameleon)"
 
 ship "Flycatcher" "FlyEater"
 	outfits
-		"Quad Railgun Turret"
-		"Railgun Slug Storage"
-		"Railgun Slug" 7000
+		"Harasser Quadrail"
+		"Railgun Slug Rack" 6
+		"Railgun Slug" 5000
 
 		"Small Biochemical Cell"
 		

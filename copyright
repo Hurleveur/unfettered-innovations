@@ -10,6 +10,7 @@ Files:
  images/ship/hai?mantis*
  images/thumbnail/hai?mantis*
  images/outfit/penta?pulser*
+ images/outfit/octa?annihilator*
  images/hardpoint/penta?pulser*
 Copyright: Ejo Thims
 License: CC-BY-SA-4.0
@@ -45,6 +46,11 @@ Copyright: Daeridanii (https://github.com/Daeridanii1)
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
+Files:
+ images/outfit/harasser?quadrail*
+Copyright: 1010todd
+Comment: Derived from works by Matthew Smestad (under the same license).
+License: CC-BY-SA-4.0
 
 Files:
  images/outfit/repair?team*

@@ -18,7 +18,7 @@ ship "Tarentula" "Tarentula (Octa Annihilators)"
 		"Value Detector"
 	cargo
 		outfits
-			"Nest Bomb" 20
+			"Earthquake Bomb" 20
 
 ship "Tarentula" "Tarentula (Ionic)"
 	outfits
@@ -39,6 +39,9 @@ ship "Tarentula" "Tarentula (Ionic)"
 		"Repair Team"
 		"Value Detector"
 
+
+
+# unique Phrynus to beat the arfectas with
 ship "Phrynus" "OmegaPhrynus"
 	add attributes
 		"integrated bombing" 27
@@ -47,12 +50,12 @@ ship "Phrynus" "OmegaPhrynus"
 		"outfit space" -150
 		"weapon capacity" -250
 	outfits
-		"Nest Bomb Launcher" 9
-		"Hammer Bomb Launcher" 9
-		"Dagger Bomb Launcher" 9
-		"Dagger Bomb" 9
-		"Hammer Bomb" 9
-		"Nest Bomb" 9
+		"Earthquake Bomb Launcher" 9
+		"Magma Bomb Launcher" 9
+		"Thunder Bomb Launcher" 9
+		"Thunder Bomb" 9
+		"Magma Bomb" 9
+		"Earthquake Bomb" 9
 		"Chameleon Anti-Missile" 2
 
 		"Jump Drive"
@@ -63,37 +66,39 @@ ship "Phrynus" "OmegaPhrynus"
 		"Hai Ravine Batteries"
 		"Monolith Core"
 		"Predator Engine"
-	gun -110.5 -104 "Nest Bomb Launcher"
-	gun 110.5 -104 "Nest Bomb Launcher"
-	gun -118.5 -108 "Nest Bomb Launcher"
-	gun 118.5 -108 "Nest Bomb Launcher"
-	gun -50 -26 "Nest Bomb Launcher"
-	gun 50 -26 "Nest Bomb Launcher"
-	gun -31 -23 "Nest Bomb Launcher"
-	gun 31 -23 "Nest Bomb Launcher"
-	gun 0 -26 "Nest Bomb Launcher"
+		"Pulse Rifle" 34
+	gun -110.5 -104 "Earthquake Bomb Launcher"
+	gun 110.5 -104 "Earthquake Bomb Launcher"
+	gun -118.5 -108 "Earthquake Bomb Launcher"
+	gun 118.5 -108 "Earthquake Bomb Launcher"
+	gun -50 -26 "Earthquake Bomb Launcher"
+	gun 50 -26 "Earthquake Bomb Launcher"
+	gun -31 -23 "Earthquake Bomb Launcher"
+	gun 31 -23 "Earthquake Bomb Launcher"
+	gun 0 -26 "Earthquake Bomb Launcher"
 
-	gun -110.5 -104 "Hammer Bomb Launcher"
-	gun 110.5 -104 "Hammer Bomb Launcher"
-	gun -118.5 -108 "Hammer Bomb Launcher"
-	gun 118.5 -108 "Hammer Bomb Launcher"
-	gun -50 -26 "Hammer Bomb Launcher"
-	gun 50 -26 "Hammer Bomb Launcher"
-	gun -31 -23 "Hammer Bomb Launcher"
-	gun 31 -23 "Hammer Bomb Launcher"
-	gun 0 -26 "Hammer Bomb Launcher"
+	gun -110.5 -104 "Magma Bomb Launcher"
+	gun 110.5 -104 "Magma Bomb Launcher"
+	gun -118.5 -108 "Magma Bomb Launcher"
+	gun 118.5 -108 "Magma Bomb Launcher"
+	gun -50 -26 "Magma Bomb Launcher"
+	gun 50 -26 "Magma Bomb Launcher"
+	gun -31 -23 "Magma Bomb Launcher"
+	gun 31 -23 "Magma Bomb Launcher"
+	gun 0 -26 "Magma Bomb Launcher"
 	
-	gun -110.5 -104 "Dagger Bomb Launcher"
-	gun 110.5 -104 "Dagger Bomb Launcher"
-	gun -118.5 -108 "Dagger Bomb Launcher"
-	gun 118.5 -108 "Dagger Bomb Launcher"
-	gun -50 -26 "Dagger Bomb Launcher"
-	gun 50 -26 "Dagger Bomb Launcher"
-	gun -31 -23 "Dagger Bomb Launcher"
-	gun 31 -23 "Dagger Bomb Launcher"
-	gun 0 -26 "Dagger Bomb Launcher"
+	gun -110.5 -104 "Thunder Bomb Launcher"
+	gun 110.5 -104 "Thunder Bomb Launcher"
+	gun -118.5 -108 "Thunder Bomb Launcher"
+	gun 118.5 -108 "Thunder Bomb Launcher"
+	gun -50 -26 "Thunder Bomb Launcher"
+	gun 50 -26 "Thunder Bomb Launcher"
+	gun -31 -23 "Thunder Bomb Launcher"
+	gun 31 -23 "Thunder Bomb Launcher"
+	gun 0 -26 "Thunder Bomb Launcher"
 	turret -66 67
 	turret 66 67
+
 
 ship "Phrynus" "Phrynus (Ion Focus)"
 	outfits
@@ -110,6 +115,7 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Predator Engine"
 		"Quantum Keystone"
 		"Value Detector" 2
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Octa)"
 	outfits
@@ -124,6 +130,7 @@ ship "Phrynus" "Phrynus (Octa)"
 		"Quantum Keystone"
 		"Ruby Regenerator"
 		"Value Detector" 2
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Long Range Ion)"
 	outfits
@@ -138,6 +145,7 @@ ship "Phrynus" "Phrynus (Long Range Ion)"
 		"Jump Drive"
 		"Value Detector" 2
 		"Outfit Scanner" 5
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Ion Tracker)"
 	outfits
@@ -154,6 +162,7 @@ ship "Phrynus" "Phrynus (Ion Tracker)"
 		"Quantum Keystone"
 		"Ruby Regenerator"
 		"Value Detector"
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Tracker)"
 	outfits
@@ -169,6 +178,7 @@ ship "Phrynus" "Phrynus (Tracker)"
 		"Quantum Keystone"
 		"Tracker Storage Pod" 14
 		"Value Detector" 2
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Ruby Shredder)"
 	outfits
@@ -184,6 +194,7 @@ ship "Phrynus" "Phrynus (Ruby Shredder)"
 		"Ruby Regenerator"
 		"Tripulse Shredder" 5
 		"Value Detector"
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Penta Blaster)"
 	outfits
@@ -200,6 +211,7 @@ ship "Phrynus" "Phrynus (Penta Blaster)"
 		"Quantum Keystone"
 		"Ruby Regenerator"
 		"Value Detector"
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Miner)"
 	outfits
@@ -217,9 +229,11 @@ ship "Phrynus" "Phrynus (Miner)"
 		# this can even mine the enemy!
 		"Tripulse Shredder" 7
 		"Value Detector"
+		"Pulse Rifle" 34
 
 
-# variant that fits an am but only that and it cant be removed
+
+# variant that fits an unremovable AM
 ship "Violin Spider" "Violin Spider (Webber)"
 	add attributes
 		"integrated chameleon" 1
@@ -230,7 +244,9 @@ ship "Violin Spider" "Violin Spider (Webber)"
 		"Hai Williwaw Cooling"
 		"Pulse Rifle"
 		`"Basrem" Atomic Steering`
-		`"Basrem" Atomic Thruster`		
+		`"Basrem" Atomic Thruster`	
+		"Pulse Rifle"
+
 
 ship "Violin Spider" "Violin Spider (Bomber)"
 	add attributes
@@ -239,20 +255,24 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 		"weapon capacity" -19
 		"outfit space" -19
 	outfits
-		"Nest Bomb Launcher"
-		"Hammer Bomb Launcher"
-		"Dagger Bomb Launcher"
-		"Nest Bomb"
+		"Earthquake Bomb Launcher"
+		"Magma Bomb Launcher"
+		"Thunder Bomb Launcher"
+		"Earthquake Bomb"
 		"Quantum Keystone"
 		"Hai Williwaw Cooling"
-		"Stinger Engine"
+		"Hunter Engine"
 		"Pebble Core"
 		Supercapacitor
+		"Pulse Rifle"
 		"Pulse Rifle"
 	gun 0 -31
 	gun 0 -31
 	gun 0 -31
 
+
+
+# hacked wanderer drones, using the AI from the Hai drones
 ship "Flycatcher" "Flycatcher (Chameleon)"
 	outfits
 		"Chameleon Anti-Missile"
@@ -265,11 +285,12 @@ ship "Flycatcher" "Flycatcher (Chameleon)"
 		"Value Detector"
 		"Quantum Keystone"
 
+
 ship "Flycatcher" "FlyEater"
 	outfits
-		"Quad Railgun Turret"
-		"Railgun Slug Storage"
-		"Railgun Slug" 7000
+		"Harasser Quadrail"
+		"Railgun Slug Rack" 6
+		"Railgun Slug" 5000
 
 		"Small Biochemical Cell"
 		

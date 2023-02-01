@@ -25,7 +25,7 @@ outfit "Integrated Chameleon Anti-Missile"
 
 outfit "Penta Pulser"
 	category "Turrets"
-	cost 2600000
+	cost 2200000
 	thumbnail "outfit/penta pulser"
 	"mass" 70
 	"outfit space" -70
@@ -74,26 +74,27 @@ outfit "Pulse Submunition"
 
 outfit "Octa Annihilator"
 	category "Turrets"
-	cost 4000000
-	thumbnail "outfit/unknown"
-	mass 150
+	cost 3400000
+	thumbnail "outfit/octa annihilator"
+	mass 130
 	"outfit space" -100
-	"weapon capacity" -150
+	"weapon capacity" -111
 	"turret mounts" -1
-	"required crew" 8
+	"required crew" 5
 	weapon
 		"hardpoint sprite" "hardpoint/penta pulser"
-		"hardpoint offset" 40
+		"hardpoint offset" 50
 		sprite "projectile/pulse"
 			scale 3
 		sound "pulse"
 		"inaccuracy" 2
-		"lifetime" 1000
 		"turret turn" .5
 		"reload" 100
 		"hit effect" "pulse impact"
 		"velocity" 15
-		"lifetime" 300
+		"acceleration" .3
+		"drag" 0.01
+		"lifetime" 150
 		"reload" 100
 		"firing energy" 1200
 		"firing heat" 3500
@@ -102,278 +103,10 @@ outfit "Octa Annihilator"
 		"blast radius" 50
 		"hit force" 500
 	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
-	description "The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
+	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes that much more energy and is notably slower. On top of that, not many ships can fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
 
 
-# invisible on all bombardiers violin
-outfit "Nest Bomb Launcher"
-	thumbnail "outfit/unknown"
-	"integrated bombing" 1
-	"gun ports" -1
-	weapon
-		sprite "projectile/unfettered bomb"
-		ammo "Nest Bomb"
-		icon "icon/unfettered bomb"
-		"die effect" "big explosion"
-		"hit effect" "huge explosion"
-		"lifetime" 1000
-		"reload" 500
-		"missile strength" 500
-		"shield damage" 15000
-		"hull damage" 12000
-		"hit force" 2500
-		"trigger radius" 40
-		"blast radius" 120
-		"damage dropoff" 10 120
-		"turn" 1
-
-outfit "Hammer Bomb Launcher"
-	thumbnail "outfit/unknown"
-	"integrated bombing" 1
-	"gun ports" -1
-	weapon
-		sprite "projectile/unfettered bomb"
-		ammo "Hammer Bomb"
-		icon "icon/unfettered bomb"
-		"die effect" "huge explosion"
-		"hit effect" "huge explosion"
-		"lifetime" 500
-		"reload" 180
-		"missile strength" 500
-		"shield damage" 25000
-		"hull damage" 17500
-		"hit force" 2000
-		"trigger radius" 35
-		"blast radius" 50
-		"damage dropoff" 25 50
-		"turn" 1
-
-outfit "Dagger Bomb Launcher"
-	thumbnail "outfit/unknown"
-	"integrated bombing" 1
-	"gun ports" -1
-	weapon
-		sprite "projectile/unfettered bomb"
-		ammo "Dagger Bomb"
-		icon "icon/unfettered bomb"
-		"die effect" "medium explosion"
-		"hit effect" "small explosion"
-		"lifetime" 1500
-		"reload" 180
-		"missile strength" 500
-		"shield damage" 0
-		"hull damage" 40000
-		"hit force" 500
-		"piercing" 0.25
-		"turn" 1
-
-
-outfit "Nest Bomb"
-	thumbnail "outfit/unfettered bomb"
-	category "Ammunition"
-	cost 1500000
-	mass 15
-	"energy consumption" 0.25
-	"bomb capacity" -1
-	"overheat damage rate" 1000000
-	"overheat damage treshold" .25
-	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "	In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
-
-outfit "Hammer Bomb"
-	thumbnail "outfit/unfettered bomb"
-	category "Ammunition"
-	cost 2000000
-	mass 20
-	"energy consumption" 0.375
-	"bomb capacity" -1
-	"overheat damage rate" 1000000
-	"overheat damage treshold" .15
-	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
-
-outfit "Dagger Bomb"
-	thumbnail "outfit/unfettered bomb"
-	category "Ammunition"
-	cost 2500000
-	mass 10
-	"energy consumption" 0.125
-	"bomb capacity" -1
-	"overheat damage rate" 1000000
-	"overheat damage treshold" .35
-	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to strike tactical blows on the enemy heaviest warships, ignoring their shields and regeneration."
-
-
-
-# engines that combine afterburner thrust and steering, small and big
-# korath asteroid afterburner + small engine (9+22)
-outfit "Stinger Engine"
-	category "Engines"
-	thumbnail "outfit/tiny atomic engines hai"
-	"cost" 450000
-	"mass" 31
-	"outfit space" -30
-	"engine capacity" -30
-	"operating cost" 100
-	"thrust" 7.3
-	"thrusting energy" .87
-	"thrusting heat" 1.7
-
-	"turn" 244
-	"turning energy" .64
-	"turning heat" 1.28
-	"flare sprite" "effect/atomic flare/tiny"
-		"frame rate" 14
-	"flare sound" "atomic tiny"
-	"steering flare sprite" "effect/atomic flare/tiny"
-		"frame rate" 14
-	"steering flare sound" "atomic tiny"
-
-	"afterburner thrust" 12.5
-	"afterburner energy" 3.2
-	"afterburner heat" 2.8
-	"afterburner effect" "small unfettered afterburner"
-	
-	"overheat damage rate" 1
-	description "This is a very specific kind of engine, that combines everything into one package. You can tell it used to be a standard Hai engine, but the Unfettered did many modifications, allowing it to go in some sort of overtuned mode, to make it possible to bring the Bombs as close to the enemy as quickly as possible."
-	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, it is often needed to execute repairs, hence why the outfit comes with a warranty that is to be payed per day."
-
-effect "small unfettered afterburner"
-	sprite "effect/atomic flare/small"
-		"frame rate" 13
-	sound "ionic afterburner"
-	lifetime 1.5
-	"random lifetime" 0.5
-	"random frame rate" 2
-
-
-
-# comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
-# 32 + 28 + 76 + 63
-outfit "Predator Engine"
-	category "Engines"
-	cost 10000000
-	thumbnail "outfit/predator engine"
-	mass 180
-	"outfit space" -145
-	"engine capacity" -145
-	"required crew" 5
-
-	"thrust" 62.8
-	"thrusting energy" 6.1
-	"thrusting heat" 12.7
-	"flare sprite" "effect/atomic flare/medium"
-		"frame rate" 12
-	"flare sound" "atomic medium"
-
-	"turn" 2967
-	"turning energy" 5.2
-	"turning heat" 13.8
-	"steering flare sprite" "effect/atomic flare/large"
-		"frame rate" 11
-	"steering flare sound" "atomic large"
-	
-	"reverse thrust" 22.4
-	"reverse thrusting energy" 2.5
-	"reverse thrusting heat" 4.8
-	"reverse flare sprite" "effect/atomic flare/small"
-		"frame rate" 14
-	"reverse flare sound" "atomic tiny"
-
-	# this is the largest engine but using more power
-	"afterburner thrust" 114.1
-	"afterburner energy" 21.2
-	"afterburner heat" 22.6
-	"afterburner effect" "large unfettered afterburner"
-
-	"overheat damage rate" 5
-	"overheat damage treshold" .25
-	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
-	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."
-
-
-effect "large unfettered afterburner"
-	sprite "effect/atomic flare/large"
-		"frame rate" 120
-		"no repeat"
-	sound "ionic afterburner"
-	"random angle" 2
-	lifetime 1.5
-	"random lifetime" 1
-
-
-outfit "Hai Zephyr Cooling"
-	category "Systems"
-	cost 38000
-	thumbnail "outfit/unknown"
-	"mass" 14
-	"outfit space" -14
-	"cooling" 21
-	description `This more advanced cooling system has been developed by the Unfettered with significant help from Korath scientists, who were highly amused with the Williwaw's simultaneous "primitive" design and similarities to a Korath heat shunt.`
-	description `	Although advanced for the Hai, the Korath meant this "simple" hydrogen-circulating cooler to be an easy-to-understand stopgap for immediate production, while they brought the Hai up to speed with "proper" heat shunt theory and design.`
-
-
-
-outfit "Monolith Core"
-	category "Power"
-	cost 9350000
-	thumbnail "outfit/unknown"
-	"mass" 121
-	"outfit space" -121
-	"energy generation" 23.1
-	"heat generation" 60.4
-	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered reused this old Hai generator, dating back to when Hai weapons were less optimized, and would require more energy to operate."
-
-
-
-outfit "Ruby Regenerator"
-	category "Systems"
-	cost 7000000
-	thumbnail "outfit/ruby regenerator"
-	mass 100
-	"outfit space" -100
-	"shield generation" 8
-	"shield energy" 2
-	"energy consumption" 2
-	"heat generation" 2
-	"shield heat" -14
-	"heat dissipation" -.1
-	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the Ruby Generator channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."
-	description "This shield generator constantly needs to consume power in order to keep itself in functioning temperatures."
-
-
-
-outfit "Kraken Jammer"
-	category "Systems"
-	cost 1000000
-	thumbnail "outfit/hai jammer overclocked"
-	mass 35
-	"outfit space" 35
-	"energy consumption" 5
-	"cooling" 25
-	"radar jamming" 50
-	description "To counter the Thunderhead, the Unfettered devised this ingenious combination between a jammer and a cooling system."
-
-
-
-outfit "Repair Team"
-	category "Systems"
-	cost 6500000
-	thumbnail "outfit/repair team"
-	mass 35
-	"outfit space" -18
-	"cargo space" -20
-	"required crew" 65
-	"maintenance cost" 1000
-	"hull repair rate" 2
-	"repair delay" 600
-	unplunderable 1
-	description "The Unfettered sometimes bring a whole repair team, for their most important ships. These are the most intrepid engineers, ready to make emergency repairs whenever the conditions allow it. The team costs a lot to hire at first, along with their equipement. This also includes operating costs to acquire the materials, and cargo space to store them."
-
-
-
-outfit "Quad Railgun Turret"
+outfit "Harasser Quadrail"
 	category "Secondary Weapons"
 	cost 150000
 	thumbnail "outfit/unknown"
@@ -416,14 +149,320 @@ outfit "Quad Railgun Turret"
 	description "This is an overturned turreted version of the Hai Railgun, after the Unfettered were able to steal the plans for it. It may not have as much ammo, meaning one often has to get an ammo pack on top of it, but it makes up for it by having much more firepower."
 
 
-outfit "Railgun Slug Storage"
-	category "Ammunition"
-	cost 15000
-	thumbnail "outfit/unknown"
-	"mass" 5
-	"outfit space" -19
-	"railgun slug capacity" 5000
-	ammo "Railgun Slug"
-	description "The railgun slug storage is used to store and load a lot of extra railgun ammunition."
 
+# invisible on all bombardiers violin
+outfit "Earthquake Bomb Launcher"
+	thumbnail "outfit/unknown"
+	category "Secondary Weapons"
+	"integrated bombing" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/unfettered bomb"
+		ammo "Earthquake Bomb"
+		icon "icon/unfettered bomb"
+		"die effect" "big explosion"
+		"hit effect" "huge explosion"
+		"lifetime" 1000
+		"reload" 500
+		"missile strength" 500
+		"shield damage" 15000
+		"hull damage" 12000
+		"hit force" 2500
+		"trigger radius" 40
+		"blast radius" 120
+		"damage dropoff" 10 120
+		"turn" 1
+
+outfit "Magma Bomb Launcher"
+	thumbnail "outfit/unknown"
+	category "Secondary Weapons"
+	"integrated bombing" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/unfettered bomb"
+		ammo "Magma Bomb"
+		icon "icon/unfettered bomb"
+		"die effect" "huge explosion"
+		"hit effect" "huge explosion"
+		"lifetime" 500
+		"reload" 180
+		"missile strength" 500
+		"shield damage" 25000
+		"hull damage" 17500
+		"hit force" 2000
+		"trigger radius" 35
+		"blast radius" 50
+		"damage dropoff" 25 50
+		"turn" 1
+
+outfit "Thunder Bomb Launcher"
+	thumbnail "outfit/unknown"
+	category "Secondary Weapons"
+	"integrated bombing" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/unfettered bomb"
+		ammo "Thunder Bomb"
+		icon "icon/unfettered bomb"
+		"die effect" "medium explosion"
+		"hit effect" "small explosion"
+		"lifetime" 1500
+		"reload" 180
+		"missile strength" 500
+		"shield damage" 0
+		"hull damage" 19500
+		"hit force" 500
+		"piercing" 0.5
+		"turn" 1
+
+
+# when you overheat too much, the bombs will explode
+outfit "Earthquake Bomb"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 1500000
+	mass 15
+	"energy consumption" 0.25
+	"bomb capacity" -1
+	"overheat damage rate" 1000000
+	"overheat damage threshold" .25
+	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	description "	In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
+
+outfit "Magma Bomb"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 2000000
+	mass 20
+	"energy consumption" 0.375
+	"bomb capacity" -1
+	"overheat damage rate" 1000000
+	"overheat damage threshold" .15
+	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
+
+outfit "Thunder Bomb"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 2500000
+	mass 10
+	"energy consumption" 0.125
+	"bomb capacity" -1
+	"overheat damage rate" 1000000
+	"overheat damage threshold" .35
+	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
+	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to strike tactical blows on the enemy heaviest warships, ignoring their shields and regeneration."
+
+
+
+# engines that combine afterburner thrust and steering, small and big
+# korath asteroid afterburner + small engine (9+22)
+outfit "Hunter Engine"
+	category "Engines"
+	thumbnail "outfit/tiny atomic engines hai"
+	"cost" 450000
+	"mass" 31
+	"outfit space" -30
+	"engine capacity" -30
+	"operating cost" 100
+	"thrust" 7.3
+	"thrusting energy" .87
+	"thrusting heat" 1.7
+
+	"turn" 244
+	"turning energy" .64
+	"turning heat" 1.28
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+	"steering flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"steering flare sound" "atomic tiny"
+
+	"afterburner thrust" 12.5
+	"afterburner energy" 3.2
+	"afterburner heat" 2.8
+	"afterburner effect" "small unfettered afterburner"
 	
+	"overheat damage rate" 1
+	description "This is a very specific kind of engine, that combines everything into one package. You can tell it used to be a standard Hai engine, but the Unfettered did many modifications, allowing it to go in some sort of overtuned mode, to make it possible to bring the Bombs as close to the enemy as quickly as possible."
+	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, it is often needed to execute repairs, hence why the outfit comes with a warranty that is to be payed per day."
+
+effect "small unfettered afterburner"
+	sprite "effect/atomic flare/small"
+		"frame rate" 13
+	sound "ionic afterburner"
+	lifetime 1.5
+	"random lifetime" 0.5
+	"random frame rate" 2
+
+
+# comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
+# 32 + 28 + 76 + 63
+outfit "Predator Engine"
+	category "Engines"
+	cost 7000000
+	thumbnail "outfit/predator engine"
+	mass 180
+	"outfit space" -145
+	"engine capacity" -145
+	"required crew" 5
+
+	"thrust" 62.8
+	"thrusting energy" 6.1
+	"thrusting heat" 12.7
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 12
+	"flare sound" "atomic medium"
+
+	"turn" 2967
+	"turning energy" 5.2
+	"turning heat" 13.8
+	"steering flare sprite" "effect/atomic flare/large"
+		"frame rate" 11
+	"steering flare sound" "atomic large"
+	
+	"reverse thrust" 22.4
+	"reverse thrusting energy" 2.5
+	"reverse thrusting heat" 4.8
+	"reverse flare sprite" "effect/atomic flare/small"
+		"frame rate" 14
+	"reverse flare sound" "atomic tiny"
+
+	# this is the largest engine but using more power
+	"afterburner thrust" 114.1
+	"afterburner energy" 21.2
+	"afterburner heat" 22.6
+	"afterburner effect" "large unfettered afterburner"
+
+	"overheat damage rate" 5
+	"overheat damage threshold" .25
+	description "This engine combines all in one: steering, thrust, power, reversers and instability. This truly allows Unfettered to dance with their ships, moving around as they please."
+	description "	Because of how unstable these engines tend to be, given they were not meant to fit together in this way, the Unfettered always have a team of engineers present to monitor their status and prevent them from exploding."
+
+effect "large unfettered afterburner"
+	sprite "effect/atomic flare/large"
+		"frame rate" 120
+		"no repeat"
+	sound "ionic afterburner"
+	"random angle" 2
+	lifetime 1.5
+	"random lifetime" 1
+
+# bondir steering and biroo thruster that are more heat efficient + afterburner bondir
+# + 50% energy cost, and made heat be the same (except afterburner that is double energy)
+outfit "Stealth Engine"
+	category "Engines"
+	cost 4000000
+	thumbnail "outfit/unknown"
+	mass 120
+	"outfit space" -120
+	"engine capacity" -120
+	"required crew" 2
+	
+	"afterburner thrust" 62.8
+	"afterburner thrusting energy" 12.2
+	"afterburner thrusting heat" 12.7
+	"afterburner effect" "medium unfettered afterburner"
+
+	"thrust" 39.4
+	"thrusting energy" 6
+	"thrusting heat" 6
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+
+	"turn" 1714
+	"turning energy" 4.8
+	"turning heat" 4.8
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"steering flare sound" "atomic small"
+	
+	description "This engine is intended to be a more discrete version of the usually heat inefficient Hai engines."
+
+effect "medium unfettered afterburner"
+	sprite "effect/atomic flare/small"
+		"frame rate" 100
+	soud "ionic afterburner"
+	"random angle" 1
+	lifetime 1
+	"random lifetime" 0.5
+
+
+
+outfit "Hai Zephyr Cooling"
+	category "Systems"
+	cost 38000
+	thumbnail "outfit/unknown"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 21
+	description `This more advanced cooling system has been developed by the Unfettered with significant help from Korath scientists, who were highly amused with the Williwaw's simultaneous "primitive" design and similarities to a Korath heat shunt.`
+	description `	Although advanced for the Hai, the Korath meant this "simple" hydrogen-circulating cooler to be an easy-to-understand stopgap for immediate production, while they brought the Hai up to speed with "proper" heat shunt theory and design.`
+
+
+outfit "Kraken Jammer"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/hai jammer overclocked"
+	mass 35
+	"outfit space" -35
+	"energy consumption" 5
+	"cooling" 25
+	"radar jamming" 50
+	description "To counter the Thunderhead, the Unfettered devised this ingenious combination between a jammer and a cooling system."
+
+
+outfit "Ruby Regenerator"
+	category "Systems"
+	cost 7000000
+	thumbnail "outfit/ruby regenerator"
+	mass 100
+	"outfit space" -100
+	"shield generation" 8
+	"shield energy" 2
+	"energy consumption" 2
+	"heat generation" 2
+	"shield heat" -14
+	"heat dissipation" -.1
+	description "As the Unfettered began to understand how the biochemical cell works, they have studied different organisms for industrial use on their own worlds, especially some of the unique extremophiles. While that study has so far still been fruitless, it has inspired the engineering through which the Ruby Generator channels excess heat towards the shield generators in order to directly infuse that energy into the shield array. The process lowers the overall heat levels on the ship considerably, but the redundant wiring systems to handle it cause more initial build up. Additionally, the converter prevents the channeling of any energy into the shield from other sources when not redirecting heat, so as to keep otherwise competing energy conduits available as soon as the heat load is high enough."
+	description "This shield generator constantly needs to consume power in order to keep itself in functioning temperatures."
+
+
+outfit "Repair Team"
+	category "Systems"
+	cost 6500000
+	thumbnail "outfit/repair team"
+	mass 35
+	"outfit space" -18
+	"cargo space" -20
+	"required crew" 65
+	"maintenance cost" 1000
+	"hull repair rate" 2
+	"repair delay" 600
+	unplunderable 1
+	description "The Unfettered sometimes bring a whole repair team, for their most important ships. These are the most intrepid engineers, ready to make emergency repairs whenever the conditions allow it. The team costs a lot to hire at first, along with their equipement. This also includes operating costs to acquire the materials, and cargo space to store them."
+
+
+
+outfit "Monolith Core"
+	category "Power"
+	cost 9350000
+	thumbnail "outfit/unknown"
+	"mass" 121
+	"outfit space" -121
+	"energy generation" 23.1
+	"heat generation" 60.4
+	description "When faced with higher and higher energy requirements on their bigger ships due to their new weapons, the Unfettered reused this old Hai generator, dating back to when Hai weapons were less optimized, and would require more energy to operate."
+
+
+
+outfit "Exo-Suit"
+	category "Hand to Hand"
+	cost 250000
+	thumbnail "outfit/unknown"
+	"capture attack" 4
+	"capture defense" 5
+	"unplunderable" 1
+	description "This is an advanced protective suit that adapts to the size of anyone wearing it, and moves as one with them. It is a relic of a time when the Hai were masters of the galaxy, and only a few remain, closely guarded and kept for times of needs."

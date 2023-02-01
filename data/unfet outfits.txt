@@ -151,13 +151,13 @@ outfit "Harasser Quadrail"
 
 
 # invisible on all bombardiers violin
-outfit "Hammer Bomb Launcher"
+outfit "Earthquake Bomb Launcher"
 	thumbnail "outfit/unknown"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/unfettered bomb"
-		ammo "Hammer Bomb"
+		ammo "Earthquake Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "big explosion"
 		"hit effect" "huge explosion"
@@ -172,13 +172,13 @@ outfit "Hammer Bomb Launcher"
 		"damage dropoff" 10 120
 		"turn" 1
 
-outfit "Sword Bomb Launcher"
+outfit "Magma Bomb Launcher"
 	thumbnail "outfit/unknown"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/unfettered bomb"
-		ammo "Sword Bomb"
+		ammo "Magma Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "huge explosion"
 		"hit effect" "huge explosion"
@@ -193,13 +193,13 @@ outfit "Sword Bomb Launcher"
 		"damage dropoff" 25 50
 		"turn" 1
 
-outfit "Dagger Bomb Launcher"
+outfit "Thunder Bomb Launcher"
 	thumbnail "outfit/unknown"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
 		sprite "projectile/unfettered bomb"
-		ammo "Dagger Bomb"
+		ammo "Thunder Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "medium explosion"
 		"hit effect" "small explosion"
@@ -214,7 +214,7 @@ outfit "Dagger Bomb Launcher"
 
 
 # when you overheat too much, the bombs will explode
-outfit "Hammer Bomb"
+outfit "Earthquake Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
 	cost 1500000
@@ -226,7 +226,7 @@ outfit "Hammer Bomb"
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "	In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
 
-outfit "Sword Bomb"
+outfit "Magma Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
 	cost 2000000
@@ -238,7 +238,7 @@ outfit "Sword Bomb"
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
 
-outfit "Dagger Bomb"
+outfit "Thunder Bomb"
 	thumbnail "outfit/unfettered bomb"
 	category "Ammunition"
 	cost 2500000

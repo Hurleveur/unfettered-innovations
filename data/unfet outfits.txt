@@ -298,7 +298,7 @@ effect "small unfettered afterburner"
 # 32 + 28 + 76 + 63
 outfit "Predator Engine"
 	category "Engines"
-	cost 10000000
+	cost 7000000
 	thumbnail "outfit/predator engine"
 	mass 180
 	"outfit space" -145
@@ -345,6 +345,47 @@ effect "large unfettered afterburner"
 	"random angle" 2
 	lifetime 1.5
 	"random lifetime" 1
+
+# bondir steering and biroo thruster that are more heat efficient + afterburner bondir
+# + 50% energy cost, and made heat be the same (except afterburner that is double energy)
+outfit "Stealth Engine"
+	category "Engines"
+	cost 4000000
+	thumbnail "outfit/unknown"
+	mass 120
+	"outfit space" -120
+	"engine capacity" -120
+	"required crew" 2
+	
+	"afterburner thrust" 62.8
+	"afterburner thrusting energy" 12.2
+	"afterburner thrusting heat" 12.7
+	"afterburner effect" "medium unfettered afterburner"
+
+	"thrust" 39.4
+	"thrusting energy" 6
+	"thrusting heat" 6
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+
+	"turn" 1714
+	"turning energy" 4.8
+	"turning heat" 4.8
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"steering flare sound" "atomic small"
+	
+	description "This engine is intended to be a more discrete version of the usually heat inefficient Hai engines."
+
+effect "medium unfettered afterburner"
+	sprite "effect/atomic flare/medium"
+		"frame rate" 100
+	soud "ionic afterburner"
+	"random angle" 1
+	lifetime 1.5
+	"random lifetime" 0.5
+
 
 
 outfit "Hai Zephyr Cooling"
@@ -418,7 +459,6 @@ outfit "Exo-Suit"
 	category "Hand to Hand"
 	cost 250000
 	thumbnail "outfit/unknown"
-	mass 1
 	"capture attack" 4
 	"capture defense" 5
 	"unplunderable" 1

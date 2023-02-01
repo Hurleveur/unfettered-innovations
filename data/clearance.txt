@@ -18,6 +18,7 @@ outfitter "Unfettered Basics"
 	add "Railgun Slug Rack"
 	add "Railgun Slug"
 	add "Exo-Suit"
+	add "Stealth Engine"
 
 outfitter "Unfettered Basics"
 	add "Ionic Blaster Prototype"
@@ -36,6 +37,7 @@ shipyard "Mon Ki o'Uden Advanced"
 	add "Lycosidae"
 	add "Flycatcher (Chameleon)"
 	add "FlyEater"
+	add "Bigeminate Sigil"
 
 # ships from the campaign and warlord PR
 shipyard "Mon Ki o'Uden Advanced"
@@ -59,6 +61,7 @@ shipyard "Unfettered Basics"
 	add "Lycosidae"
 	add "Flycatcher (Chameleon)"
 	add "FlyEater"
+	add "Bigeminate Sigil"
 
 shipyard "Unfettered Basics"
 	#add "Stag Beetle"

@@ -83,6 +83,7 @@ ship "Phrynus"
 		"Quantum Keystone"
 		"Tripulse Shredder"
 		"Value Detector"
+		"Pulse Rifle" 34
 	gun -110.5 -104 "Ion Cannon"
 	gun 110.5 -104 "Ion Cannon"
 	gun -118.5 -108 "Ion Cannon"
@@ -143,7 +144,7 @@ ship "Tarentula"
 		"heat dissipation" .4
 		"fuel capacity" 600
 		"cargo space" 206
-		"outfit space" 1117
+		"outfit space" 1085
 		"weapon capacity" 518
 		"engine capacity" 180
 		weapon
@@ -154,12 +155,14 @@ ship "Tarentula"
 	outfits
 		"Penta Pulser" 6
 		"Chameleon Anti-Missile" 2
-		"Boulder Reactor"
 		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
 		"Ruby Regenerator"
-		"Hai Ravine Batteries"
 		"Monolith Core"
-		"Hai Zephyr Cooling" 4
+		"Hai Zephyr Cooling"
+		"Large Heat Shunt"
+		"Yellow Sun Reactor"
+		"Fuel Processor"
 		"Quantum Keystone"
 		"Predator Engine"
 		"Pulse Rifle" 200

@@ -66,6 +66,7 @@ ship "Phrynus" "OmegaPhrynus"
 		"Hai Ravine Batteries"
 		"Monolith Core"
 		"Predator Engine"
+		"Pulse Rifle" 34
 	gun -110.5 -104 "Earthquake Bomb Launcher"
 	gun 110.5 -104 "Earthquake Bomb Launcher"
 	gun -118.5 -108 "Earthquake Bomb Launcher"
@@ -114,6 +115,7 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Predator Engine"
 		"Quantum Keystone"
 		"Value Detector" 2
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Octa)"
 	outfits
@@ -128,6 +130,7 @@ ship "Phrynus" "Phrynus (Octa)"
 		"Quantum Keystone"
 		"Ruby Regenerator"
 		"Value Detector" 2
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Long Range Ion)"
 	outfits
@@ -142,6 +145,7 @@ ship "Phrynus" "Phrynus (Long Range Ion)"
 		"Jump Drive"
 		"Value Detector" 2
 		"Outfit Scanner" 5
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Ion Tracker)"
 	outfits
@@ -158,6 +162,7 @@ ship "Phrynus" "Phrynus (Ion Tracker)"
 		"Quantum Keystone"
 		"Ruby Regenerator"
 		"Value Detector"
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Tracker)"
 	outfits
@@ -173,6 +178,7 @@ ship "Phrynus" "Phrynus (Tracker)"
 		"Quantum Keystone"
 		"Tracker Storage Pod" 14
 		"Value Detector" 2
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Ruby Shredder)"
 	outfits
@@ -188,6 +194,7 @@ ship "Phrynus" "Phrynus (Ruby Shredder)"
 		"Ruby Regenerator"
 		"Tripulse Shredder" 5
 		"Value Detector"
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Penta Blaster)"
 	outfits
@@ -204,6 +211,7 @@ ship "Phrynus" "Phrynus (Penta Blaster)"
 		"Quantum Keystone"
 		"Ruby Regenerator"
 		"Value Detector"
+		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Miner)"
 	outfits
@@ -221,6 +229,7 @@ ship "Phrynus" "Phrynus (Miner)"
 		# this can even mine the enemy!
 		"Tripulse Shredder" 7
 		"Value Detector"
+		"Pulse Rifle" 34
 
 
 
@@ -235,7 +244,8 @@ ship "Violin Spider" "Violin Spider (Webber)"
 		"Hai Williwaw Cooling"
 		"Pulse Rifle"
 		`"Basrem" Atomic Steering`
-		`"Basrem" Atomic Thruster`		
+		`"Basrem" Atomic Thruster`	
+		"Pulse Rifle"
 
 
 ship "Violin Spider" "Violin Spider (Bomber)"
@@ -254,6 +264,7 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 		"Hunter Engine"
 		"Pebble Core"
 		Supercapacitor
+		"Pulse Rifle"
 		"Pulse Rifle"
 	gun 0 -31
 	gun 0 -31

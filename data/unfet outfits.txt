@@ -25,7 +25,7 @@ outfit "Integrated Chameleon Anti-Missile"
 
 outfit "Penta Pulser"
 	category "Turrets"
-	cost 2600000
+	cost 2200000
 	thumbnail "outfit/penta pulser"
 	"mass" 70
 	"outfit space" -70
@@ -74,7 +74,7 @@ outfit "Pulse Submunition"
 
 outfit "Octa Annihilator"
 	category "Turrets"
-	cost 4000000
+	cost 3400000
 	thumbnail "outfit/octa annihilator"
 	mass 130
 	"outfit space" -100
@@ -407,7 +407,7 @@ outfit "Kraken Jammer"
 	cost 1000000
 	thumbnail "outfit/hai jammer overclocked"
 	mass 35
-	"outfit space" 35
+	"outfit space" -35
 	"energy consumption" 5
 	"cooling" 25
 	"radar jamming" 50

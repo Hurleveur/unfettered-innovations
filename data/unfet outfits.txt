@@ -379,11 +379,11 @@ outfit "Stealth Engine"
 	description "This engine is intended to be a more discrete version of the usually heat inefficient Hai engines."
 
 effect "medium unfettered afterburner"
-	sprite "effect/atomic flare/medium"
+	sprite "effect/atomic flare/small"
 		"frame rate" 100
 	soud "ionic afterburner"
 	"random angle" 1
-	lifetime 1.5
+	lifetime 1
 	"random lifetime" 0.5
 
 

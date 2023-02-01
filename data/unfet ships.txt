@@ -36,6 +36,8 @@ ship "Ladybug" "Bigeminate Sigil"
 		"Exo-Suit" 40
 		"Pug Peacekeeping Staff" 20
 		"Enforcer Riot Staff" 20
+	description "There are rumors that there is only one ship like this one, but it is able to be whenever it is most needed, never spotted or destroyed."
+	description "	It comprises of an elite Unfettered team, equipped with advanced armor and weapons, and the right modifications to make sure it does not shine in battle, but is instead impossible to notice. Some say that once you see this ship approaching your world, you may as well abandon it, because surely at some point the Unfettered will come in whatever force is necessary."
 
 
 
@@ -118,7 +120,7 @@ ship "Phrynus"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
-	description "Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
+	description "	Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
 
 
 

@@ -153,6 +153,7 @@ outfit "Harasser Quadrail"
 # invisible on all bombardiers violin
 outfit "Earthquake Bomb Launcher"
 	thumbnail "outfit/unknown"
+	category "Secondary Weapons"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
@@ -174,6 +175,7 @@ outfit "Earthquake Bomb Launcher"
 
 outfit "Magma Bomb Launcher"
 	thumbnail "outfit/unknown"
+	category "Secondary Weapons"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
@@ -195,6 +197,7 @@ outfit "Magma Bomb Launcher"
 
 outfit "Thunder Bomb Launcher"
 	thumbnail "outfit/unknown"
+	category "Secondary Weapons"
 	"integrated bombing" 1
 	"gun ports" -1
 	weapon
@@ -207,9 +210,9 @@ outfit "Thunder Bomb Launcher"
 		"reload" 180
 		"missile strength" 500
 		"shield damage" 0
-		"hull damage" 40000
+		"hull damage" 18000
 		"hit force" 500
-		"piercing" 0.25
+		"piercing" 0.5
 		"turn" 1
 
 

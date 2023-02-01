@@ -210,7 +210,7 @@ outfit "Thunder Bomb Launcher"
 		"reload" 180
 		"missile strength" 500
 		"shield damage" 0
-		"hull damage" 18000
+		"hull damage" 19500
 		"hit force" 500
 		"piercing" 0.5
 		"turn" 1

@@ -38,6 +38,7 @@ shipyard "Mon Ki o'Uden Advanced"
 	add "Flycatcher (Chameleon)"
 	add "FlyEater"
 	add "Bigeminate Sigil"
+	add "Scarred"
 
 # ships from the campaign and warlord PR
 shipyard "Mon Ki o'Uden Advanced"
@@ -62,6 +63,7 @@ shipyard "Unfettered Basics"
 	add "Flycatcher (Chameleon)"
 	add "FlyEater"
 	add "Bigeminate Sigil"
+	add "Scarred"
 
 shipyard "Unfettered Basics"
 	#add "Stag Beetle"

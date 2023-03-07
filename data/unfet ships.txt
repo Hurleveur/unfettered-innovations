@@ -59,7 +59,7 @@ ship "Phrynus"
 		"bunks" 62
 		"mass" 820
 		"drag" 7.2
-		"heat dissipation" .6
+		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 200
 		"outfit space" 763

@@ -87,7 +87,7 @@ outfit "Octa Annihilator"
 		sprite "projectile/pulse"
 			scale 3
 		sound "pulse"
-		"inaccuracy" 2
+		"inaccuracy" 1
 		"turret turn" .5
 		"reload" 100
 		"hit effect" "pulse impact"
@@ -420,7 +420,7 @@ outfit "Ruby Regenerator"
 	thumbnail "outfit/ruby regenerator"
 	mass 100
 	"outfit space" -100
-	"shield generation" 8
+	"shield generation" 6
 	"shield energy" 2
 	"energy consumption" 2
 	"heat generation" 2

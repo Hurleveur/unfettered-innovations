@@ -126,7 +126,7 @@ ship "Phrynus"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
-	description "	Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
+	description "	Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept at protecting it against smaller, more agile enemies as well."
 
 
 
@@ -219,7 +219,7 @@ ship "Tarentula"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they build that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
+	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they built that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
 
 
 

@@ -105,7 +105,43 @@ outfit "Octa Annihilator"
 		"damage dropoff" 0
 		"dropoff modifier" 0
 	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
-	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes much more energy and heat comparatively, and the resulting projectile is much slower and loses in stability and thus damage over time. On top of that, not many ships can only fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
+	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes much more energy and heat comparatively, and the resulting projectile is much slower and loses in stability and thus damage over time. On top of that, most can only fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
+
+outfit "Octa Devastator"
+	category "Turrets"
+	cost 4000000
+	thumbnail "outfit/octa annihilator"
+	mass 130
+	"outfit space" -100
+	"weapon capacity" -111
+	"turret mounts" -1
+	"required crew" 6
+	weapon
+		"hardpoint sprite" "hardpoint/penta pulser"
+		"hardpoint offset" 50
+		sprite "projectile/pulse"
+			scale 3
+		sound "pulse"
+		"inaccuracy" .5
+		"turret turn" .5
+		"reload" 100
+		"hit effect" "pulse impact"
+		"velocity" 20
+		"acceleration" .4
+		"drag" 0.01
+		"lifetime" 120
+		"reload" 100
+		"firing energy" 1000
+		"firing heat" 2625
+		"shield damage" 1500
+		"hull damage" 1000
+		"blast radius" 50
+		"hit force" 500
+		"damage dropoff" 250
+		"dropoff modifier" 1.1
+	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
+	description "	The resulting short beam has the strength of 10 pulse cannons with much longer range, although it consumes much more energy and heat comparatively. The Unfettered were able to modify it to resolve that, but they decided to keep both versions; one intended to keep enemies frightened to close the range, the other one forcing them to with sheer damage."
+	description "	This version is able to keep its stability and go much faster, although for a shorter time. In fact, the Unfettered were able to make it gain damage over time as it accumulates momentum. Not many ships can even fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
 
 
 outfit "Harasser Quadrail"

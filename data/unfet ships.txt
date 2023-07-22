@@ -12,12 +12,13 @@ ship "Ladybug" "Bigeminate Sigil"
 			"frame rate" 13
 		"reverse flare sound" "atomic small"
 		"scan interference" 5
-		"fuel capacity" 100
+		"fuel capacity" -100
 		"cargo space" -51
 		"outfit space" 22
 		"bunks" 7
 		"integrated bombing" -2
 		"bomb capacity" 4
+		"radar jamming" 30
 	outfits
 		"Korath Detainer"
 		"Warder Anti-Missile" 2
@@ -29,7 +30,7 @@ ship "Ladybug" "Bigeminate Sigil"
 		"Hai Octopus Jammer" 2
 		"Large Heat Shunt"
 		"Systems Core (Medium)"
-		"Fuel Processor"
+		"Fuel Processor" 2
 		"Wanderer Ramscoop"
 		"Cloaking Device"
 
@@ -40,7 +41,7 @@ ship "Ladybug" "Bigeminate Sigil"
 		"Exo-Suit" 40
 		"Pug Peacekeeping Staff" 20
 		"Enforcer Riot Staff" 20
-	description "There are rumors that there is only one ship like this one, but it is able to be whenever it is most needed, never spotted or destroyed."
+	description "There are rumors that there is only one ship like this one, but it is able to be whenever it is most needed, never spotted or destroyed. Even missiles cannot seem to find a lock on this ship, including when it chooses to be seen, rushing in for the kill."
 	description "	It comprises of an elite Unfettered team, equipped with advanced armor and weapons, and the right modifications to make sure it does not shine in battle, but is instead impossible to notice. Some say that once you see this ship approaching your world, you may as well abandon it, because surely at some point the Unfettered will come in whatever force is necessary."
 
 
@@ -58,7 +59,7 @@ ship "Phrynus"
 		"bunks" 62
 		"mass" 820
 		"drag" 7.2
-		"heat dissipation" .6
+		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 200
 		"outfit space" 763
@@ -125,7 +126,7 @@ ship "Phrynus"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "A new design for dealing with the Wanderer ramp up in ship production and durability, meant en masse to provide a broad base for delivering ionizing damage at range in order to expose targets to more direct fire from other ships. Running with a lighter crew but greatly expanded cargo space compared to the classic Shield Beetle, it also serves as a platform to acquire plunder in battle or bring weapons and war supplies to the newly conquered worlds while fielding more firepower and durability than the Water Bug." 
-	description "	Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept protecting it against smaller, more agile enemies as well."
+	description "	Due to its lack of turrets, this ship can be vulnerable to missiles and relies on cover from accompanying ships to screen them out for it. Violin Spiders can be especially adept at protecting it against smaller, more agile enemies as well."
 
 
 
@@ -218,7 +219,80 @@ ship "Tarentula"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they build that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
+	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they built that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
+
+
+
+# Atlas, ship of Dak-Ka, by Tibetiroka
+ship Solitude
+	sprite "ship/hai solifuge"
+	thumbnail "thumbnail/hai solifuge"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		cost 42800000
+		shields 40100
+		hull 4321
+		"required crew" 75
+		bunks 160
+		mass 925
+		drag 15.4
+		"heat dissipation" .82
+		"fuel capacity" 200
+		"cargo space" 70
+		"outfit space" 1162
+		"weapon capacity" 548
+		"engine capacity" 47
+		weapon
+			"blast radius" 450
+			"shield damage" 4500
+			"hull damage" 2250
+			"hit force" 3500
+	outfits
+		"Repair Team"
+		`Type 2 Radiant Steering`
+		`Type 2 Radiant Thruster`
+		"Dark Storm Shielding" 5
+		"Dual Pulse Pistol" 25
+		Heshi 13
+		"Jump Drive"
+		"Korath Repeater Rifle" 18
+		"Korath Warder" 2
+		"Liquid Sodium Cooler"
+		"Large Heat Shunt"
+		"Octa Annihilator" 4
+		"Pulse Rifle" 117
+		"Quantum Keystone"
+		"Triple Plasma Core"
+		"Wanderer Anti-Missile" 2
+		"White Sun Reactor"
+	engine -28 135.5
+	engine 28 135.5
+	turret 0 -109.5 "Wanderer Anti-Missile"
+	turret 54.5 -48.5 "Octa Annihilator"
+	turret -54.5 -48.5 "Octa Annihilator"
+	turret 55 1 "Korath Warder"
+	turret -55 1 "Korath Warder"
+	turret 54.5 50.5 "Octa Annihilator"
+	turret -54.5 50.5 "Octa Annihilator"
+	turret 0 109.5 "Wanderer Anti-Missile"
+	bay Drone -51.5 -71 under
+		"launch effect" "hai launch"
+	bay Drone 51.5 -71 under
+		"launch effect" "hai launch"
+	bay Drone -51.5 76 under
+		"launch effect" "hai launch"
+	bay Drone 51.5 76 under
+		"launch effect" "hai launch"
+	leak leak 40 50
+	leak flame 60 70
+	leak "big leak" 70 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
 
 
 

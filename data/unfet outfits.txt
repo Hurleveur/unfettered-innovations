@@ -138,7 +138,7 @@ outfit "Octa Annihilator"
 outfit "Octa Devastator"
 	category "Turrets"
 	cost 4000000
-	thumbnail "outfit/octa annihilator"
+	thumbnail "outfit/long pulse sniper"
 	mass 130
 	"outfit space" -100
 	"weapon capacity" -111

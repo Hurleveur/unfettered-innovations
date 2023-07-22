@@ -25,7 +25,7 @@ outfit "Integrated Chameleon Anti-Missile"
 outfit "Pulse Accelerator"
 	category "Guns"
 	cost 390000
-	thumbnail "outfit/pulse cannon"
+	thumbnail "outfit/pulse sniper"
 	"mass" 25
 	"outfit space" -22
 	"weapon capacity" -22

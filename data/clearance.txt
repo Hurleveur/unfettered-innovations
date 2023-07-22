@@ -3,8 +3,10 @@ planet "Darkcloak"
 
 
 outfitter "Unfettered Basics"
+	add "Pulse Accelerator"
 	add "Penta Pulser"
 	add "Octa Annihilator"
+	add "Octa Devastator"
 	add "Earthquake Bomb"
 	add "Magma Bomb"
 	add "Thunder Bomb"
@@ -39,6 +41,7 @@ shipyard "Mon Ki o'Uden Advanced"
 	add "FlyEater"
 	add "Bigeminate Sigil"
 	add "Scarred"
+	add "Solitude"
 
 # ships from the campaign and warlord PR
 shipyard "Mon Ki o'Uden Advanced"
@@ -64,6 +67,7 @@ shipyard "Unfettered Basics"
 	add "FlyEater"
 	add "Bigeminate Sigil"
 	add "Scarred"
+	add "Solitude"
 
 shipyard "Unfettered Basics"
 	#add "Stag Beetle"

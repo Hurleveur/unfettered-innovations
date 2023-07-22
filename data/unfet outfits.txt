@@ -27,8 +27,8 @@ outfit "Pulse Accelerator"
 	cost 390000
 	thumbnail "outfit/pulse sniper"
 	"mass" 25
-	"outfit space" -22
-	"weapon capacity" -22
+	"outfit space" -19
+	"weapon capacity" -19
 	"gun ports" -1
 	weapon
 		sprite "projectile/pulse"
@@ -47,7 +47,7 @@ outfit "Pulse Accelerator"
 		"damage dropoff" 150
 		"dropoff modifier" 1.1
 	description "Like most examples of Hai engineering that you have seen, the Pulse Cannon does not stand out as a particularly advanced or elegant technology, but it has a reputation for being efficient, reliable, and well-balanced."
-	description "	That is, until the Unfettered got their hands on it and made it a weapon that gains speed as it moves trough space, able to gain much bigger speeds and damage potential."
+	description "	That is, until the Unfettered got their hands on it and made it a weapon that gains speed as it moves trough space, able to gain much bigger speeds and damage potential. This weapon takes less weapon space that it normally would given how most of it is simply situated outside of the ship."
 
 
 

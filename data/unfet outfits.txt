@@ -22,6 +22,34 @@ outfit "Integrated Chameleon Anti-Missile"
 	description "	This version was built to be integrated in a Violin Spider."
 
 
+outfit "Pulse Accelerator"
+	category "Guns"
+	cost 390000
+	thumbnail "outfit/pulse cannon"
+	"mass" 25
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" .3
+		"velocity" 15
+		"acceleration" .4
+		"drag" 0.01
+		"lifetime" 60
+		"reload" 30
+		"firing energy" 30
+		"firing heat" 80
+		"shield damage" 45
+		"hull damage" 34
+		"damage dropoff" 150
+		"dropoff modifier" 1.1
+	description "Like most examples of Hai engineering that you have seen, the Pulse Cannon does not stand out as a particularly advanced or elegant technology, but it has a reputation for being efficient, reliable, and well-balanced."
+	description "	That is, until the Unfettered got their hands on it and made it a weapon that gains speed as it moves trough space, able to gain much bigger speeds and damage potential."
+
+
 
 outfit "Penta Pulser"
 	category "Turrets"

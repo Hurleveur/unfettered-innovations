@@ -223,6 +223,79 @@ ship "Tarentula"
 
 
 
+# Atlas, ship of Dak-Ka, by Tibetiroka
+ship Solitude
+	sprite "ship/hai solifuge"
+	thumbnail "thumbnail/hai solifuge"
+	"never disabled"
+	attributes
+		category "Heavy Warship"
+		cost 42800000
+		shields 40100
+		hull 4321
+		"required crew" 75
+		bunks 160
+		mass 925
+		drag 15.4
+		"heat dissipation" .82
+		"fuel capacity" 200
+		"cargo space" 70
+		"outfit space" 1162
+		"weapon capacity" 548
+		"engine capacity" 47
+		weapon
+			"blast radius" 450
+			"shield damage" 4500
+			"hull damage" 2250
+			"hit force" 3500
+	outfits
+		"Repair Team"
+		`Type 2 Radiant Steering`
+		`Type 2 Radiant Thruster`
+		"Dark Storm Shielding" 5
+		"Dual Pulse Pistol" 25
+		Heshi 13
+		"Jump Drive"
+		"Korath Repeater Rifle" 18
+		"Korath Warder" 2
+		"Liquid Sodium Cooler"
+		"Large Heat Shunt"
+		"Octa Annihilator" 4
+		"Pulse Rifle" 117
+		"Quantum Keystone"
+		"Triple Plasma Core"
+		"Wanderer Anti-Missile" 2
+		"White Sun Reactor"
+	engine -28 135.5
+	engine 28 135.5
+	turret 0 -109.5 "Wanderer Anti-Missile"
+	turret 54.5 -48.5 "Octa Annihilator"
+	turret -54.5 -48.5 "Octa Annihilator"
+	turret 55 1 "Korath Warder"
+	turret -55 1 "Korath Warder"
+	turret 54.5 50.5 "Octa Annihilator"
+	turret -54.5 50.5 "Octa Annihilator"
+	turret 0 109.5 "Wanderer Anti-Missile"
+	bay Drone -51.5 -71 under
+		"launch effect" "hai launch"
+	bay Drone 51.5 -71 under
+		"launch effect" "hai launch"
+	bay Drone -51.5 76 under
+		"launch effect" "hai launch"
+	bay Drone 51.5 76 under
+		"launch effect" "hai launch"
+	leak leak 40 50
+	leak flame 60 70
+	leak "big leak" 70 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+
+
+
 ship "Lycosidae"
 	sprite "ship/hai lycosidae"
 	thumbnail "thumbnail/hai lycosidae"

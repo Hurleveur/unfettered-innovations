@@ -112,17 +112,18 @@ outfit "Octa Annihilator"
 	weapon
 		"hardpoint sprite" "hardpoint/penta pulser"
 		"hardpoint offset" 50
-		sprite "projectile/pulse"
-			scale 3
+		sprite "projectile/octa annihilator spin/octa annihilator"
+			"random start frame"
+			"frame time" 10
 		sound "pulse"
 		"inaccuracy" .5
-		"turret turn" .5
+		"turret turn" .6
 		"reload" 100
 		"hit effect" "pulse impact"
-		"velocity" 18
-		"acceleration" .4
+		"velocity" 16
+		"acceleration" .25
 		"drag" 0.01
-		"lifetime" 150
+		"lifetime" 200
 		"reload" 100
 		"firing energy" 900
 		"firing heat" 2625
@@ -147,17 +148,18 @@ outfit "Octa Devastator"
 	weapon
 		"hardpoint sprite" "hardpoint/penta pulser"
 		"hardpoint offset" 50
-		sprite "projectile/pulse"
-			scale 3
+		sprite "projectile/octa annihilator wobble/octa annihilator"
+			"random start frame"
+			"frame time" 10
 		sound "pulse"
-		"inaccuracy" .5
+		"inaccuracy" 0
 		"turret turn" .5
 		"reload" 100
 		"hit effect" "pulse impact"
-		"velocity" 20
-		"acceleration" .4
+		"velocity" 15
+		"acceleration" .3
 		"drag" 0.01
-		"lifetime" 120
+		"lifetime" 140
 		"reload" 100
 		"firing energy" 1000
 		"firing heat" 2625

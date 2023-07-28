@@ -7,7 +7,7 @@ ship "Tarentula" "Tarentula (Octa Annihilators)"
 		"Ruby Regenerator"
 		"Hai Ravine Batteries"
 		"Monolith Core"
-		"Hai Zephyr Cooling" 4
+		"Hai Zephyr Cooling-" 4
 		"Quantum Keystone"
 		"Predator Engine"
 		`"Biroo" Atomic Steering`
@@ -31,7 +31,7 @@ ship "Tarentula" "Tarentula (Ionic)"
 		"Ruby Regenerator"
 		"Hai Ravine Batteries"
 		"Monolith Core"
-		"Hai Zephyr Cooling" 4
+		"Hai Zephyr Cooling-" 4
 		"Quantum Keystone"
 		"Predator Engine"
 		"Pulse Rifle" 200
@@ -61,7 +61,7 @@ ship "Phrynus" "OmegaPhrynus"
 		"Jump Drive"
 		"Hai Diamond Regenerator" 2
 		"Ruby Regenerator"
-		"Hai Zephyr Cooling"
+		"Hai Zephyr Cooling-"
 		
 		"Hai Ravine Batteries"
 		"Monolith Core"
@@ -106,7 +106,7 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Hai Chasm Batteries"
 		"Hai Diamond Regenerator"
 		"Hai Fissure Batteries"
-		"Hai Zephyr Cooling" 2
+		"Hai Zephyr Cooling-" 2
 		"Ion Cannon"
 		"Ionic Blaster Prototype" 8
 		"Ionic Turret Prototype" 2
@@ -122,7 +122,7 @@ ship "Phrynus" "Phrynus (Octa)"
 		"Hai Diamond Regenerator"
 		"Hai Valley Batteries"
 		"Hai Williwaw Cooling"
-		"Hai Zephyr Cooling" 3
+		"Hai Zephyr Cooling-" 3
 		"Jump Drive"
 		"Monolith Core"
 		"Octa Annihilator" 2
@@ -139,7 +139,7 @@ ship "Phrynus" "Phrynus (Long Range Ion)"
 		"Monolith Core"
 		"Hai Gorge Batteries"
 		"Hai Diamond Regenerator" 2
-		"Hai Zephyr Cooling" 2
+		"Hai Zephyr Cooling-" 2
 		"Quantum Keystone"
 		"Predator Engine"
 		"Jump Drive"
@@ -152,7 +152,7 @@ ship "Phrynus" "Phrynus (Ion Tracker)"
 		"Hai Gorge Batteries"
 		"Hai Tracker" 224
 		"Hai Tracker Pod" 4
-		"Hai Zephyr Cooling" 2
+		"Hai Zephyr Cooling-" 2
 		"Ion Cannon"
 		"Ionic Blaster Prototype" 4
 		"Ionic Turret Prototype" 2
@@ -171,7 +171,7 @@ ship "Phrynus" "Phrynus (Tracker)"
 		"Hai Diamond Regenerator"
 		"Hai Tracker" 896
 		"Hai Tracker Pod" 9
-		"Hai Zephyr Cooling"
+		"Hai Zephyr Cooling-"
 		"Ionic Turret Prototype" 2
 		"Jump Drive"
 		"Predator Engine"
@@ -184,7 +184,7 @@ ship "Phrynus" "Phrynus (Ruby Shredder)"
 	outfits
 		"Chameleon Anti-Missile" 2
 		"Hai Chasm Batteries"
-		"Hai Zephyr Cooling" 5
+		"Hai Zephyr Cooling-" 5
 		"Ionic Blaster Prototype" 4
 		"Jump Drive"
 		"Monolith Core"
@@ -201,7 +201,7 @@ ship "Phrynus" "Phrynus (Penta Blaster)"
 		"Geode Reactor"
 		"Hai Chasm Batteries" 2
 		"Hai Fissure Batteries"
-		"Hai Zephyr Cooling" 6
+		"Hai Zephyr Cooling-" 6
 		"Ionic Blaster Prototype" 9
 		"Jump Drive"
 		"Monolith Core"
@@ -220,7 +220,7 @@ ship "Phrynus" "Phrynus (Miner)"
 		"Cargo Expansion"
 		"Hai Corundum Regenerator"
 		"Hai Gorge Batteries"
-		"Hai Zephyr Cooling" 3
+		"Hai Zephyr Cooling-" 3
 		"Jump Drive"
 		"Monolith Core"
 		"Pebble Core"

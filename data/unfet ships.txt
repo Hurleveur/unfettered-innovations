@@ -76,7 +76,7 @@ ship "Phrynus"
 		"Hai Corundum Regenerator"
 		"Hai Diamond Regenerator"
 		"Hai Ravine Batteries"
-		"Hai Zephyr Cooling" 2
+		"Hai Zephyr Cooling-" 2
 		"Ion Cannon" 4
 		"Ionic Blaster Prototype" 4
 		"Jump Drive"
@@ -161,7 +161,7 @@ ship "Tarentula"
 		"Hai Gorge Batteries"
 		"Ruby Regenerator"
 		"Monolith Core"
-		"Hai Zephyr Cooling"
+		"Hai Zephyr Cooling-"
 		"Large Heat Shunt"
 		"Yellow Sun Reactor"
 		"Fuel Processor"

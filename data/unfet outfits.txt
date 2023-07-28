@@ -7,11 +7,13 @@ outfit "Dimentional Eraser"
 	"weapon capacity" 150
 	"gun ports" -1
 	"spinal mount" -1
+	unplunderable 1
 	weapon
 		sprite "projectile/ember tear/ember tear"
 			"frame rate" 30
 		sound "ember tear"
-		ammo "Gold Bars"
+		ammo "Gold Bars-"
+		icon "icon/dimentional eraser"
 		"hit effect" "ember tear spark"
 		"hit effect" "ember tear impact"
 		"hit effect" "ember tear vortex"
@@ -463,18 +465,6 @@ effect "medium unfettered afterburner"
 	"random angle" 1
 	lifetime 1
 	"random lifetime" 0.5
-
-
-
-outfit "Hai Zephyr Cooling"
-	category "Systems"
-	cost 38000
-	thumbnail "outfit/unknown"
-	"mass" 14
-	"outfit space" -14
-	"cooling" 21
-	description `This more advanced cooling system has been developed by the Unfettered with significant help from Korath scientists, who were highly amused with the Williwaw's simultaneous "primitive" design and similarities to a Korath heat shunt.`
-	description `	Although advanced for the Hai, the Korath meant this "simple" hydrogen-circulating cooler to be an easy-to-understand stopgap for immediate production, while they brought the Hai up to speed with "proper" heat shunt theory and design.`
 
 
 outfit "Kraken Jammer"

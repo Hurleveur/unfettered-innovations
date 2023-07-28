@@ -22,7 +22,11 @@ outfitter "Unfettered Basics"
 	add "Exo-Suit"
 	add "Stealth Engine"
 	add "Dimentional Eraser"
-	add "Gold Bars"
+
+# campaign stuff
+outfitter "Unfettered Basics"
+	add "Gold Bars-"
+	add "Hai Zephyr Cooling-"
 
 outfitter "Unfettered Basics"
 	add "Ionic Blaster Prototype"
@@ -47,12 +51,12 @@ shipyard "Mon Ki o'Uden Advanced"
 
 # ships from the campaign and warlord PR
 shipyard "Mon Ki o'Uden Advanced"
-	#add "Stag Beetle"
-	#add "Modified Shield Beetle"
-	#add "Emperor Beetle"
-	#add "Tick"
-	#add "Antlion"
-	#add "Sea Dragon"
+	add "Stag Beetle-"
+	add "Modified Shield Beetle-"
+	add "Emperor Beetle"
+	add "Tick-"
+	add "Antlion-"
+	add "Sea Dragon-"
 	add "Solifuge"
 	add "Violin Spider"
 

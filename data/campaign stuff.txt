@@ -1,0 +1,8 @@
+outfit "Gold Bars"
+	category "Special"
+	plural "Gold Bars"
+	cost 64000
+	thumbnail "outfit/gold bars"
+	mass 2.1
+	"installable" -1
+	description "It shines; you can feel its value. For some reason, the text 'nemo me impune lacessit' is written on them. You wonder what that could mean... surely nothing to worry about. Most outfitters are not real 'connoisseurs' of the value these hold however, and would not give you any more than the price of brute gold for it."

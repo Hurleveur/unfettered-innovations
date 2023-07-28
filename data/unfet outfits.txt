@@ -1,25 +1,41 @@
-outfit "Integrated Chameleon Anti-Missile"
-	category "Turrets"
-	cost 140000
-	thumbnail "outfit/heavy anti-missile hai"
-	"mass" 22
-	"outfit space" -19
-	"weapon capacity" -19
-	"turret mounts" -1
-	"integrated chameleon" -1
+outfit "Gold Bars"
+	category "Special"
+	plural "Gold Bars"
+	cost 64000
+	thumbnail "outfit/gold bars"
+	mass 2.1
+	"installable" -1
+	description "It shines; you can feel its value. For some reason, the text 'nemo me impune lacessit' is written on them. You wonder what that could mean... surely nothing to worry about. Most outfitters are not real 'connoisseurs' of the value these hold however, and would not give you any more than the price of brute gold for it."
+
+outfit "Dimentional Eraser"
+	category "Secondary Weapons"
+	cost 100000000
+	mass 150
+	thumbnail "outfit/dimentional eraser"
+	"outfit space" 150
+	"weapon capacity" 150
+	"gun ports" -1
+	"spinal mount" -1
 	weapon
-		"hardpoint sprite" "hardpoint/heavy anti-missile hai"
-		"hardpoint offset" 4.
-		"hit effect" "large anti-missile"
-		"anti-missile" 16
-		"velocity" 200
+		sprite "projectile/ember tear/ember tear"
+			"frame rate" 30
+		sound "ember tear"
+		ammo "Gold Bars"
+		"hit effect" "ember tear spark"
+		"hit effect" "ember tear impact"
+		"hit effect" "ember tear vortex"
+		"fire effect" "ember tear fire"
+		"velocity" 800
+		"inaccuracy" 0
 		"lifetime" 1
-		"reload" 15
-		"firing energy" 23
-		"firing heat" 6
-		"stream"
-	description "The Chameleon Anti-Missile turret has a longer range, higher power, and shorter reload time than the Bullfrog."
-	description "	This version was built to be integrated in a Violin Spider."
+		"reload" 1
+		"firing force" 10
+		"blast radius" 150
+		"firing energy" 230
+		"firing heat" 105
+		"shield damage" 250
+		"hull damage" 250
+	description "This weapon opens a portal trough space and time that seemingly erases anything from this dimention. Its strength was enough to justify dedicating whole organisations to its secrecy and safekeeping. The effect of firing this weapon can be devastating, but nobody ever tried to find out, given the big cost in fuel contained within the gold bars to fire it."
 
 
 outfit "Pulse Accelerator"

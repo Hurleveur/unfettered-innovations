@@ -235,10 +235,8 @@ ship "Phrynus" "Phrynus (Miner)"
 
 # variant that fits an unremovable AM
 ship "Violin Spider" "Violin Spider (Webber)"
-	add attributes
-		"integrated chameleon" 1
 	outfits
-		"Integrated Chameleon Anti-Missile"
+		"Chameleon Anti-Missile"
 		"Pebble Core"
 		Supercapacitor
 		"Hai Williwaw Cooling"

@@ -11,7 +11,7 @@ outfit "Dimentional Eraser"
 	category "Secondary Weapons"
 	cost 100000000
 	mass 150
-	thumbnail "outfit/dimentional eraser"
+	thumbnail "outfit/dimensional eraser"
 	"outfit space" 150
 	"weapon capacity" 150
 	"gun ports" -1

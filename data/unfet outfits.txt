@@ -374,13 +374,13 @@ effect "small unfettered afterburner"
 	"random frame rate" 2
 
 
-# comet afterburner + `"Benga" Reverse Thruster` + `"Bufaer" Atomic Steering` + `"Bondir" Atomic Thruster`
-# 32 + 28 + 76 + 63
+# comet afterburner + `"Benga" Reverse Thruster` + `"Bondir" Atomic Steering` + `"Bondir" Atomic Thruster`
+# 32 + 28 + 49 + 63
 outfit "Predator Engine"
 	category "Engines"
 	cost 7000000
 	thumbnail "outfit/predator engine"
-	mass 180
+	mass 145
 	"outfit space" -145
 	"engine capacity" -145
 	"required crew" 5
@@ -392,12 +392,12 @@ outfit "Predator Engine"
 		"frame rate" 12
 	"flare sound" "atomic medium"
 
-	"turn" 2967
-	"turning energy" 5.2
-	"turning heat" 13.8
-	"steering flare sprite" "effect/atomic flare/large"
-		"frame rate" 11
-	"steering flare sound" "atomic large"
+	"turn" 1714
+	"turning energy" 3.2
+	"turning heat" 8.2
+	"steering flare sprite" "effect/atomic flare/medium"
+		"frame rate" 12
+	"steering flare sound" "atomic medium"
 	
 	"reverse thrust" 22.4
 	"reverse thrusting energy" 2.5

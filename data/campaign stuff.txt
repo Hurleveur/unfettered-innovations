@@ -45,9 +45,9 @@ ship "Antlion-"
 		"Value Detector" 2
 
 		"Quantum Keystone"
-		"Ionic Blade"
+		#"Ionic Blade"
 		"Thermal Repeater Rifle" 61
-		"Dual Pulse Pistols" 5
+		#"Dual Pulse Pistols" 5
 
 		"Type 4 Radiant Thruster"
 		`"Bufaer" Atomic Steering`

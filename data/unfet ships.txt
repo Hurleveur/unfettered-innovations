@@ -6,6 +6,7 @@ ship "Ladybug" "Bigeminate Sigil"
 	swizzle 9
 	crew 40
 	add attributes
+		"outfit space" 18
 		"reverse thrust" 39.4
 		"reverse thrusting energy" 6
 		"reverse thrusting heat" 6
@@ -63,7 +64,7 @@ ship "Phrynus"
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 200
-		"outfit space" 763
+		"outfit space" 766
 		"weapon capacity" 330
 		"engine capacity" 145
 		weapon
@@ -146,7 +147,7 @@ ship "Tarentula"
 		"heat dissipation" .4
 		"fuel capacity" 600
 		"cargo space" 206
-		"outfit space" 1085
+		"outfit space" 1087
 		"weapon capacity" 518
 		"engine capacity" 180
 		weapon
@@ -258,8 +259,8 @@ ship Solitude
 		`Type 2 Radiant Steering`
 		`Type 2 Radiant Thruster`
 		"Dark Storm Shielding" 5
-		"Dual Pulse Pistol" 25
-		Heshi 13
+		#"Dual Pulse Pistol" 25
+		#Heshi 13
 		"Jump Drive"
 		"Korath Repeater Rifle" 18
 		"Korath Warder" 2

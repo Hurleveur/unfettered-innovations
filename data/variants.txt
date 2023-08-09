@@ -22,10 +22,9 @@ ship "Tarentula" "Tarentula (Octa Annihilators)"
 
 ship "Tarentula" "Tarentula (Ionic)"
 	outfits
-		"Ionic Turret Prototype" 6
+		"Ionic Turret Prototype" 5
 		"Chameleon Anti-Missile" 2
 		"Ionic Blaster Prototype" 3
-		"Pulse Cannon"
 		"Boulder Reactor"
 		"Hai Diamond Regenerator"
 		"Ruby Regenerator"
@@ -238,7 +237,6 @@ ship "Violin Spider" "Violin Spider (Webber)"
 	outfits
 		"Chameleon Anti-Missile"
 		"Pebble Core"
-		Supercapacitor
 		"Hai Williwaw Cooling"
 		"Pulse Rifle"
 		`"Basrem" Atomic Steering`

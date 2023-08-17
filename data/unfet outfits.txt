@@ -183,6 +183,30 @@ outfit "Octa Devastator"
 	description "	This version is able to keep its stability and go much faster, although for a shorter time. In fact, the Unfettered were able to make it gain damage over time as it accumulates momentum. Not many ships can even fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
 
 
+# note: when possible make it take time to fire up, rn I just made the projectiles slow as heck for that
+outfit "Pulsar"
+	category "Guns"
+	cost 7500000
+	thumbnail "outfit/unknown"
+	mass 150
+	"outfit space" -150
+	"weapon capacity" -150
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse"
+		sound "pulse"
+		"hit effect" "pulse impact"
+		"inaccuracy" 1
+		"velocity" 5
+		"lifetime" 75
+		"reload" 2
+		"firing energy" 24
+		"firing heat" 70
+		"shield damage" 45
+		"hull damage" 34
+	description "This glorious weapon from the golden age of the empire was thought to have been forgotten by the ravages of time but the Unfettered have somehow managed to make it a reality again, no doubt thanks to insights from Wanderer technology. It still has the same flaws of old of requiring so much energy to fire, however, but it delivers for that in sheer strength, at short ranges. Only fools dare to approach close enough for this behemoth to fire, and they do not have long to regret their mistake. This weapon is intended to use on the new Tarentulaes and has the advantage of requiring relatively little energy for the sheer strength it delivers."
+
+
 outfit "Harasser Quadrail"
 	category "Secondary Weapons"
 	cost 150000

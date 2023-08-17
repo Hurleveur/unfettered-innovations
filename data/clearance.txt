@@ -22,6 +22,7 @@ outfitter "Unfettered Basics"
 	add "Exo-Suit"
 	add "Stealth Engine"
 	add "Dimentional Eraser"
+	add "Pulsar"
 
 # campaign stuff
 outfitter "Unfettered Basics"

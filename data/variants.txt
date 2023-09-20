@@ -308,7 +308,10 @@ ship "Kar Ik Vot 349" "Scarred"
 		"Fuel Processor" 2
 		"Hai Octopus Jammer" 2
 		"Jump Drive"
-		"Large Heat Shunt" 4
+		"Large Heat Shunt" 2
+		"Hai Zephyr Cooling-" 2
+		"Quantum Keystone"
+		"Quantum Key Stone"
 		"Outfits Expansion"
 		"Steering (Stellar Class)"
 		"Systems Core (Large)"
@@ -316,4 +319,4 @@ ship "Kar Ik Vot 349" "Scarred"
 		"Thruster (Planetary Class)"
 		"Triple Plasma Core"
 		"Value Detector" 2
-	description "This ship has been majorly damaged by an advanced Pug weapon. The automated repair systems have no been able to address it, so it's hull became more fragile as a result of it."
+	description "This ship has suffered extensive damage from an advanced Pug weapon. Somehow the trace left by this weapon prevents the automated repair system from engaging, leaving the hull vulnerable."

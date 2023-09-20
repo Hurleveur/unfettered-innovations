@@ -1,3 +1,44 @@
+ship "Locust"
+	sprite "ship/hai locust"
+	thumbnail "thumbnail/hai locust"
+	attributes
+		category "Interceptor"
+		"cost" 700000
+		"shields" 4200
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 150
+		"drag" 2.2
+		"heat dissipation" .75
+		"fuel capacity" 400
+		"cargo space" 13
+		"outfit space" 223
+		"weapon capacity" 57
+		"engine capacity" 48
+		weapon
+			"blast radius" 36
+			"shield damage" 180
+			"hull damage" 360
+			"hit force" 540
+	outfits
+		"Ionic Blaster Prototype" 3
+		"Geode Reactor"
+		"Hai Fissure Batteries"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling"
+		"Quantum Keystone"
+		"Pulse Rifle"
+		`"Benga" Atomic Thruster`
+		`"Benga" Atomic Steering`
+		Hyperdrive
+	gun 0 -47
+	gun -23 -24
+	gun 23 -24
+	engine -20 43
+	engine 20 43
+	description "The Unfettered originally intended this ship to be carried by the Solifuge, but as they made sure it was good enough for combat it quickly became apparent another ship was needed. They then felt free to turn this ship into a proper Interceptor, focusing on the weapons and durability, whilst keeping it a one squirrel craft."
+
 # add a korath drone bay?
 ship "Ladybug" "Bigeminate Sigil"
 	#sprite "ship/hai bigeminate sigil"
@@ -53,7 +94,7 @@ ship "Phrynus"
 	sprite "ship/hai phrynus"
 	thumbnail "thumbnail/hai phrynus"
 	attributes
-		category "Heavy Warship"
+		category "Medium Warship"
 		"cost" 21400000
 		"shields" 26500
 		"hull" 11200

@@ -49,6 +49,7 @@ shipyard "Mon Ki o'Uden Advanced"
 	add "Bigeminate Sigil"
 	add "Scarred"
 	add "Solitude"
+	add "Locust"
 
 # ships from the campaign and warlord PR
 shipyard "Mon Ki o'Uden Advanced"

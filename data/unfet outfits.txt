@@ -210,7 +210,7 @@ outfit "Pulsar"
 outfit "Harasser Quadrail"
 	category "Secondary Weapons"
 	cost 150000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/harasser quadrailgun"
 	"mass" 10
 	"outfit space" -28
 	"weapon capacity" -28
@@ -538,7 +538,7 @@ outfit "Repair Team"
 outfit "Monolith Core"
 	category "Power"
 	cost 9350000
-	thumbnail "outfit/unknown"
+	thumbnail "outfit/monolith"
 	"mass" 121
 	"outfit space" -121
 	"energy generation" 23.1

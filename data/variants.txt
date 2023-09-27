@@ -1,4 +1,4 @@
-ship "Tarentula" "Tarentula (Octa Annihilators)"
+ship "Tarantula" "Tarantula (Octa Annihilators)"
 	outfits
 		"Octa Annihilator" 3
 		"Chameleon Anti-Missile" 3
@@ -20,7 +20,7 @@ ship "Tarentula" "Tarentula (Octa Annihilators)"
 		outfits
 			"Earthquake Bomb" 20
 
-ship "Tarentula" "Tarentula (Ionic)"
+ship "Tarantula" "Tarantula (Ionic)"
 	outfits
 		"Ionic Turret Prototype" 5
 		"Chameleon Anti-Missile" 2

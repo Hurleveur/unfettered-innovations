@@ -38,7 +38,7 @@ outfitter "Unfettered Basics"
 
 # ships from this plugin
 shipyard "Mon Ki o'Uden Advanced"
-	add "Tarentula"
+	add "Tarantula"
 	add "Phrynus"
 	add "Violin Spider (Webber)"
 	add "Violin Spider (Bomber)"

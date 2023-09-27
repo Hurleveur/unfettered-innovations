@@ -173,9 +173,9 @@ ship "Phrynus"
 
 
 
-ship "Tarentula"
-	sprite "ship/hai tarentula"
-	thumbnail "thumbnail/hai tarentula"
+ship "Tarantula"
+	sprite "ship/hai tarantula"
+	thumbnail "thumbnail/hai tarantula"
 	attributes
 		category "Superheavy"
 		cost 84200000

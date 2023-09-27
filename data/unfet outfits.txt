@@ -204,7 +204,7 @@ outfit "Pulsar"
 		"firing heat" 70
 		"shield damage" 45
 		"hull damage" 34
-	description "This glorious weapon from the golden age of the empire was thought to have been forgotten by the ravages of time but the Unfettered have somehow managed to make it a reality again, no doubt thanks to insights from Wanderer technology. It still has the same flaws of old of requiring so much energy to fire, however, but it delivers for that in sheer strength, at short ranges. Only fools dare to approach close enough for this behemoth to fire, and they do not have long to regret their mistake. This weapon is intended to use on the new Tarentulaes and has the advantage of requiring relatively little energy for the sheer strength it delivers."
+	description "This glorious weapon from the golden age of the empire was thought to have been forgotten by the ravages of time but the Unfettered have somehow managed to make it a reality again, no doubt thanks to insights from Wanderer technology. It still has the same flaws of old of requiring so much energy to fire, however, but it delivers for that in sheer strength, at short ranges. Only fools dare to approach close enough for this behemoth to fire, and they do not have long to regret their mistake. This weapon is intended to use on the new Tarantulaes and has the advantage of requiring relatively little energy for the sheer strength it delivers."
 
 
 outfit "Harasser Quadrail"

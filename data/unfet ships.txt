@@ -9,13 +9,13 @@ ship "Locust"
 		"required crew" 1
 		"bunks" 1
 		"mass" 150
-		"drag" 2.2
+		"drag" 2.1
 		"heat dissipation" .75
 		"fuel capacity" 400
 		"cargo space" 13
 		"outfit space" 223
-		"weapon capacity" 57
-		"engine capacity" 48
+		"weapon capacity" 58
+		"engine capacity" 50
 		weapon
 			"blast radius" 36
 			"shield damage" 180

@@ -1,3 +1,5 @@
+Future Unfettered Hai content, not yet fully balanced and made accessible to all for testing. All feedback is welcome, and contributions as well, especially in the form of artwork for outfits that dont have it yet.
+
 # plugin-template
 This repository serves as a basic template to be used when creating a plugin for the game Endless Sky. Fork it and start modding!
 

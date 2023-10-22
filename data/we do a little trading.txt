@@ -9,14 +9,14 @@ mission "Casino"
 				`	(Go take a look.)`
 				`	(Maybe next time.)`
 					defer
-			`	Apparently the only thing required to enter this very select casino is the posession of a Jump Drive. As soon as the gard at the entrance gets wind of your valuable posession, they raise their fist and get out of your way, allowing you to head in.`
-			`	Once inside you see most of the clients consist in Unfettered captains that have either acquired Jump Drives. They must have done so by any means, you figure you would do well to be on your guard here. You even spot a few shady figures, that are of much more imposing stature than the usual Hai.`
-			`	Despite the relatively important presence of Captains, there is actually only one table where one can play, as the supply of Jump Drive is very limited. The prices are very clearly displayed, ranging from money in very varied quantities to weapons and even ships!`
+			`	Apparently the only thing required to enter this very select casino is the posession of a Jump Drive. As soon as the guard at the entrance gets wind of your valuable posession, they raise their fist and get out of your way, allowing you to head in.`
+			`	Once inside you see most of the clients consist in Unfettered captains lucky enough to have acquired the odd Jump Drive. Your gut tells you they must have done so by any means, meaning that you would do well to be on your guard here. You even spot a few not so Hai-looking fellows, judging by their much more imposing stature.`
+			`	Despite the relatively important presence of Captains, there is actually only one table where one can play, as the supply of Jump Drive is very limited. The prizes are very clearly displayed, ranging from money in very varied quantities to weapons and even ships!`
 			label bet?
 			choice
-				`	(Wait and see how the next one does.)`
+				`	(Wait and see how the next captain does.)`
 					to display
-						not "seen casino"
+						not "unfettered: seen casino"
 				`	(Bet a Jump Drive.)`
 					to display
 						has "outfit: Jump Drive"
@@ -24,8 +24,8 @@ mission "Casino"
 				`	(Leave.)`
 					decline
 			action
-				set "seen casino"
-			`	You go around the table. As you do you feel like all eyes are upon you, being new here. You figure they must all know each others. One hooded figure addresses you.`
+				set "unfettered: seen casino"
+			`	You go around a table with a good view on the betting place. As you do you feel like all eyes are upon you, being new here. You figure they must all know each others. One hooded figure addresses you.`
 			`	"You new here, kid?"`
 			choice
 				`	"Maybe."`
@@ -33,19 +33,20 @@ mission "Casino"
 				`	"No I come here all the time, are you new?"`
 					goto bigboi
 				`	"I'm not a kid."`
-			`	"Whatever you say, kid." He gives you a deep, dark look, and you feel like you can guess green eyes behind the hood. You quickly look another direction, and get back to your business.`
+			`	"Whatever you say, kid." He gives you a deep, dark look, and you can guess red eyes behind the hood. You quickly look another direction, and get back to your business.`
 				goto bet?
 			label bigboi
-			`	"Ha! You got yourself some spirit. That's good, so long as you can keep it to yourself when you should, like now."`
-			`	He approaches you and you can almost feel his might and deep, unending anger. "Get out. Now." As he says this all of them look at you, ready to use their weapon, that they make a point of having apparent. You have no choice but to leave.`
+			`	"Ha! You got yourself some spirit. That's good, so long as you know when you're in over your head." They stand on all their might, towering over you. "Like now."`
+			`	They approach you, and you can almost feel their might as well as deep, unending anger. "Out. Now." As they say this all of them look at you, ready to make use of their very apparent weapons. You have no choice but to leave.`
 				decline
 			label maybe
-			`	"In that case, allow me to explain the music to you. You get Jump Drives, you bring them here, and you get cool weapons. No questions asked about where it came from, but you don't ask no questions either, capish? Now please, get to it." He leaves the place, probably done with his supply of Jump Drives to bet with.`
+			`	"In that case, allow me to explain the music to you. You get Jump Drives, you bring them here, and in exchange you may win weapons or even ships. Nobody will bother you with things like where it all came from, but you don't ask no questions either, got it? Well, what are you waiting for, get to it!" They continue on their way to leave, probably done with their supply of Jump Drives.`
 				goto bet?
 
 			label bet
 			action
 				outfit "Jump Drive" -1
+			branch ship!
 			branch ship
 				random < 2
 			branch weapon
@@ -55,6 +56,11 @@ mission "Casino"
 			branch money
 				random < 30
 			`	Unfortunately you did not win anything. Better luck next time!`
+				goto bet?
+			label ship!
+			action
+				give ship "Bigeminate Sigil"
+			`	You win a very special stealthy looking ship.`
 				goto bet?
 			label ship
 			action

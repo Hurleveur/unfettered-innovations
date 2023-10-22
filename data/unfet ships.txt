@@ -23,7 +23,8 @@ ship "Locust"
 			"hit force" 540
 	outfits
 		"Ionic Blaster Prototype" 3
-		"Geode Reactor"
+		"Pebble Core"
+		"Sand Cell"
 		"Hai Fissure Batteries"
 		"Hai Corundum Regenerator"
 		"Hai Williwaw Cooling"

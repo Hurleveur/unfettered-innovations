@@ -59,6 +59,41 @@ outfit "Pulse Accelerator"
 	description "	That is, until the Unfettered got their hands on it and made it a weapon that gains speed as it moves trough space, able to gain much bigger speeds and damage potential. This weapon takes less weapon space that it normally would given how most of it is simply situated outside of the ship."
 
 
+outfit "Polypulse Blunderbuss"
+	category "Guns"
+	cost 360000
+	thumbnail "outfit/pulse cannon"
+	"mass" 33
+	"outfit space" -33
+	"weapon capacity" -33
+	"gun ports" -1
+	weapon
+		sprite "projectile/pulse"
+		sound "asteroid crunch large"
+		"hit effect" "pulse impact"
+		"inaccuracy" 15
+		"submunition" "Pulse Fragment" 30
+		"velocity" 20
+		"lifetime" 1
+		"reload" 300
+		"cluster"
+		"firing energy" 720
+		"firing heat" 2100
+	description "This was more intended as a way to keep enemies away than a real weapon, but the sheer volume of fire can be put to use offensively as well. Whilst the first shot is almost garanteed to catch enemies by surprise - giving you the chance to run away, or finish them off - the enemy only has to keep their distance to render this weapon effectively useless, or apply a small amount of scrambling damage to make it unreliable. For that reason, the Unfettered do not use it often, even though it is not very clear if they even invented the weapon in the first place or if some pirates got a funny idea!"
+
+
+outfit "Pulse Fragment"
+	weapon
+		sprite "projectile/pulse"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "pulse impact"
+		"inaccuracy" 12
+		"lifetime" 12
+		"shield damage" 45
+		"hull damage" 34
+
+
 
 outfit "Penta Pulser"
 	category "Turrets"

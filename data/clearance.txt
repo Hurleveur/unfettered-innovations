@@ -4,6 +4,7 @@ planet "Darkcloak"
 
 outfitter "Unfettered Basics"
 	add "Pulse Accelerator"
+	add "Polypulse Blunderbuss"
 	add "Penta Pulser"
 	add "Octa Annihilator"
 	add "Octa Devastator"

@@ -79,7 +79,7 @@ outfit "Polypulse Blunderbuss"
 		"cluster"
 		"firing energy" 720
 		"firing heat" 2100
-	description "This was more intended as a way to keep enemies away than a real weapon, but the sheer volume of fire can be put to use offensively as well. Whilst the first shot is almost garanteed to catch enemies by surprise - giving you the chance to run away, or finish them off - the enemy only has to keep their distance to render this weapon effectively useless, or apply a small amount of scrambling damage to make it unreliable. For that reason, the Unfettered do not use it often, even though it is not very clear if they even invented the weapon in the first place or if some pirates got a funny idea!"
+	description "More intended as a way to keep enemies away than a real weapon, this gun also has its uses as an offensive tool, or even a mining tool. Whilst the first volley of fire is almost garanteed to catch enemies by surprise - giving you the chance to either run away, or finish them off - the enemy only has to keep their distance to render this weapon effectively useless, or apply a small amount of scrambling damage to make it unreliable. For that reason, the Unfettered refuse to consider for real military vessels, even though it is unclear wether they invented the weapon in the first place, or if some pirates got a funny idea!"
 
 
 outfit "Pulse Fragment"

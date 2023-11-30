@@ -71,14 +71,14 @@ outfit "Polypulse Blunderbuss"
 		sprite "projectile/pulse"
 		sound "asteroid crunch large"
 		"hit effect" "pulse impact"
-		"inaccuracy" 15
-		"submunition" "Pulse Fragment" 30
-		"velocity" 20
+		"submunition" "Pulse Fragment" 45
+		"velocity" 10
 		"lifetime" 1
-		"reload" 300
+		"reload" 600
 		"cluster"
-		"firing energy" 720
+		"firing energy" 1440
 		"firing heat" 2100
+		"range override" 200
 	description "More intended as a way to keep enemies away than a real weapon, this gun also has its uses as an offensive tool, or even a mining tool. Whilst the first volley of fire is almost garanteed to catch enemies by surprise - giving you the chance to either run away, or finish them off - the enemy only has to keep their distance to render this weapon effectively useless, or apply a small amount of scrambling damage to make it unreliable. For that reason, the Unfettered refuse to consider for real military vessels, even though it is unclear wether they invented the weapon in the first place, or if some pirates got a funny idea!"
 
 
@@ -87,8 +87,11 @@ outfit "Pulse Fragment"
 		sprite "projectile/pulse"
 			"no repeat"
 			"frame rate" 2
+			scale .5
 		"hit effect" "pulse impact"
-		"inaccuracy" 12
+		"inaccuracy" 15
+			uniform
+		"velocity" 10
 		"lifetime" 12
 		"shield damage" 45
 		"hull damage" 34

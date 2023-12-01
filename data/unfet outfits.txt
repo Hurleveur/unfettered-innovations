@@ -150,19 +150,19 @@ outfit "Pulse Submunition"
 		"hull damage" 34
 
 
-outfit "Octa Annihilator"
+outfit "Octapulse Annihilator"
 	category "Turrets"
 	cost 3400000
-	thumbnail "outfit/octa annihilator"
+	thumbnail "outfit/octapulse annihilator"
 	mass 130
 	"outfit space" -100
 	"weapon capacity" -111
 	"turret mounts" -1
 	"required crew" 5
 	weapon
-		"hardpoint sprite" "hardpoint/octa annihilator"
+		"hardpoint sprite" "hardpoint/octapulse annihilator"
 		"hardpoint offset" 50
-		sprite "projectile/octa annihilator spin/octa annihilator"
+		sprite "projectile/octapulse annihilator spin/octa annihilator"
 			"random start frame"
 			"frame time" 10
 		sound "pulse"
@@ -186,7 +186,7 @@ outfit "Octa Annihilator"
 	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
 	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes much more energy and heat comparatively, and the resulting projectile is much slower and loses in stability and thus damage over time. On top of that, most can only fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."
 
-outfit "Octa Devastator"
+outfit "Octapulse Devastator"
 	category "Turrets"
 	cost 4000000
 	thumbnail "outfit/long pulse sniper"
@@ -196,9 +196,9 @@ outfit "Octa Devastator"
 	"turret mounts" -1
 	"required crew" 6
 	weapon
-		"hardpoint sprite" "hardpoint/octa annihilator"
+		"hardpoint sprite" "hardpoint/octapulse annihilator"
 		"hardpoint offset" 50
-		sprite "projectile/octa annihilator wobble/octa annihilator"
+		sprite "projectile/octapulse annihilator wobble/octa annihilator"
 			"random start frame"
 			"frame time" 10
 		sound "pulse"

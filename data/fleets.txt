@@ -18,7 +18,7 @@ fleet "Phrynuses"
 	variant
 		"Phrynus (Miner)"
 	variant
-		"Phrynus (Octa)"
+		"Phrynus (Octapulse)"
 
 
 fleet "Tarantulas"
@@ -31,7 +31,7 @@ fleet "Tarantulas"
 		"Tarantula"
 		"Violin Spider (Bomber)" 4
 	variant
-		"Tarantula (Octa Annihilators)"
+		"Tarantula (Octapulse Annihilators)"
 		"Violin Spider (Bomber)" 4
 	variant
 		"Tarantula (Ionic)"
@@ -65,7 +65,7 @@ fleet "Small Unfettered"
 	add variant
 		"Phrynus (Miner)"
 	add variant
-		"Phrynus (Octa)"
+		"Phrynus (Octapulse)"
 
 
 fleet "Large Unfettered"
@@ -80,7 +80,7 @@ fleet "Large Unfettered"
 		"Tarantula (Ionic)"
 		"Violin Spider (Bomber)" 4
 	add variant 2
-		"Tarantula (Octa Annihilators)"
+		"Tarantula (Octapulse Annihilators)"
 		"Violin Spider (Bomber)" 4
 	add variant 2
 		"Solifuge"
@@ -104,4 +104,4 @@ fleet "Large Unfettered"
 		"Phrynus (Penta Blaster)"
 		"Phrynus (Miner)"
 	add variant 4
-		"Phrynus (Octa)" 3
+		"Phrynus (Octapulse)" 3

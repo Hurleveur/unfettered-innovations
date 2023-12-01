@@ -44,7 +44,7 @@ ship "Locust"
 ship "Ladybug" "Bigeminate Sigil"
 	#sprite "ship/hai bigeminate sigil"
 	#thumbnail "thumbnail/hai bigeminate sigil"
-	#"display name" "Bigeminate Sigil"
+	"display name" "Bigeminate Sigil"
 	swizzle 9
 	crew 40
 	add attributes
@@ -308,7 +308,7 @@ ship Solitude
 		"Korath Warder" 2
 		"Liquid Sodium Cooler"
 		"Large Heat Shunt"
-		"Octa Annihilator" 4
+		"Octapulse Annihilator" 4
 		"Pulse Rifle" 117
 		"Quantum Keystone"
 		"Triple Plasma Core"
@@ -317,12 +317,12 @@ ship Solitude
 	engine -28 135.5
 	engine 28 135.5
 	turret 0 -109.5 "Wanderer Anti-Missile"
-	turret 54.5 -48.5 "Octa Annihilator"
-	turret -54.5 -48.5 "Octa Annihilator"
+	turret 54.5 -48.5 "Octapulse Annihilator"
+	turret -54.5 -48.5 "Octapulse Annihilator"
 	turret 55 1 "Korath Warder"
 	turret -55 1 "Korath Warder"
-	turret 54.5 50.5 "Octa Annihilator"
-	turret -54.5 50.5 "Octa Annihilator"
+	turret 54.5 50.5 "Octapulse Annihilator"
+	turret -54.5 50.5 "Octapulse Annihilator"
 	turret 0 109.5 "Wanderer Anti-Missile"
 	bay Drone -51.5 -71 under
 		"launch effect" "hai launch"

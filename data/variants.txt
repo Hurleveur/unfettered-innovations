@@ -1,6 +1,6 @@
-ship "Tarantula" "Tarantula (Octa Annihilators)"
+ship "Tarantula" "Tarantula (Octapulse Annihilators)"
 	outfits
-		"Octa Annihilator" 3
+		"Octapulse Annihilator" 3
 		"Chameleon Anti-Missile" 3
 		"Boulder Reactor"
 		"Hai Diamond Regenerator"
@@ -42,6 +42,7 @@ ship "Tarantula" "Tarantula (Ionic)"
 
 # unique Phrynus to beat the arfectas with
 ship "Phrynus" "OmegaPhrynus"
+	"display name" "OmegaPhrynus"
 	add attributes
 		"integrated bombing" 27
 		"bomb capacity" 27
@@ -115,7 +116,7 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Value Detector" 2
 		"Pulse Rifle" 34
 
-ship "Phrynus" "Phrynus (Octa)"
+ship "Phrynus" "Phrynus (Octapulse)"
 	outfits
 		"Hai Diamond Regenerator"
 		"Hai Valley Batteries"
@@ -123,7 +124,7 @@ ship "Phrynus" "Phrynus (Octa)"
 		"Hai Zephyr Cooling-" 3
 		"Jump Drive"
 		"Monolith Core"
-		"Octa Annihilator" 2
+		"Octapulse Annihilator" 2
 		"Predator Engine"
 		"Quantum Keystone"
 		"Ruby Regenerator"

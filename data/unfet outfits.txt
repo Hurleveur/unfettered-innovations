@@ -60,6 +60,7 @@ outfit "Pulse Accelerator"
 
 
 outfit "Polypulse Blunderbuss"
+	plural "Polypulse Blunderbusses"
 	category "Guns"
 	cost 360000
 	thumbnail "outfit/pulse cannon"
@@ -525,7 +526,7 @@ outfit "Stealth Engine"
 effect "medium unfettered afterburner"
 	sprite "effect/atomic flare/small"
 		"frame rate" 100
-	soud "ionic afterburner"
+	sound "ionic afterburner"
 	"random angle" 1
 	lifetime 1
 	"random lifetime" 0.5

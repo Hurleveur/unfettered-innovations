@@ -82,5 +82,5 @@ mission "Casino"
 				payment 2000000
 			`	You win 2 million credits!`
 				goto bet?
-		on decline
-			clear "seen casino"
+	on decline
+		clear "seen casino"

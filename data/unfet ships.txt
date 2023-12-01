@@ -58,7 +58,7 @@ ship "Ladybug" "Bigeminate Sigil"
 		"scan interference" 5
 		"fuel capacity" -100
 		"cargo space" -51
-		"outfit space" 22
+		"outfit space" 40
 		"bunks" 7
 		"integrated bombing" -2
 		"bomb capacity" 4

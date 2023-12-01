@@ -112,7 +112,6 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 		"Jump Drive"
 		"Monolith Core"
 		"Predator Engine"
-		"Quantum Keystone"
 		"Value Detector" 2
 		"Pulse Rifle" 34
 
@@ -139,7 +138,6 @@ ship "Phrynus" "Phrynus (Long Range Ion)"
 		"Hai Gorge Batteries"
 		"Hai Diamond Regenerator" 2
 		"Hai Zephyr Cooling-" 2
-		"Quantum Keystone"
 		"Predator Engine"
 		"Jump Drive"
 		"Value Detector" 2
@@ -272,14 +270,10 @@ ship "Violin Spider" "Violin Spider (Bomber)"
 ship "Flycatcher" "Flycatcher (Chameleon)"
 	outfits
 		"Chameleon Anti-Missile"
-		
 		"Small Biochemical Cell"
-		
-		`"Baellie" Atomic Engines`
-
+		`"Baellie" Atomic Engines"
 		"Cargo Expansion"
 		"Value Detector"
-		"Quantum Keystone"
 
 
 ship "Flycatcher" "FlyEater"

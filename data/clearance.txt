@@ -24,6 +24,7 @@ outfitter "Unfettered Basics"
 	add "Stealth Engine"
 	add "Dimentional Eraser"
 	add "Pulsar"
+	add "Thunderstruck Turret"
 
 # campaign stuff
 outfitter "Unfettered Basics"

@@ -1,6 +1,6 @@
 outfit "Thunderstruck Turret"
 	category "Turrets"
-	cost 390000
+	cost 1390000
 	thumbnail "outfit/hai ionic turret"
 	"mass" 37
 	"outfit space" -37
@@ -20,7 +20,7 @@ outfit "Thunderstruck Turret"
 		"velocity override" 300
 		"range override" 300
 		"cluster"
-		"firing energy" 100
+		"firing energy" 250
 		"firing heat" 250
 		"reload" 25
 		"burst count" 15

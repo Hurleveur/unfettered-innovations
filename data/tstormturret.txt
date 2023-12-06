@@ -12,7 +12,7 @@ outfit "Thunderstruck Turret"
 			"frame rate" 5
 		"hardpoint sprite" "hardpoint/hai ionic turret"
 		"hardpoint offset" 16.
-		sound "asteroid crunch medium"
+		sound "thunder"
 		"hit effect" "ion impact"
 		"submunition" "Path Bolt"
 		"submunition" "Thunder Blast"

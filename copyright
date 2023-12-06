@@ -73,8 +73,7 @@ Files:
  images/outfit/repair?team*
 Copyright: Various
 License: public-domain
- Taken from unsplash.com, a collection of photographs that have been donated and
- placed in the public domain.
+Comment: Taken from unsplash.com, a collection of photographs that have been donated and placed in the public domain.
 
 Files:
  images/outfit/monolith?reactor*
@@ -89,3 +88,8 @@ Files:
 Copyright: Ratt1eMeBones
 License: CC-BY-SA-4.0
 Comment: Derived from works by Gefüllte Taubenbrust (under the same license).
+
+Files:
+ sounds/thunder*
+License: Creative Commons 0
+Comment: Taken from freesound.org

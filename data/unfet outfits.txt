@@ -181,7 +181,7 @@ outfit "Octapulse Annihilator"
 		"hull damage" 2040
 		"blast radius" 50
 		"hit force" 500
-		"damage dropoff" 0
+		"damage dropoff" 0 3200
 		"dropoff modifier" 0
 	description "Thanks to insights from Wanderer technology, the Unfettered have managed to create a weapon that combines the power of 8 pulse cannons into one giant ball of death, able to travel at great distances."
 	description "	The resulting short beam has the strength of 10 pulse cannons and much longer range, although it consumes much more energy and heat comparatively, and the resulting projectile is much slower and loses in stability and thus damage over time. On top of that, most can only fit 2 of these because of the huge weapon space requirement, although thankfully since most of the turret is outside the ship not that much outfit space is required."

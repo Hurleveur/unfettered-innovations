@@ -31,8 +31,9 @@ outfit "Thunderstruck Turret"
 outfit "Path Bolt"
 	weapon
 		sprite "projectile/thunder"
-			"no repeat"
-			"frame rate" 2
+			"random start frame"
+			"frame rate" 4
+		"fade out" 5
 		"hit effect" "ion impact"
 		"velocity" 30
 		"lifetime" 10

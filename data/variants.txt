@@ -272,7 +272,7 @@ ship "Flycatcher" "Flycatcher (Chameleon)"
 	outfits
 		"Chameleon Anti-Missile"
 		"Small Biochemical Cell"
-		`"Baellie" Atomic Engines"
+		`"Baellie" Atomic Engines`
 		"Cargo Expansion"
 		"Value Detector"
 
@@ -313,5 +313,5 @@ ship "Kar Ik Vot 349" "Scarred"
 		"Thermal Repeater Rifle" 5
 		"Thruster (Planetary Class)"
 		"Triple Plasma Core"
-		"Value Detector" 2
+		"Value Detector"
 	description "This ship has suffered extensive damage from an advanced Pug weapon. Somehow the trace left by this weapon prevents the automated repair system from engaging, leaving the hull vulnerable."

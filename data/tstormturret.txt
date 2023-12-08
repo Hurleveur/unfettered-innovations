@@ -30,7 +30,7 @@ outfit "Thunderstruck Turret"
 # heats up the target to facilitate the aiming
 outfit "Path Bolt"
 	weapon
-		sprite "projectile/thunder_nn"
+		sprite "projectile/thunder"
 			"random start frame"
 			"frame rate" 4
 		"fade out" 5

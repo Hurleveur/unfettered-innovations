@@ -84,7 +84,9 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
- images/projectiles/thunder*
+ images/projectiles/thunder/thunder*
+ images/projectiles/lightning/lightning*
+ images/projectiles/ionic clasher/ionic?purple?bolt*
 Copyright: RisingLeaf
 License: CC-BY-SA-4.0
 

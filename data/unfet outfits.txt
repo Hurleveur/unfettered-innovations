@@ -291,6 +291,37 @@ outfit "Harasser Quadrail"
 	description "This is an overturned turreted version of the Hai Railgun, after the Unfettered were able to steal the plans for it. It may not have as much ammo, meaning one often has to get an ammo pack on top of it, but it makes up for it by having much more firepower."
 
 
+outfit "Ionic Clasher"
+	category "Guns"
+	cost 400000
+	thumbnail "outfit/hai ionic blaster"
+	"mass" 23
+	"outfit space" -23
+	"weapon capacity" -23
+	"gun ports" -1
+	weapon
+		sprite "projectile/ionic clasher/ionic purple bolt"
+			"frame rate" 5
+		sound "ionic blast"
+		"hit effect" "ion impact"
+		"inaccuracy" 4
+		"velocity" 18
+		"lifetime" 40
+		"reload" 40
+		"firing energy" 84
+		"firing force" 6
+		"firing heat" 108
+		"hit force" 72
+		"shield damage" 120
+		"hull damage" 90
+		"ion damage" .5
+		"scrambling damage" 1.6
+	description "This weapon is the evolved version of the ionic blaster prototype. The new projectiles feature much higher armor destabilization, more range and more overall damage, at the cost of a higher fire rate and more energy. Mass production has made the weapon cheaper, as well."
+
+
+#outfit "Ionic Destabilizer" (scramble heavy version)
+
+
 
 # invisible on all bombardiers violin
 outfit "Earthquake Bomb Launcher"

@@ -8,7 +8,7 @@ outfit "Thunderstruck Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/thunder"
+		sprite "projectile/thunder/thunder"
 			"frame rate" 5
 		"hardpoint sprite" "hardpoint/hai ionic turret"
 		"hardpoint offset" 16.
@@ -80,7 +80,7 @@ outfit "Taser Turret"
 	"turret mounts" -1
 	"required crew" 1
 	weapon
-		sprite "projectile/thunder"
+		sprite "projectile/lightning/lightning"
 			"frame rate" 5
 		"hardpoint sprite" "hardpoint/hai ionic turret"
 		"hardpoint offset" 16.

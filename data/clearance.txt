@@ -26,6 +26,7 @@ outfitter "Unfettered Basics"
 	add "Pulsar"
 	add "Taser Turret"
 	add "Thunderstruck Turret"
+	add "Ionic Clasher"
 
 # campaign stuff
 outfitter "Unfettered Basics"

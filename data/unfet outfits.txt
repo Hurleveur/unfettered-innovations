@@ -293,7 +293,7 @@ outfit "Harasser Quadrail"
 
 outfit "Ionic Clasher"
 	category "Guns"
-	cost 400000
+	cost 600000
 	thumbnail "outfit/hai ionic blaster"
 	"mass" 23
 	"outfit space" -23
@@ -316,7 +316,7 @@ outfit "Ionic Clasher"
 		"hull damage" 90
 		"ion damage" .5
 		"scrambling damage" 1.6
-	description "This weapon is the evolved version of the ionic blaster prototype. The new projectiles feature much higher armor destabilization, more range and more overall damage, at the cost of a higher fire rate and more energy. Mass production has made the weapon cheaper, as well."
+	description "This weapon is the evolved version of the ionic blaster prototype. The new projectiles feature much higher armor destabilization, more range and more overall damage, at the cost of a higher fire rate and more energy. Mass production has allowed keeping the weapon relatively cheap, as well."
 
 
 #outfit "Ionic Destabilizer" (scramble heavy version)

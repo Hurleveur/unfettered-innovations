@@ -161,11 +161,11 @@ outfit "Octapulse Annihilator"
 	"required crew" 5
 	weapon
 		"hardpoint sprite" "hardpoint/octapulse annihilator"
-		"hardpoint offset" 50
+		"hardpoint offset" 30
 		sprite "projectile/octapulse annihilator spin/octa annihilator"
 			"random start frame"
 			"frame time" 10
-		sound "pulse"
+		sound "octa"
 		"inaccuracy" .5
 		"turret turn" .6
 		"reload" 100
@@ -197,11 +197,11 @@ outfit "Octapulse Devastator"
 	"required crew" 6
 	weapon
 		"hardpoint sprite" "hardpoint/octapulse annihilator"
-		"hardpoint offset" 50
+		"hardpoint offset" 30
 		sprite "projectile/octapulse annihilator wobble/octa annihilator"
 			"random start frame"
 			"frame time" 10
-		sound "pulse"
+		sound "octa"
 		"inaccuracy" 0
 		"turret turn" .5
 		"reload" 100

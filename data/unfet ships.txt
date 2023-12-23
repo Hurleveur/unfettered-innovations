@@ -440,14 +440,21 @@ ship "Lycosidae"
 	bay "Drone" 30 151.5 over
 		"launch effect" "hai launch"
 
-
 	bay "Fighter" -87.5 -153.5 left under
 		"launch effect" "hai launch"
 	bay "Fighter" 87.5 -153.5 right under
 		"launch effect" "hai launch"
+	bay "Fighter" -29.5 -121.5 left under
+		"launch effect" "hai launch"
+	bay "Fighter" 29.5 -121.5 right under
+		"launch effect" "hai launch"
 	bay "Fighter" -78.5 -79.5 left under
 		"launch effect" "hai launch"
 	bay "Fighter" 78.5 -79.5 right under
+		"launch effect" "hai launch"
+	bay "Fighter" -29.5 -37.5 left under
+		"launch effect" "hai launch"
+	bay "Fighter" 29.5 -37.5 right under
 		"launch effect" "hai launch"
 	bay "Fighter" -128.5 -21.5 left under
 		"launch effect" "hai launch"
@@ -461,9 +468,17 @@ ship "Lycosidae"
 		"launch effect" "hai launch"
 	bay "Fighter" 129 69 right under
 		"launch effect" "hai launch"
+	bay "Fighter" -30 68.5 left under
+		"launch effect" "hai launch"
+	bay "Fighter" 30 68.5 right under
+		"launch effect" "hai launch"
 	bay "Fighter" -78 108 left under
 		"launch effect" "hai launch"
 	bay "Fighter" 78 108 right under
+		"launch effect" "hai launch"
+	bay "Fighter" -30 151.5 left under
+		"launch effect" "hai launch"
+	bay "Fighter" 30 151.5 right under
 		"launch effect" "hai launch"
 
 	"reverse engine" 0 -193.5 

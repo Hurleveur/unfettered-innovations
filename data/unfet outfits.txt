@@ -85,6 +85,37 @@ outfit "Polypulse Blunderbuss"
 	description "More intended as a way to keep enemies away than a real weapon, this gun also has its uses as an offensive tool, with the help of the pushback due to the lack of stabilizers normal pulse cannons have. It even has its uses as a mining tool. Whilst the first volley of fire is almost garanteed to catch enemies by surprise - giving you the chance to either run away, or finish them off - the enemy only has to keep their distance to render this weapon effectively useless, or apply a small amount of scrambling damage to make it unreliable. For that reason, the Unfettered refuse to consider for real military vessels, even though it is unclear wether they invented the weapon in the first place, or if some pirates got a funny idea!"
 
 
+outfit "Duopulse Devastator"
+	category "Guns"
+	cost 360000
+	thumbnail "outfit/duopulse"
+	"mass" 29
+	"outfit space" -29
+	"weapon capacity" -29
+	"gun ports" -1
+	weapon
+		sprite "projectile/octapulse annihilator wobble/octa annihilator"
+			"random start frame"
+			"frame time" 10
+			"scale" 0.3
+		sound "octa"
+		"inaccuracy" 0
+		"reload" 100
+		"hit effect" "pulse impact"
+		"velocity" 15
+		"acceleration" .3
+		"drag" 0.01
+		"lifetime" 100
+		"firing energy" 200
+		"firing heat" 700
+		"shield damage" 300
+		"hull damage" 200
+		"blast radius" 50
+		"hit force" 100
+		"damage dropoff" 250
+		"dropoff modifier" 1.1
+	description "More than two pulse cannons reunited, this weapon produces much bigger but less frequent shots, able to maintain their form and even do more damage as they get faster and faster with time."
+
 outfit "Pulse Fragment"
 	weapon
 		sprite "projectile/pulse"

@@ -31,6 +31,46 @@ outfit "Dimentional Eraser"
 	description "This weapon opens a portal trough space and time that seemingly erases anything from this dimention. Its strength was enough to justify dedicating whole organisations to its secrecy and safekeeping. The effect of firing this weapon can be devastating, but nobody ever tried to find out, given the big cost in fuel contained within the gold bars to fire it."
 
 
+outfit "Trackerine"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/hai tracker pod"
+	"mass" 40
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	"tracker capacity" 112
+	weapon
+		sprite "projectile/tracker"
+			"frame rate" 10
+			"random start frame"
+		sound "tracker"
+		ammo "Hai Tracker"
+		icon "icon/tracker"
+		"fire effect" "tracker fire"
+		"hit effect" "tracker impact"
+		"hit effect" "tracker cloud" 3
+		"die effect" "tracker impact"
+		"inaccuracy" 20
+		"velocity" 14
+		"lifetime" 475
+		"reload" 8
+		"firing energy" 45
+		"firing heat" 5
+		"acceleration" .7
+		"drag" .05
+		"turn" 1.2
+		"homing" 4
+		"optical tracking" .8
+		"infrared tracking" .4
+		"shield damage" 200
+		"hull damage" 160
+		"hit force" 350
+		"missile strength" 16
+	description "Trackers are fast and accurate homing weapons. Although not as powerful as most human missiles, Trackers boast a significant hit force, helping to prevent the escape of whoever is unfortunate enough to be on the receiving end. Their only weakness is their large turning radius: if a Tracker misses its target, it takes a long time to turn around."
+	description "	During the Sheragi conflict, the Hai developped much stronger bigger versions of the commonly known Tracker Pod, intended for full on surprise assaults where ammunition is not really an issue. In order to use this weapon in substained combat, a few storage pods may be required."
+
+
 outfit "Pulse Accelerator"
 	category "Guns"
 	cost 390000

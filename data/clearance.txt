@@ -28,6 +28,7 @@ outfitter "Unfettered Basics"
 	add "Thunderstruck Turret"
 	add "Ionic Clasher"
 	add "Duopulse Devastator"
+	add "Trackerine"
 
 # campaign stuff
 outfitter "Unfettered Basics"

@@ -264,7 +264,6 @@ ship "Stag Beetle-"
 		"Thermal Repeater Rifle" 20
 		"Pulse Rifle" 60
 		"Dual Pulse Pistols" 10
-		"True Unfettered License"
 	
 	engine -45 123
 	engine 45 123

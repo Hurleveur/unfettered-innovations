@@ -29,6 +29,7 @@ outfitter "Unfettered Basics"
 	add "Ionic Clasher"
 	add "Duopulse Devastator"
 	add "Trackerine"
+	add "Railgun"
 
 # campaign stuff
 outfitter "Unfettered Basics"

@@ -267,7 +267,8 @@ ship "Tarantula"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description `This ship was built by the Unfettered using their unique Solifuge design and improving it, using Wanderer technology and shipyards. It is the first ship they built that is this big, and is meant to duel even the biggest of Wanderer ships, at close range.`
+	description `This ship was built by the Unfettered, and rushed out using existing designs, improved with Wanderer technology and shipyards. It is intended as the peak of their shipbuilding capabilities, and is meant to be able duel even the biggest of Wanderer ships, at close range.`
+	description "	Due to its high crew and cargo capacity, as well as general size, it is more than able to stand out on its own, and be used for long distance missions."
 
 
 
@@ -341,6 +342,7 @@ ship Solitude
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
+	description "This is one of the first iterations of the later released Solifuge the Unfettered have designed. This one lacks appropriate engines, but the Unfettered decided to mitigate that by making it a defensive space station, using newly developped long range pulse weaponry, and its drone complement to be able to pin down enemies and shoot them from a distance."
 
 
 
@@ -491,3 +493,42 @@ ship "Lycosidae"
 	explode "huge explosion" 15
 	"final explode" "final explosion large"
 	description "This is an old super carrier design that was deemed too expensive and unpractical by the Hai, who never completed the project, also partly because of technical limitations. However, with new Alpha and Hai insights, the Unfettered managed to complete the prototype, or at least make it good enough to fight."
+
+
+ship "Autumn Leaf" "Phintella"
+	"display name" "Phintella"
+	add attributes
+		cost 3000000
+		bunks -6
+		"required crew" 2
+		drag .2
+		"engine capacity" -24
+		"fuel capacity" -200
+		"heat dissipation" -.1
+		hull -1400
+		"shields" -6700
+		"weapon capacity" 23
+	outfits
+		`"Biroo" Atomic Thruster`
+		`"Bondir" Atomic Steering`
+		"Wanderer Anti-Missile"
+		"Red Sun Reactor"
+		"Hai Diamond Regenerator"
+		"Hai Zephyr Cooling"
+		"Hyperdrive"
+		"Polypulse Blunderbuss" 3
+		"Quantum Keystone"
+		"Outfits Expansion"
+		"Small Biochemical Cell"
+	engine -18 64
+	engine 18 64
+	gun -25 -22
+	gun 0 -32
+	gun 25 -22
+	turret 0 28
+	explode "tiny explosion" 50
+	explode "small explosion" 35
+	explode "medium explosion" 25
+	"final explode" "final explosion small"
+	description "This was an Autumn Leaf, but when the Unfettered got their pawns on it, they couldn't help but see missed opportunities, that they quickly corrected to 'improve' on the design, allowing it to fit one more gun port, at a cost."
+

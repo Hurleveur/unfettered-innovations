@@ -57,6 +57,7 @@ shipyard "Mon Ki o'Uden Advanced"
 	add "Scarred"
 	add "Solitude"
 	add "Locust"
+	add "Phintella"
 
 # ships from the campaign and warlord PR
 shipyard "Mon Ki o'Uden Advanced"

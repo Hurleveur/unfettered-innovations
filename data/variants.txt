@@ -1,3 +1,37 @@
+# by alexrov
+ship "Solifuge" "Solifuge (Wanderer Pulse Turrets)"
+	outfits
+		"Pulse Turret" 6
+		"Chameleon Anti-Missile"
+		"Hai Tracker Pod" 5
+		"Hai Tracker" 308
+		"Tracker Storage Pod"
+		
+		"Hyperdrive"
+		"Hai Diamond Regenerator" 2
+		"Hai Zephyr Cooling" 3
+		"Quantum Keystone"
+		"Value Detector"
+
+		"Hai Gorge Batteries"
+		"Boulder Reactor"
+		"Geode Reactor"
+		
+		"Pulse Rifle" 68
+
+		`"Bufaer" Atomic Thruster`
+		`"Bondir" Atomic Steering`
+
+ship "Violin Spider" "Violin Spider (Pulse, AM)"
+	outfits
+		"Pulse Cannon"
+		"Bullfrog Anti-Missile"
+		"Hai Corundum Regenerator"
+		"Quantum Keystone"
+		"Hai Gorge Batteries"
+		`"Baellie" Atomic Engines`
+		"Pulse Rifle"
+
 ship "Tarantula" "Tarantula (Octapulse Annihilators)"
 	outfits
 		"Octapulse Annihilator" 3

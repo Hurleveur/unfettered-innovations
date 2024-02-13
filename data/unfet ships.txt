@@ -355,14 +355,14 @@ ship "Lycosidae"
 		"shields" 59000
 		"hull" 16000
 		"required crew" 125
-		"bunks" 211
+		"bunks" 203
 		"mass" 740
 		"drag" 12
 		"heat dissipation" .35
 		"fuel capacity" 600
 		"cargo space" 333
 		"outfit space" 1024
-		"weapon capacity" 350
+		"weapon capacity" 224
 		"engine capacity" 145
 		weapon
 			"blast radius" 2000
@@ -373,13 +373,15 @@ ship "Lycosidae"
 		"Systems Core (Large)"
 		"Systems Core (Medium)" 3
 		"Systems Core (Small)" 2
+		"Hai Octopus Jammer" 2
+		"Hai Cuttlefish Jammer" 2
+		"Hai Zephyr Cooling"
+		"Scram Drive"
 		"Repair Team"
-		"Hai Tracker Pod" 2
-		"Hai Tracker" 112
-		"Chameleon Anti-Missile" 4
-		"Harasser Quadrail" 8
-		"Railgun Slug" 16000
-		"White Sun Reactor"
+		"Warder Anti-Missile" 4
+		"Harasser Quadrail" 4
+		"Railgun Slug" 8000
+		"Blue Sun Reactor"
 		"Large Heat Shunt"
 		"Jump Drive"
 		"Fuel Processor" 2
@@ -387,19 +389,16 @@ ship "Lycosidae"
 		"Pulse Rifle" 211
 	cargo
 		"Railgun Slug" 80000
+	gun 0 -193
 	gun -28.5 -170.5 
 	gun 28.5 -170.5 
 	turret 0.5 -180
-	turret -10.5 -166.5
-	turret 10.5 -166.5
-	turret -23 -143 "Chameleon Anti-Missile"
-	turret 23 -143 "Chameleon Anti-Missile"
+	turret -10.5 -166.5 "Warder Anti-Missile"
+	turret 10.5 -166.5 "Warder Anti-Missile"
 	turret 0.5 -95
-	turret -43 0
-	turret 43 0
+	turret -43 0 "Warder Anti-Missile"
+	turret 43 0 "Warder Anti-Missile"
 	turret -0.5 91.5
-	turret -39 129.5 "Chameleon Anti-Missile"
-	turret 39 129.5 "Chameleon Anti-Missile"
 	turret 0.5 140
 	bay "Drone" -88.5 -154.5 over
 		"launch effect" "hai launch"

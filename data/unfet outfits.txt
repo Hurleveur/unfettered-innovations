@@ -8,6 +8,7 @@ outfit "Dimentional Eraser"
 	"gun ports" -1
 	"spinal mount" -1
 	unplunderable 1
+	unique 1
 	weapon
 		sprite "projectile/ember tear/ember tear"
 			"frame rate" 30

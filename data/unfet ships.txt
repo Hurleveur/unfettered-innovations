@@ -95,7 +95,7 @@ ship "Phrynus"
 	sprite "ship/hai phrynus"
 	thumbnail "thumbnail/hai phrynus"
 	attributes
-		category "Medium Warship"
+		category "Utility"
 		"cost" 21400000
 		"shields" 26500
 		"hull" 11200

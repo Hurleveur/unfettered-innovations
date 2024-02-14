@@ -66,8 +66,8 @@ ship "Ladybug" "Bigeminate Sigil"
 	outfits
 		"Korath Detainer"
 		"Warder Anti-Missile" 2
-		"Thunder Bomb Launcher" 2
-		"Thunder Bomb" 4
+		"Magma Bomb Launcher" 2
+		"Magma Bomb" 4
 
 		"Jump Drive"
 		"Value Detector" 2
@@ -99,15 +99,15 @@ ship "Phrynus"
 		"cost" 21400000
 		"shields" 26500
 		"hull" 11200
-		"required crew" 34
-		"bunks" 62
+		"required crew" 40
+		"bunks" 58
 		"mass" 820
 		"drag" 7.2
 		"heat dissipation" .75
 		"fuel capacity" 600
 		"cargo space" 200
-		"outfit space" 766
-		"weapon capacity" 330
+		"outfit space" 696
+		"weapon capacity" 270
 		"engine capacity" 145
 		weapon
 			"blast radius" 400
@@ -116,27 +116,26 @@ ship "Phrynus"
 			"hit force" 3000
 	outfits
 		"Bullfrog Anti-Missile" 2
-		"Hai Corundum Regenerator"
+		"Hai Corundum Regenerator" 2
 		"Hai Diamond Regenerator"
-		"Hai Ravine Batteries"
+		"Hai Gorge Batteries"
 		"Hai Zephyr Cooling-" 2
-		"Ion Cannon" 4
-		"Ionic Blaster Prototype" 4
+		"Ion Cannon" 2
+		"Ionic Blaster Prototype" 6
 		"Jump Drive"
 		"Monolith Core"
 		"Predator Engine"
 		"Quantum Keystone"
 		"Tripulse Shredder"
-		"Value Detector"
-		"Pulse Rifle" 34
-	gun -110.5 -104 "Ion Cannon"
-	gun 110.5 -104 "Ion Cannon"
-	gun -118.5 -108 "Ion Cannon"
-	gun 118.5 -108 "Ion Cannon"
-	gun -50 -26 "Ionic Blaster Prototype"
-	gun 50 -26 "Ionic Blaster Prototype"
-	gun -31 -23 "Ionic Blaster Prototype"
-	gun 31 -23 "Ionic Blaster Prototype"
+		"Pulse Rifle" 45
+	gun -110.5 -104
+	gun 110.5 -104
+	gun -118.5 -108
+	gun 118.5 -108
+	gun -50 -26
+	gun 50 -26
+	gun -31 -23 "Ion Cannon"
+	gun 31 -23 "Ion Cannon"
 	gun 0 -26 "Tripulse Shredder"
 	turret -66 67 "Bullfrog Anti-Missile"
 	turret 66 67 "Bullfrog Anti-Missile"

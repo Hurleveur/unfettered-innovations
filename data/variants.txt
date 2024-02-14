@@ -84,11 +84,11 @@ ship "Phrynus" "OmegaPhrynus"
 		"Chameleon Anti-Missile" 2
 
 		"Jump Drive"
-		"Hai Diamond Regenerator" 2
+		"Hai Diamond Regenerator"
 		"Ruby Regenerator"
 		"Hai Zephyr Cooling-"
 		
-		"Hai Ravine Batteries"
+		"Hai Gorge Batteries"
 		"Monolith Core"
 		`"Bufaer" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -97,13 +97,12 @@ ship "Phrynus" "OmegaPhrynus"
 
 ship "Phrynus" "Phrynus (Ion Focus)"
 	outfits
-		"Geode Reactor"
 		"Hai Chasm Batteries"
 		"Hai Diamond Regenerator"
 		"Hai Fissure Batteries"
 		"Hai Zephyr Cooling-" 2
 		"Ion Cannon"
-		"Ionic Blaster Prototype" 8
+		"Ionic Blaster Prototype" 5
 		"Ionic Turret Prototype" 2
 		"Jump Drive"
 		"Monolith Core"
@@ -114,6 +113,7 @@ ship "Phrynus" "Phrynus (Ion Focus)"
 ship "Phrynus" "Phrynus (Octapulse)"
 	outfits
 		"Hai Diamond Regenerator"
+		"Hai Corundum Regenerator"
 		"Hai Valley Batteries"
 		"Hai Williwaw Cooling"
 		"Hai Zephyr Cooling-" 3
@@ -122,39 +122,21 @@ ship "Phrynus" "Phrynus (Octapulse)"
 		"Octapulse Annihilator" 2
 		"Predator Engine"
 		"Quantum Keystone"
-		"Ruby Regenerator"
 		"Value Detector" 2
 		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Long Range Ion)"
 	outfits
 		"Ion Cannon" 4
-		"Ionic Turret Prototype" 2
+		"Ionic Turret Prototype"
 		"Monolith Core"
 		"Hai Gorge Batteries"
-		"Hai Diamond Regenerator" 2
+		"Hai Diamond Regenerator"
 		"Hai Zephyr Cooling-" 2
 		"Predator Engine"
 		"Jump Drive"
 		"Value Detector" 2
 		"Outfit Scanner" 5
-		"Pulse Rifle" 34
-
-ship "Phrynus" "Phrynus (Ion Tracker)"
-	outfits
-		"Hai Gorge Batteries"
-		"Hai Tracker" 224
-		"Hai Tracker Pod" 4
-		"Hai Zephyr Cooling-" 2
-		"Ion Cannon"
-		"Ionic Blaster Prototype" 4
-		"Ionic Turret Prototype" 2
-		"Jump Drive"
-		"Monolith Core"
-		"Predator Engine"
-		"Quantum Keystone"
-		"Ruby Regenerator"
-		"Value Detector"
 		"Pulse Rifle" 34
 
 ship "Phrynus" "Phrynus (Tracker)"
@@ -165,7 +147,7 @@ ship "Phrynus" "Phrynus (Tracker)"
 		"Hai Tracker" 896
 		"Hai Tracker Pod" 9
 		"Hai Zephyr Cooling-"
-		"Ionic Turret Prototype" 2
+		"Chameleon Anti-Missile" 2
 		"Jump Drive"
 		"Predator Engine"
 		"Quantum Keystone"
@@ -173,29 +155,11 @@ ship "Phrynus" "Phrynus (Tracker)"
 		"Value Detector" 2
 		"Pulse Rifle" 34
 
-ship "Phrynus" "Phrynus (Ruby Shredder)"
-	outfits
-		"Chameleon Anti-Missile" 2
-		"Hai Chasm Batteries"
-		"Hai Zephyr Cooling-" 5
-		"Ionic Blaster Prototype" 4
-		"Jump Drive"
-		"Monolith Core"
-		"Outfits Expansion" 6
-		"Predator Engine"
-		"Quantum Keystone"
-		"Ruby Regenerator"
-		"Tripulse Shredder" 5
-		"Value Detector"
-		"Pulse Rifle" 34
-
 ship "Phrynus" "Phrynus (Penta Blaster)"
 	outfits
-		"Geode Reactor"
-		"Hai Chasm Batteries" 2
 		"Hai Fissure Batteries"
 		"Hai Zephyr Cooling-" 6
-		"Ionic Blaster Prototype" 9
+		"Ionic Blaster Prototype" 6
 		"Jump Drive"
 		"Monolith Core"
 		"Outfits Expansion" 7
@@ -208,19 +172,19 @@ ship "Phrynus" "Phrynus (Penta Blaster)"
 
 ship "Phrynus" "Phrynus (Miner)"
 	outfits
-		"Asteroid Scanner" 3
-		"Bullfrog Anti-Missile" 2
+		"Asteroid Scanner"
+		"Bullfrog Anti-Missile"
 		"Cargo Expansion"
 		"Hai Corundum Regenerator"
 		"Hai Gorge Batteries"
-		"Hai Zephyr Cooling-" 3
+		"Hai Zephyr Cooling-" 2
 		"Jump Drive"
 		"Monolith Core"
 		"Pebble Core"
 		"Predator Engine"
 		"Quantum Keystone"
 		# this can even mine the enemy!
-		"Tripulse Shredder" 7
+		"Tripulse Shredder" 6
 		"Value Detector"
 		"Pulse Rifle" 34
 

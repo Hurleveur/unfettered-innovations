@@ -397,6 +397,7 @@ outfit "Ionic Clasher"
 outfit "Magma Bomb Launcher"
 	thumbnail "outfit/unknown"
 	category "Secondary Weapons"
+	cost 100000
 	"integrated bombing" -1
 	"gun ports" -1
 	"bomb capacity" 1
@@ -416,9 +417,11 @@ outfit "Magma Bomb Launcher"
 		"hull damage" 12500
 		"hit force" 2000
 		"blast radius" 10
+		"trigger radius" 10
 		"velocity" 2
-		"range override" 250
+		"range override" 500
 		"turn" 1
+	description "This is a very simple launcher for the bombs, which only works due to the Unfettered's use of fighters and their good agility to deploy them."
 
 outfit "Magma Bomb"
 	thumbnail "outfit/unfettered bomb"
@@ -427,11 +430,18 @@ outfit "Magma Bomb"
 	mass 20
 	"energy consumption" 0.375
 	"bomb capacity" -1
-	"overheat damage rate" 1000000
-	"overheat damage threshold" .15
+	"overheat damage rate" 100000
+	"overheat damage threshold" .35
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
 
+outfit "Magma Bomb Storage"
+	thumbnail "outfit/unfettered bomb"
+	category "Ammunition"
+	cost 50000
+	"cargo space" -20
+	"bomb capacity" 1
+	description "This storage system allows a mothership to store Magma Bombs in such a way the fighters are able to replenish from it. It does not protect it from overheating, however."
 
 # engines that combine afterburner thrust and steering, small and big
 # korath asteroid afterburner + small engine (9+22)

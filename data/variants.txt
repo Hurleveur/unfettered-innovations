@@ -79,9 +79,8 @@ ship "Phrynus" "OmegaPhrynus"
 	"display name" "OmegaPhrynus"
 	add attributes
 		"integrated bombing" 9
-		"bomb capacity" 9
-		"cargo space" -180
 	outfits
+		"Magma Bomb Storage" 9
 		"Magma Bomb Launcher" 9
 		"Magma Bomb" 18
 		"Chameleon Anti-Missile" 2

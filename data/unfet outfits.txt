@@ -536,7 +536,7 @@ effect "large unfettered afterburner"
 	lifetime 1.5
 	"random lifetime" 1
 
-# bondir steering and biroo thruster that are more heat efficient + afterburner bondir
+# bondir steering and biroo thruster that are more heat efficient + afterburner bondir + reverse
 # + 50% energy cost, and made heat be the same (except afterburner that is double energy)
 outfit "Stealth Engine"
 	category "Engines"
@@ -565,6 +565,13 @@ outfit "Stealth Engine"
 	"steering flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	"steering flare sound" "atomic small"
+	
+	"reverse thrust" 39.4
+	"reverse thrusting energy" 6
+	"reverse thrusting heat" 6
+	"reverse flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"reverse flare sound" "atomic small"
 	
 	description "This engine is intended to be a more discrete version of the usually heat inefficient Hai engines."
 

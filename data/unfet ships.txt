@@ -48,33 +48,25 @@ ship "Ladybug" "Bigeminate Sigil"
 	swizzle 9
 	crew 40
 	add attributes
-		"outfit space" 18
-		"reverse thrust" 39.4
-		"reverse thrusting energy" 6
-		"reverse thrusting heat" 6
-		"reverse flare sprite" "effect/atomic flare/small"
-			"frame rate" 13
-		"reverse flare sound" "atomic small"
 		"scan interference" 5
 		"fuel capacity" -100
-		"cargo space" -51
-		"outfit space" 40
+		"cargo space" -61
+		"outfit space" 41
 		"bunks" 7
-		"integrated bombing" -2
-		"bomb capacity" 4
+		"bomb capacity" 2
 		"radar jamming" 30
 	outfits
 		"Korath Detainer"
-		"Warder Anti-Missile" 2
+		"Warder Anti-Missile"
+		"Chameleon Anti-Missile"
 		"Magma Bomb Launcher" 2
 		"Magma Bomb" 4
 
 		"Jump Drive"
-		"Value Detector" 2
-		"Hai Octopus Jammer" 2
+		"Hai Octopus Jammer"
 		"Large Heat Shunt"
 		"Systems Core (Medium)"
-		"Fuel Processor" 2
+		"Fuel Processor"
 		"Wanderer Ramscoop"
 		"Cloaking Device"
 

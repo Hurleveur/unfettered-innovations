@@ -8,9 +8,7 @@ outfitter "Unfettered Basics"
 	add "Penta Pulser"
 	add "Octapulse Annihilator"
 	add "Octapulse Devastator"
-	add "Earthquake Bomb"
 	add "Magma Bomb"
-	add "Thunder Bomb"
 	add "Hunter Engine"
 	add "Predator Engine"
 	add "Monolith Core"
@@ -31,6 +29,7 @@ outfitter "Unfettered Basics"
 	add "Trackerine"
 	add "Railgun"
 	add `"Baellie" Atomic Engines`
+	add "Magma Bomb Launcher"
 
 # campaign stuff
 outfitter "Unfettered Basics"

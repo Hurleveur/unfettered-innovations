@@ -361,7 +361,7 @@ ship "Lycosidae"
 		"heat dissipation" .35
 		"fuel capacity" 600
 		"cargo space" 333
-		"outfit space" 1024
+		"outfit space" 1000
 		"weapon capacity" 224
 		"engine capacity" 145
 		weapon

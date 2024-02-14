@@ -78,18 +78,12 @@ ship "Tarantula" "Tarantula (Ionic)"
 ship "Phrynus" "OmegaPhrynus"
 	"display name" "OmegaPhrynus"
 	add attributes
-		"integrated bombing" 27
-		"bomb capacity" 27
-		"cargo space" -200
-		"outfit space" -150
-		"weapon capacity" -250
+		"integrated bombing" 9
+		"bomb capacity" 9
+		"cargo space" -180
 	outfits
-		"Earthquake Bomb Launcher" 9
 		"Magma Bomb Launcher" 9
-		"Thunder Bomb Launcher" 9
-		"Thunder Bomb" 9
-		"Magma Bomb" 9
-		"Earthquake Bomb" 9
+		"Magma Bomb" 18
 		"Chameleon Anti-Missile" 2
 
 		"Jump Drive"
@@ -99,39 +93,9 @@ ship "Phrynus" "OmegaPhrynus"
 		
 		"Hai Ravine Batteries"
 		"Monolith Core"
-		"Predator Engine"
+		`"Bufaer" Atomic Steering`
+		`"Bondir" Atomic Thruster`
 		"Pulse Rifle" 34
-	gun -110.5 -104 "Earthquake Bomb Launcher"
-	gun 110.5 -104 "Earthquake Bomb Launcher"
-	gun -118.5 -108 "Earthquake Bomb Launcher"
-	gun 118.5 -108 "Earthquake Bomb Launcher"
-	gun -50 -26 "Earthquake Bomb Launcher"
-	gun 50 -26 "Earthquake Bomb Launcher"
-	gun -31 -23 "Earthquake Bomb Launcher"
-	gun 31 -23 "Earthquake Bomb Launcher"
-	gun 0 -26 "Earthquake Bomb Launcher"
-
-	gun -110.5 -104 "Magma Bomb Launcher"
-	gun 110.5 -104 "Magma Bomb Launcher"
-	gun -118.5 -108 "Magma Bomb Launcher"
-	gun 118.5 -108 "Magma Bomb Launcher"
-	gun -50 -26 "Magma Bomb Launcher"
-	gun 50 -26 "Magma Bomb Launcher"
-	gun -31 -23 "Magma Bomb Launcher"
-	gun 31 -23 "Magma Bomb Launcher"
-	gun 0 -26 "Magma Bomb Launcher"
-	
-	gun -110.5 -104 "Thunder Bomb Launcher"
-	gun 110.5 -104 "Thunder Bomb Launcher"
-	gun -118.5 -108 "Thunder Bomb Launcher"
-	gun 118.5 -108 "Thunder Bomb Launcher"
-	gun -50 -26 "Thunder Bomb Launcher"
-	gun 50 -26 "Thunder Bomb Launcher"
-	gun -31 -23 "Thunder Bomb Launcher"
-	gun 31 -23 "Thunder Bomb Launcher"
-	gun 0 -26 "Thunder Bomb Launcher"
-	turret -66 67
-	turret 66 67
 
 
 ship "Phrynus" "Phrynus (Ion Focus)"
@@ -279,15 +243,10 @@ ship "Violin Spider" "Violin Spider (Webber)"
 
 ship "Violin Spider" "Violin Spider (Bomber)"
 	add attributes
-		"integrated bombing" 3
-		"bomb capacity" 1
-		"weapon capacity" -19
-		"outfit space" -19
+		"integrated bombing"
 	outfits
-		"Earthquake Bomb Launcher"
 		"Magma Bomb Launcher"
-		"Thunder Bomb Launcher"
-		"Earthquake Bomb"
+		"Magma Bomb"
 		"Quantum Keystone"
 		"Hai Williwaw Cooling"
 		"Hunter Engine"

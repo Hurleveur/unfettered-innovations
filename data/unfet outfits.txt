@@ -394,85 +394,31 @@ outfit "Ionic Clasher"
 #outfit "Ionic Destabilizer" (scramble heavy version)
 
 
-
-# invisible on all bombardiers violin
-outfit "Earthquake Bomb Launcher"
-	thumbnail "outfit/unknown"
-	category "Secondary Weapons"
-	"integrated bombing" 1
-	"gun ports" -1
-	weapon
-		sprite "projectile/unfettered bomb"
-		ammo "Earthquake Bomb"
-		icon "icon/unfettered bomb"
-		"die effect" "big explosion"
-		"hit effect" "huge explosion"
-		"lifetime" 1000
-		"reload" 500
-		"missile strength" 500
-		"shield damage" 15000
-		"hull damage" 12000
-		"hit force" 2500
-		"trigger radius" 40
-		"blast radius" 120
-		"damage dropoff" 10 120
-		"turn" 1
-
 outfit "Magma Bomb Launcher"
 	thumbnail "outfit/unknown"
 	category "Secondary Weapons"
-	"integrated bombing" 1
+	"integrated bombing" -1
 	"gun ports" -1
+	"bomb capacity" 1
+	"outfit space" -19
+	"weapon capacity" -19
 	weapon
 		sprite "projectile/unfettered bomb"
+		sound "rocket"
 		ammo "Magma Bomb"
 		icon "icon/unfettered bomb"
 		"die effect" "huge explosion"
 		"hit effect" "huge explosion"
 		"lifetime" 500
-		"reload" 180
-		"missile strength" 500
-		"shield damage" 25000
-		"hull damage" 17500
+		"reload" 500
+		"missile strength" 200
+		"shield damage" 20000
+		"hull damage" 12500
 		"hit force" 2000
-		"trigger radius" 35
-		"blast radius" 50
-		"damage dropoff" 25 50
+		"blast radius" 10
+		"velocity" 2
+		"range override" 250
 		"turn" 1
-
-outfit "Thunder Bomb Launcher"
-	thumbnail "outfit/unknown"
-	category "Secondary Weapons"
-	"integrated bombing" 1
-	"gun ports" -1
-	weapon
-		sprite "projectile/unfettered bomb"
-		ammo "Thunder Bomb"
-		icon "icon/unfettered bomb"
-		"die effect" "medium explosion"
-		"hit effect" "small explosion"
-		"lifetime" 1500
-		"reload" 180
-		"missile strength" 500
-		"shield damage" 0
-		"hull damage" 19500
-		"hit force" 500
-		"piercing" 0.5
-		"turn" 1
-
-
-# when you overheat too much, the bombs will explode
-outfit "Earthquake Bomb"
-	thumbnail "outfit/unfettered bomb"
-	category "Ammunition"
-	cost 1500000
-	mass 15
-	"energy consumption" 0.25
-	"bomb capacity" -1
-	"overheat damage rate" 1000000
-	"overheat damage threshold" .25
-	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "	In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to kill a swarm of enemies."
 
 outfit "Magma Bomb"
 	thumbnail "outfit/unfettered bomb"
@@ -485,19 +431,6 @@ outfit "Magma Bomb"
 	"overheat damage threshold" .15
 	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
 	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to take on multiple medium warships at the same time."
-
-outfit "Thunder Bomb"
-	thumbnail "outfit/unfettered bomb"
-	category "Ammunition"
-	cost 2500000
-	mass 10
-	"energy consumption" 0.125
-	"bomb capacity" -1
-	"overheat damage rate" 1000000
-	"overheat damage threshold" .35
-	description "The Unfettered prefer not to use the weapons of their enemies as that would suggest those are better. Instead, they transformed them into these bombs, meant to be carried by fighters. This is a true demonstration of the Unfettered's creativity when it comes to making things unstable."
-	description "In fact, energy needs to be consumed in order to stabilize the bomb, so long as it is on the ship. This bomb is intended to strike tactical blows on the enemy heaviest warships, ignoring their shields and regeneration."
-
 
 
 # engines that combine afterburner thrust and steering, small and big

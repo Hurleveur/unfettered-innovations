@@ -77,8 +77,6 @@ ship "Tarantula" "Tarantula (Ionic)"
 # unique Phrynus to beat the arfectas with
 ship "Phrynus" "OmegaPhrynus"
 	"display name" "OmegaPhrynus"
-	add attributes
-		"integrated bombing" 9
 	outfits
 		"Magma Bomb Storage" 9
 		"Magma Bomb Launcher" 9
@@ -241,8 +239,6 @@ ship "Violin Spider" "Violin Spider (Webber)"
 
 
 ship "Violin Spider" "Violin Spider (Bomber)"
-	add attributes
-		"integrated bombing"
 	outfits
 		"Magma Bomb Launcher"
 		"Magma Bomb"

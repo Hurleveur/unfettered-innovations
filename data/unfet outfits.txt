@@ -398,7 +398,6 @@ outfit "Magma Bomb Launcher"
 	thumbnail "outfit/unknown"
 	category "Secondary Weapons"
 	cost 100000
-	"integrated bombing" -1
 	"gun ports" -1
 	"bomb capacity" 1
 	"outfit space" -19
@@ -421,7 +420,7 @@ outfit "Magma Bomb Launcher"
 		"velocity" 2
 		"range override" 500
 		"turn" 1
-	description "This is a very simple launcher for the bombs, which only works due to the Unfettered's use of fighters and their good agility to deploy them."
+	description "This is a very simple launcher for the bombs, which only works due to the Unfettered's use of fighters and their good agility to deploy them. Due to the relatively primitive mechanism, it takes a long time before it is able to shoot again, time the fighter will use to go back to the mothership and reload."
 
 outfit "Magma Bomb"
 	thumbnail "outfit/unfettered bomb"
@@ -444,7 +443,7 @@ outfit "Magma Bomb Storage"
 	description "This storage system allows a mothership to store Magma Bombs in such a way the fighters are able to replenish from it. It does not protect it from overheating, however."
 
 # engines that combine afterburner thrust and steering, small and big
-# korath asteroid afterburner + small engine (9+22)
+# korath asteroid afterburner + baellie with half the thrust
 outfit "Hunter Engine"
 	category "Engines"
 	thumbnail "outfit/tiny atomic engines hai"
@@ -453,16 +452,16 @@ outfit "Hunter Engine"
 	"outfit space" -30
 	"engine capacity" -30
 	"operating cost" 100
-	"thrust" 7.3
-	"thrusting energy" .87
-	"thrusting heat" 1.7
-
-	"turn" 244
-	"turning energy" .64
-	"turning heat" 1.28
+	"thrust" 4.9
+	"thrusting energy" .435
+	"thrusting heat" 0.85
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
+
+	"turn" 301
+	"turning energy" .7
+	"turning heat" 1.5
 	"steering flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"steering flare sound" "atomic tiny"
@@ -485,7 +484,7 @@ effect "small unfettered afterburner"
 	"random frame rate" 2
 
 
-# comet afterburner + `"Benga" Reverse Thruster` + `"Bondir" Atomic Steering` + `"Basrem" Atomic Steering` + `"Bondir" Atomic Thruster`
+# comet afterburner + `"Benga" Reverse Thruster` + `"Bondir" Atomic Steering` + `"Basrem" Atomic Steering` + `"Bondir" Atomic Thruster`, steering * 1.5 and thrust+afterburner / 1.5
 # 32 + 28 + 49 + 12 + 63
 outfit "Predator Engine"
 	category "Engines"
@@ -496,16 +495,16 @@ outfit "Predator Engine"
 	"engine capacity" -145
 	"required crew" 5
 
-	"thrust" 62.8
-	"thrusting energy" 6.1
-	"thrusting heat" 12.7
+	"thrust" 41.8
+	"thrusting energy" 4
+	"thrusting heat" 8.5
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
 
-	"turn" 2015
-	"turning energy" 3.9
-	"turning heat" 9.7
+	"turn" 3000
+	"turning energy" 5.8
+	"turning heat" 14.5
 	"steering flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"steering flare sound" "atomic medium"
@@ -518,9 +517,9 @@ outfit "Predator Engine"
 	"reverse flare sound" "atomic tiny"
 
 	# this is the largest engine but using more power
-	"afterburner thrust" 114.1
-	"afterburner energy" 21.2
-	"afterburner heat" 22.6
+	"afterburner thrust" 76
+	"afterburner energy" 14
+	"afterburner heat" 15
 	"afterburner effect" "large unfettered afterburner"
 
 	"overheat damage rate" 5

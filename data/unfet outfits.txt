@@ -415,10 +415,10 @@ outfit "Magma Bomb Launcher"
 		"shield damage" 20000
 		"hull damage" 12500
 		"hit force" 2000
-		"blast radius" 10
-		"trigger radius" 10
-		"velocity" 2
 		"range override" 500
+		"blast radius" 50
+		"trigger radius" 35
+		"velocity" 2.5
 		"turn" 1
 	description "This is a very simple launcher for the bombs, which only works due to the Unfettered's use of fighters and their good agility to deploy them. Due to the relatively primitive mechanism, it takes a long time before it is able to shoot again, time the fighter will use to go back to the mothership and reload."
 

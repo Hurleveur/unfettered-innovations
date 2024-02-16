@@ -50,26 +50,28 @@ ship "Ladybug" "Bigeminate Sigil"
 	add attributes
 		"scan interference" 5
 		"fuel capacity" -100
-		"cargo space" -61
+		"cargo space" -51
 		"outfit space" 41
+		"required crew" 10
 		"bunks" 7
-		"bomb capacity" 2
 		"radar jamming" 30
 	outfits
 		"Korath Detainer"
 		"Warder Anti-Missile"
 		"Chameleon Anti-Missile"
 		"Magma Bomb Launcher" 2
+		"Magma Bomb Storage"
 		"Magma Bomb" 4
 
 		"Jump Drive"
-		"Hai Octopus Jammer"
 		"Large Heat Shunt"
 		"Systems Core (Medium)"
 		"Fuel Processor"
 		"Wanderer Ramscoop"
 		"Cloaking Device"
+		"Quantum Keystone"
 
+		"Hai Chasm Batteries"
 		"Yellow Sun Reactor"
 
 		"Stealth Engine"

@@ -1,13 +1,6 @@
-Future Unfettered Hai content, not yet fully balanced and made accessible to all for testing. All feedback is welcome, and contributions as well, especially in the form of artwork for outfits that dont have it yet, but also new great ideas (never hesitate to put on a PR if you want to work together on something).
-It's always more fun to create together, and I dont want the full responsability of this project on my shoulder either.
-
-# plugin-template
-This repository serves as a basic template to be used when creating a plugin for the game Endless Sky. Fork it and start modding!
-
-[Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-
+Future Unfettered Hai content, not yet fully balanced and made accessible to all for testing. This is just ships and outfits without many missions to back it up.
+All feedback is welcome, and contributions as well, especially in the form of artwork for outfits that don't have it yet, but also new great ideas (never hesitate to put on a PR if you want to work together on something).
+It's always more fun to create together, and I don't want the full responsibility of this project on my shoulder either.
 
 ## Things to do after forking:
-1. Clone your repo locally. You'll want to clone / symlink your repo within the `"plugins"` directory in your "user" directory (which is where Endless Sky writes your pilot savegames). This ensures you can update your local version of Endless Sky without worrying about losing any uncommitted & unpushed data.
-2. Flesh out your content! You can learn about all the different bits of game data in the [Endless Sky wiki](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins)
-3. [Submit your plugin for distribution](https://github.com/EndlessSkyCommunity/endless-sky-plugins) (to be updated)
+Just open a PR to this repo, and don't hesitate to mention me, here or on discord!

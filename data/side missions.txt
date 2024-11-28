@@ -6,7 +6,7 @@ mission "Unfettered Jump Drive 4b"
 	job
 	repeat
 	name "Sell Jump Drive"
-	description "Exchange a jump drive on your flagship or in cargo for money, headpats, or for weapons, if an outfitter is available."
+	description "Exchange a jump drive on your flagship or in cargo for money, permission to pet the Unfettered, or for weapons, if an outfitter is available."
 	source
 		attributes "unfettered"
 	to offer

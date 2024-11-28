@@ -9,6 +9,10 @@ mission "Unfettered Jump Drive 4b"
 	description "Exchange a jump drive on your flagship or in cargo for money, permission to pet the Unfettered, or for weapons, if an outfitter is available."
 	source
 		attributes "unfettered"
+	substitutions
+		"<tab>" ""
+		"<tab>" "	"
+			has "flagship planet: Darkcloak"
 	to offer
 		has "Unfettered Jump Drive 3: offered"
 		not "event: wanderers: unfettered invasion starts"
@@ -46,10 +50,10 @@ mission "Unfettered Jump Drive 4b"
 				goto trade
 
 			label headpat
-			`	"You want this jump drive? Oh, honey, you know the fee," you say.`
+			`<tab>"You want this jump drive? Oh, honey, you know the fee," you say.`
 				to display
 					has "jump drives for headpats"
-			`	"You want this jump drive? Give me permission to pet you," you say.`
+			`<tab>"You want this jump drive? Give me permission to pet you," you say.`
 				to display
 					not "jump drives for headpats"
 			`	"..."`

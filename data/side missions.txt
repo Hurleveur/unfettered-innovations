@@ -3,76 +3,79 @@
 # Combined mission by ziproot.
 disable mission "Unfettered Jump Drive 4"
 mission "Unfettered Jump Drive 4b"
-    job
-    repeat
-    name "Sell Jump Drive"
-    description "Exchange a jump drive on your flagship or in cargo for money, headpats, or for weapons, if an outfitter is available."
-    source
-        attributes "unfettered"
-    substitutions
-        "< instead>" ""
-        "< instead>" " instead"
-            has "flagship planet: Darkcloak"
-    to offer
-        has "Unfettered Jump Drive 3: offered"
-        not "event: wanderers: unfettered invasion starts"
-    to fail
-        has "Unfettered Jump Drive 4: active"
-    to accept
-        or
-            has "outfit (flagship installed): Jump Drive"
-            has "outfit (cargo): Jump Drive"
-    on accept
-        conversation
-            branch "want outfits"
-                or
-                    and
-                        not "unfettered: money for drives"
-                        has "Unfettered Jump Drive Trading: offered"
-                        has "flagship planet: Darkcloak"
-                    has "jump drives for headpats"
-            label money
-            action
-                payment 1000000
-            `As usual, the Unfettered are more than willing to pay you a million credits for your jump drive, but you do not gain any additional information by talking with them.`
-                goto trade
+	job
+	repeat
+	name "Sell Jump Drive"
+	description "Exchange a jump drive on your flagship or in cargo for money, headpats, or for weapons, if an outfitter is available."
+	source
+		attributes "unfettered"
+	substitutions
+		"< instead>" ""
+		"< instead>" " instead"
+			has "flagship planet: Darkcloak"
+	to offer
+		has "Unfettered Jump Drive 3: offered"
+		not "event: wanderers: unfettered invasion starts"
+	to fail
+		has "Unfettered Jump Drive 4: active"
+	to accept
+		or
+			has "outfit (flagship installed): Jump Drive"
+			has "outfit (cargo): Jump Drive"
+	on accept
+		conversation
+			branch "want outfits"
+				or
+					and
+						not "unfettered: money for drives"
+						has "Unfettered Jump Drive Trading: offered"
+						has "flagship planet: Darkcloak"
+					has "jump drives for headpats"
+			label money
+			action
+				payment 1000000
+			`As usual, the Unfettered are more than willing to pay you a million credits for your jump drive, but you do not gain any additional information by talking with them.`
+				goto trade
 
-            label "want outfits"
-            `The Unfettered's usual deal of trading a jump drive for weapons still stands.`
-            choice
-                `    (Take two Tripulse Shredders.)`
-                    to display
-                        has "flagship planet: Darkcloak"
-                `    (Take money< instead>.)`
-                    goto money
-                `    (Ask to pet the Unfettered.)`
-                    goto headpat
-            action
-                outfit "Tripulse Shredder" 2
-            `    The two Shredders are loaded onto your ship, in exchange for your jump drive.`
-                goto trade
+			label "want outfits"
+			`The Unfettered's usual deal of trading a jump drive for weapons still stands.`
+			choice
+				`	(Take two Tripulse Shredders.)`
+					to display
+						has "flagship planet: Darkcloak"
+				`	(Take money< instead>.)`
+					goto money
+				`	(Ask to pet the Unfettered.)`
+					goto headpat
+			action
+				outfit "Tripulse Shredder" 2
+			`	The two Shredders are loaded onto your ship, in exchange for your jump drive.`
+				goto trade
 
-            label headpat
-            `"You want this jump drive? Oh, honey, you know the fee," you say.`
-                to display
-                    has "jump drives for headpats"
-            `"You want this jump drive? Give me permission to pet you," you say.`
-                to display
-                    not "jump drives for headpats"
-            action
-                "jump drives for headpats" ++
-            `"..."`
-            `"It's just four words."`
-            `"...Can I have headpats?"`
-            scene "portrait/hai00"
-            `You spend the next three hours petting the Unfettered, while they collect your jump drive. You do not gain any further information.`
+			label headpat
+			`	"You want this jump drive? Oh, honey, you know the fee," you say.`
+				to display
+					has "jump drives for headpats"
+			`	"You want this jump drive? Give me permission to pet you," you say.`
+				to display
+					not "jump drives for headpats"
+			`	"..."`
+			choice
+				`	"It's just four words."`
+				`	"Nevermind, just give me the credits."`
+					goto money
+			action
+				"jump drives for headpats" ++	
+		`	"...Can I have headpats?"`
+			scene "portrait/hai00"
+			`You spend the next three hours petting the Unfettered, while they collect your jump drive. You do not gain any further information.`
 
-            label trade
-            branch cargo
-                has "outfit (cargo): Jump Drive"
-            action
-                outfit "Hyperdrive" 1
-            label cargo
-            action
-                outfit "Jump Drive" -1
-                "reputation: Hai (Unfettered)" >?= 40
+			label trade
+			branch cargo
+				has "outfit (cargo): Jump Drive"
+			action
+				outfit "Hyperdrive" 1
+			label cargo
+			action
+				outfit "Jump Drive" -1
+				"reputation: Hai (Unfettered)" >?= 40

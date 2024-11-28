@@ -9,10 +9,6 @@ mission "Unfettered Jump Drive 4b"
 	description "Exchange a jump drive on your flagship or in cargo for money, headpats, or for weapons, if an outfitter is available."
 	source
 		attributes "unfettered"
-	substitutions
-		"< instead>" ""
-		"< instead>" " instead"
-			has "flagship planet: Darkcloak"
 	to offer
 		has "Unfettered Jump Drive 3: offered"
 		not "event: wanderers: unfettered invasion starts"
@@ -25,12 +21,11 @@ mission "Unfettered Jump Drive 4b"
 	on accept
 		conversation
 			branch "want outfits"
-				or
-					and
-						not "unfettered: money for drives"
-						has "Unfettered Jump Drive Trading: offered"
-						has "flagship planet: Darkcloak"
-					has "jump drives for headpats"
+				not "unfettered: money for drives"
+				has "Unfettered Jump Drive Trading: offered"
+				has "flagship planet: Darkcloak"
+			branch headpat
+				has "jump drives for headpats"
 			label money
 			action
 				payment 1000000
@@ -39,16 +34,9 @@ mission "Unfettered Jump Drive 4b"
 
 			label "want outfits"
 			`The Unfettered's usual deal of trading a jump drive for weapons still stands.`
-				to display
-					has "flagship planet: Darkcloak"
-			`The Unfettered's usual deal of trading a jump drive for permission to pet them still stands.`
-				to display
-					not "flagship planet: Darkcloak"
 			choice
 				`	(Take two Tripulse Shredders.)`
-					to display
-						has "flagship planet: Darkcloak"
-				`	(Take money< instead>.)`
+				`	(Take money.)`
 					goto money
 				`	(Ask to pet the Unfettered.)`
 					goto headpat

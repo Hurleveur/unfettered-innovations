@@ -68,7 +68,7 @@ mission "Unfettered Jump Drive 4b"
 				"jump drives for headpats" ++	
 			`	"...Can I have headpats?"`
 			scene "portrait/hai00"
-			`You spend the next three hours petting the Unfettered, while they collect your jump drive. You do not gain any further information.`
+			`	You spend the next three hours petting the Unfettered, while they collect your jump drive. You do not gain any further information.`
 
 			label trade
 			branch cargo

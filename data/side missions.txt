@@ -50,12 +50,14 @@ mission "Unfettered Jump Drive 4b"
 				goto trade
 
 			label headpat
-			`<tab>"You want this jump drive? Oh, honey, you know the fee," you say.`
+			`<tab>"You want this jump drive? You know the fee," you say.`
 				to display
 					has "jump drives for headpats"
 			`<tab>"You want this jump drive? Give me permission to pet you," you say.`
 				to display
 					not "jump drives for headpats"
+			branch machete
+                             random < 1 + 2 * "jump drives for headpats"
 			`	"..."`
 			choice
 				`	"It's just four words."`
@@ -66,6 +68,11 @@ mission "Unfettered Jump Drive 4b"
 			`	"...Can I have headpats?"`
 			scene "portrait/hai00"
 			`	You spend the next three hours petting the Unfettered, while they collect your jump drive. You do not gain any further information.`
+					goto trade
+
+			label machete
+			`	As soon as you finish speaking, one of the Unfettered runs up and stabs you with a machete.`
+				die
 
 			label trade
 			branch cargo

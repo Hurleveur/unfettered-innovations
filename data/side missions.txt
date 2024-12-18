@@ -68,7 +68,7 @@ mission "Unfettered Jump Drive 4b"
 			`	"...Can I have headpats?"`
 			scene "portrait/hai00"
 			`	You spend the next three hours petting the Unfettered, while they collect your jump drive. You do not gain any further information.`
-					goto trade
+				goto trade
 
 			label machete
 			`	As soon as you finish speaking, one of the Unfettered runs up and stabs you with a machete.`

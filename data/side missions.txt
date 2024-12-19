@@ -66,7 +66,7 @@ mission "Unfettered Jump Drive 4b"
 			action
 				"jump drives for headpats" ++
 			branch indifferent
-				random < 50 + "unfettered headpat attitude"
+				random < 50 - "unfettered headpat attitude"
 			action
 				"unfettered headpat attitude" ++
 			label indifferent
@@ -78,7 +78,7 @@ mission "Unfettered Jump Drive 4b"
 			label angry
 			`	"Stupid monkey thinks they can pet a True Hai. Stupid monkey is unworthy of petting a True Hai."`
 			branch nochange
-				random < 50 - "unfettered headpat attitude"
+				random < 50 + "unfettered headpat attitude"
 			action
 				"unfettered headpat attitude" --
 			label nochange

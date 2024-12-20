@@ -86,7 +86,7 @@ mission "Unfettered Jump Drive 4b"
 				`	"It's just four words."`
 				`	"Nevermind, just give me the credits."`
 					goto money
-			`	As soon as you finish speaking, one of the Unfettered runs up and stabs you with a machete.`
+			`	As soon as you finish speaking, one of the Unfettered runs you through with a machete and shouts "I'm not cute!"`
 				die
 
 			label trade

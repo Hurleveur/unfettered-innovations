@@ -2,6 +2,9 @@ planet "Darkcloak"
 	add outfitter "Hai Advanced"
 
 
+outfitter "Hai Advanced"
+	add "KGS Hyperpulse Cannon"
+
 outfitter "Unfettered Basics"
 	add "Pulse Accelerator"
 	add "Polypulse Blunderbuss"
@@ -31,6 +34,7 @@ outfitter "Unfettered Basics"
 	add "Magma Bomb"
 	add "Magma Bomb Launcher"
 	add "Magma Bomb Storage"
+	add "KGS Bipulse Ripper"
 
 # campaign stuff
 outfitter "Unfettered Basics"

@@ -32,6 +32,7 @@ outfitter "Unfettered Basics"
 	add "Magma Bomb Launcher"
 	add "Magma Bomb Storage"
 	add "KGS Bipulse Ripper"
+	add "KGS Hyperpulse Cannon"
 
 # campaign stuff
 outfitter "Unfettered Basics"

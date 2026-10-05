@@ -2,9 +2,6 @@ planet "Darkcloak"
 	add outfitter "Hai Advanced"
 
 
-outfitter "Hai Advanced"
-	add "KGS Hyperpulse Cannon"
-
 outfitter "Unfettered Basics"
 	add "Pulse Accelerator"
 	add "Polypulse Blunderbuss"
